@@ -1,0 +1,47 @@
+{
+  "versionCode": 18,
+  "versionName": "1.8.3",
+  "releaseDate": "2026-05-14",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Supporto Codeberg + Forgejo + Gitea. Incolla un URL Codeberg / Forgejo o aggiungi il tuo host self-hosted sotto Tweaks → Rete. Dettagli, install, aggiornamenti, ricerca — tutto collegato.",
+        "Installazione macOS con Homebrew: `brew install --cask github-store`.",
+        "Accesso GitHub usa il flusso web standard — niente più codice a 8 cifre.",
+        "Preferenze e credenziali cifrate AES-256-GCM via KSafe (Keystore hardware su Android). Migrazione al primo avvio.",
+        "Mirror fastly.jsdelivr.net per GitHub limitato.",
+        "Aderito alla coalizione Keep Android Open — banner lo spiega."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Chip di piattaforma su Dettagli aprono Search filtrato (erano inerti).",
+        "Pulsante di ricerca della tastiera funziona su Android 12 con IME cinesi.",
+        "Repo collegato esternamente mostra banner sui Dettagli con un tap per scollegare.",
+        "Login apre URL del codice precompilato + copia codice facile da incollare.",
+        "Crash Android 16 / ROM personalizzate su Impostazioni + download — ripiega su archiviazione interna.",
+        "Rilevamento Magisk / KernelSU / APatch su Android 13+ (sonda mascherata da SELinux).",
+        "Etichetta variante fissata si aggiorna — niente più numeri beta/rc obsoleti.",
+        "README / note di rilascio conservano la posizione di scroll oltre le rimozioni dal viewport."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Foglio di collegamento manuale ordinato per origine di installazione (F-Droid / Obtainium per primi, aggiornamenti di sistema per ultimi) con chip di origine per app.",
+        "Smart match suggerisce repo classificati su GitHub + Codeberg + forge personalizzate.",
+        "Avvisi GFM (Note / Tip / Important / Warning / Caution) come card colorate.",
+        "Codici emoji — :rocket: → 🚀 (~250 coperti).",
+        "Immagini SVG renderizzate nativamente. Immagini per tema rispettano chiaro/scuro. UA browser sblocca i badge CDN.",
+        "Blocchi di codice evidenziati (Kotlin / Java / Python / JS/TS / Rust / Swift / C# / Ruby / Shell, adattato al tema).",
+        "Rifinitura Markdown — blockquote HTML e `<pre><code>` renderizzano, sub/apice → unicode, entità HTML decodificate.",
+        "Sezioni `<details>` espandibili come card tap-to-expand. Righe di immagini badge/pulsante scorrono in linea.",
+        "Collegamento manuale si fida della tua versione — nessun re-download per verificare.",
+        "Ordinamento per sezione — Installate, Con stella, Preferiti ricordano ognuno la propria scelta."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "versionCode": 18,
+  "versionName": "1.8.3",
+  "releaseDate": "2026-05-14",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Codeberg + Forgejo + Gitea 지원. Codeberg / Forgejo URL을 붙여넣거나 설정 → 네트워크에서 자체 호스트를 추가하세요. 상세, 설치, 업데이트, 검색 — 모두 연결됨.",
+        "Homebrew로 macOS 설치: `brew install --cask github-store`.",
+        "GitHub 로그인이 표준 웹 플로우 사용 — 8자리 코드 불필요.",
+        "환경설정과 자격증명을 KSafe로 AES-256-GCM 암호화 (Android는 하드웨어 Keystore). 첫 실행 시 마이그레이션.",
+        "GitHub 제한 시 fastly.jsdelivr.net 미러 추가.",
+        "Keep Android Open 연합 합류 — 배너로 설명."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "상세의 플랫폼 칩이 Search를 필터로 엽니다 (이전엔 무반응).",
+        "Android 12의 키보드 검색 버튼이 중국어 IME에서 작동.",
+        "외부 연결된 리포는 상세에 한 번 탭으로 해제할 수 있는 배너 표시.",
+        "로그인이 코드 채워진 URL을 열고 붙여넣기 친화적인 코드를 복사.",
+        "Android 16 / 커스텀 ROM에서 설정 + 다운로드 크래시 — 내부 저장소로 폴백.",
+        "Android 13+에서 Magisk / KernelSU / APatch 감지 (SELinux로 가려졌던 검사).",
+        "고정된 변형 라벨이 새로고침 — 오래된 beta/rc 번호 없음.",
+        "README / 릴리스 노트가 뷰포트 폐기 사이에서도 스크롤 위치를 유지."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "수동 연결 시트를 설치 출처별로 정렬(F-Droid / Obtainium 먼저, 시스템 업데이트는 마지막)하고 앱별 출처 칩 표시.",
+        "Smart match가 GitHub + Codeberg + 사용자 포지의 순위 후보를 제안.",
+        "GFM 알림(Note / Tip / Important / Warning / Caution)을 색상 카드로 표시.",
+        "이모지 단축코드 — :rocket: → 🚀 (약 250개 지원).",
+        "SVG 이미지를 네이티브 렌더링. 테마 이미지는 라이트/다크 따름. 브라우저 UA로 CDN 배지 핫링크 차단 우회.",
+        "코드 블록에 구문 강조 (Kotlin / Java / Python / JS/TS / Rust / Swift / C# / Ruby / Shell, 테마 대응).",
+        "Markdown 다듬기 — HTML blockquote와 `<pre><code>` 렌더링, 위/아래첨자 → 유니코드, HTML 엔티티 디코드.",
+        "`<details>` 접이식 섹션을 탭으로 펼치는 카드로 표시. 배지/버튼 이미지 행이 한 줄에 정렬.",
+        "수동 매칭은 선택한 버전을 신뢰 — 검증용 재다운로드 불필요.",
+        "섹션별 정렬 — 설치됨, 별표, 즐겨찾기가 각자의 선택을 기억."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "versionCode": 18,
+  "versionName": "1.8.3",
+  "releaseDate": "2026-05-14",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Codeberg + Forgejo + Gitea support. Paste a Codeberg / Forgejo URL or add a self-hosted host under Tweaks → Network. Details, install, updates, search — all wired.",
+        "macOS install via Homebrew tap: `brew install --cask github-store`.",
+        "Sign in with GitHub uses the standard web flow — no 8-digit code.",
+        "All prefs + credentials AES-256-GCM encrypted via KSafe (hardware-backed Keystore on Android). Migrates on first launch.",
+        "Added fastly.jsdelivr.net mirror for throttled GitHub.",
+        "Joined Keep Android Open coalition — banner explains why."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Platform chips on Details now open filtered Search (was no-op).",
+        "Android 12 keyboard search button works across Chinese IMEs.",
+        "Externally-linked repo shows banner on Details with one-tap unlink.",
+        "Sign-in opens device-code URL prefilled + copies paste-friendly code.",
+        "Android 16 / custom-ROM Settings + download crash — falls back to internal storage.",
+        "Magisk / KernelSU / APatch detection on Android 13+ (SELinux-masked probe).",
+        "Pinned-variant label refreshes — no stale beta/rc qualifiers.",
+        "README / release-notes keep scroll position across viewport disposal."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Manual link sheet sorts by installer source (F-Droid / Obtainium first, system updates last) with source chip per app.",
+        "Smart match suggests ranked repos across GitHub + Codeberg + custom forges.",
+        "GFM alert callouts (Note / Tip / Important / Warning / Caution) render as tinted cards.",
+        "Emoji shortcodes — :rocket: → 🚀 (~250 covered).",
+        "SVG images render natively. Theme-aware images respect light/dark. Browser UA unblocks CDN-hotlinked badges.",
+        "Code blocks syntax-highlighted (Kotlin / Java / Python / JS/TS / Rust / Swift / C# / Ruby / Shell, theme-aware).",
+        "Markdown polish — HTML blockquotes + `<pre><code>` render, sub/superscript → unicode, HTML entities decoded.",
+        "Collapsible `<details>` render as tap-to-expand cards. Badge / button image rows flow inline.",
+        "Manual matching trusts your version — no re-download to verify.",
+        "Section-aware sort across library — Installed, Starred, Favourites each remember their own choice."
+      ]
+    }
+  ]
+}

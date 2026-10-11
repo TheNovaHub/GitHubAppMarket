@@ -1,0 +1,47 @@
+{
+  "versionCode": 18,
+  "versionName": "1.8.3",
+  "releaseDate": "2026-05-14",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Codeberg + Forgejo + Gitea 対応。Codeberg / Forgejo の URL を貼り付け、または設定 → ネットワークでセルフホスト先を追加。詳細、インストール、更新、検索 — すべて配線済み。",
+        "Homebrew で macOS にインストール: `brew install --cask github-store`。",
+        "GitHub サインインは標準のウェブフロー — 8桁コード不要。",
+        "設定と認証情報を KSafe 経由で AES-256-GCM 暗号化（Android はハードウェア Keystore）。初回起動時に移行。",
+        "GitHub 制限時用に fastly.jsdelivr.net ミラーを追加。",
+        "Keep Android Open 連合に参加 — バナーで説明。"
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "詳細のプラットフォームチップが Search を絞り込み表示（以前は無反応）。",
+        "Android 12 のキーボード検索ボタンが中国語 IME で動作。",
+        "外部リンクされたリポは詳細にワンタップ解除のバナーを表示。",
+        "サインインがコード入りの URL を開き、貼り付けやすい形式でコードをコピー。",
+        "Android 16 / カスタム ROM の設定・ダウンロード時クラッシュ — 内部ストレージにフォールバック。",
+        "Android 13+ で Magisk / KernelSU / APatch を検出（SELinux で隠れていたプローブ）。",
+        "ピン留めバリアントラベルが更新 — 古い beta/rc 番号は残らない。",
+        "README / リリースノートはビューポート破棄をまたいでスクロール位置を保持。"
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "手動リンクシートをインストーラ別に並べ替え（F-Droid / Obtainium が先、システム更新が最後）し、入手元チップを表示。",
+        "Smart match が GitHub + Codeberg + カスタムフォージのリポをランク付き提案。",
+        "GFM アラート（Note / Tip / Important / Warning / Caution）を色付きカードで表示。",
+        "絵文字ショートコード — :rocket: → 🚀（約 250 種類）。",
+        "SVG 画像をネイティブ描画。テーマ別画像はライト／ダーク対応。ブラウザ UA で CDN バッジのホットリンク解除。",
+        "コードブロックにシンタックスハイライト（Kotlin / Java / Python / JS/TS / Rust / Swift / C# / Ruby / Shell、テーマ対応）。",
+        "Markdown 仕上げ — HTML blockquote と `<pre><code>` を描画、上付き/下付き → Unicode、HTML エンティティをデコード。",
+        "`<details>` 折りたたみセクションをタップ展開カードに。バッジ／ボタン画像が一行に並ぶ。",
+        "手動マッチングは選んだバージョンを信頼 — 検証用の再ダウンロード不要。",
+        "セクション別並べ替え — インストール済み、スター、お気に入りで選択を個別に記憶。"
+      ]
+    }
+  ]
+}

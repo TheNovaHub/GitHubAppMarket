@@ -1,0 +1,7 @@
+<resources>
+    <string name="shortcut_search">Поиск</string>
+    <string name="shortcut_library">Библиотека</string>
+    <string name="shortcut_favourites">Избранное</string>
+    <string name="shortcut_recently_viewed">Недавно просмотренные</string>
+    <string name="shortcut_recent_short">Недавние</string>
+</resources>

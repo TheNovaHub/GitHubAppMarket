@@ -1,0 +1,30 @@
+{
+  "versionCode": 16,
+  "versionName": "1.8.1",
+  "releaseDate": "2026-05-03",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "APK Inspect: kurmadan önce herhangi bir sürümün içine göz at.",
+        "Dhizuku ile sessiz kurulum — Xiaomi, OPPO, vivo, Huawei cihazlarında OEM kurulum istemlerini Cihaz Sahibi yetkisiyle atlayın.",
+        "Obtainium içe/dışa aktarma — Obtainium kütüphanenizi tek dokunuşla getirin ya da istediğiniz zaman Obtainium biçiminde dışa aktarın.",
+        "Yıldızlananlardan ekle — GitHub'da yıldızladıklarınız arasından APK gönderenleri görün."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Açık konu sayısı ve lisans artık oturum açmamış kullanıcılar dahil herkese gösteriliyor — backend'den geliyor, GitHub kotası harcamıyor.",
+        "Arka plan güncelleme kontrolü tamamen kapatılabiliyor — manuel kontrolü tercih ediyorsanız pil tasarrufu sağlar."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Sıvı cam efekti kaldırıldı — koyu modda ikonlar şeffaf arka planlarda görünmez olabiliyordu. Her yerde daha temiz, daha kontrastlı bir arayüz."
+      ]
+    }
+  ]
+}

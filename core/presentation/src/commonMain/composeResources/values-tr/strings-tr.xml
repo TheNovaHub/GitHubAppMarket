@@ -1,0 +1,1461 @@
+<resources>
+
+    <!-- Apps feature - App -->
+    <string name="app_name">GitHub App Market</string>
+
+    <string name="navigate_back">Geri git</string>
+    <string name="check_for_updates">Güncellemeleri kontrol et</string>
+
+    <!-- Apps feature - Errors / messages -->
+    <string name="cannot_launch">%1$s çalıştırılamadı</string>
+    <string name="failed_to_open">%1$s açılamadı</string>
+    <string name="failed_to_update">%1$s: %2$s güncellenemedi</string>
+    <string name="update_all_failed">Tümünü güncelleme başarısız: %1$s</string>
+    <string name="all_apps_updated_successfully">Tüm uygulamalar başarılı şekilde güncellendi</string>
+    <string name="no_updates_available">Güncelleme yok</string>
+
+    <!-- Apps feature - Search -->
+    <string name="search_your_apps">Uygulamalarınızı arayın</string>
+    <string name="no_apps_found">Uygulama Bulunamadı</string>
+
+    <!-- Apps feature - Actions -->
+    <string name="update_all">Tümünü Güncelle</string>
+    <string name="update">Güncelle</string>
+    <string name="open">Aç</string>
+    <string name="cancel">İptal et</string>
+
+    <!-- Apps feature - Update states -->
+    <string name="checking">Kontrol ediliyor…</string>
+    <string name="updated_successfully">Başarıyla güncellendi</string>
+    <string name="error_with_message">Hata: %1$s</string>
+
+    <!-- Apps feature - Update all progress -->
+    <string name="updating_x_of_y">%2$d içinden %1$d güncelleniyor</string>
+    <string name="currently_updating">Şu anda: %1$s</string>
+
+
+    <!-- Auth general -->
+    <string name="waiting_for_authorization">Yetki bekleniyor</string>
+    <string name="signed_in">Giriş Yapıldı!</string>
+    <string name="redirecting_message">Artık uygulamayı kullanabilirsiniz. Yönlendiriliyor...</string>
+    <string name="try_again">Tekrar dene</string>
+
+    <!-- Errors -->
+    <string name="auth_error_with_message">Hata: %1$s</string>
+
+    <!-- Device flow -->
+    <string name="enter_code_on_github">Kodu GitHub'da gir</string>
+    <string name="copy_code">Kodu kopyala</string>
+    <string name="open_github">Github'ı aç</string>
+
+    <!-- Logged out -->
+    <string name="unlock_full_experience">Tam Deneyimi Keşfedin</string>
+
+    <string name="more_requests">Daha Fazla İstek</string>
+    <string name="more_requests_description">
+        Daha yüksek API hız sınırları elde etmek ve kesintileri önlemek için oturum açın. </string>
+
+    <string name="sign_in_with_github">Github ile giriş yap</string>
+
+    <string name="error_unknown">Bilinmeyen hata</string>
+
+
+    <string name="search_repositories_hint">Repo, açıklama ara...</string>
+
+    <!-- Filters -->
+    <string name="filter_by_language">Dil ile filtrele</string>
+
+    <!-- Results -->
+    <string name="results_found">%1$d sonuç bulundu</string>
+    <string name="search_results_hidden_by_seen_filter">Tüm sonuçlar 'Görüleni gizle' filtresiyle gizlendi</string>
+    <string name="show_all_results">'Görüleni gizle' filtresini devre dışı bırak</string>
+    <string name="searching_for_unseen_repos">Görülmemiş depolar aranıyor…</string>
+
+
+    <!-- Sorting -->
+    <string name="sort_by">Sırala</string>
+    <string name="close">Kapat</string>
+
+    <string name="sort_most_stars">En Çok Yıldız</string>
+    <string name="sort_most_forks">En Çok Fork</string>
+    <string name="sort_best_match">En İyi Eşleşme</string>
+    <string name="sort_recently_released">Yeni Yayımlanmış</string>
+
+    <string name="sort_order_descending">Azalan</string>
+    <string name="sort_order_ascending">Artan</string>
+    <string name="sort_label">Sırala</string>
+
+    <!-- Programming languages -->
+    <string name="language_all">Tüm Diller</string>
+    <string name="language_kotlin">Kotlin</string>
+    <string name="language_java">Java</string>
+    <string name="language_javascript">JavaScript</string>
+    <string name="language_typescript">TypeScript</string>
+    <string name="language_python">Python</string>
+    <string name="language_swift">Swift</string>
+    <string name="language_rust">Rust</string>
+    <string name="language_go">Go</string>
+    <string name="language_csharp">C#</string>
+    <string name="language_cpp">C++</string>
+    <string name="language_c">C</string>
+    <string name="language_dart">Dart</string>
+    <string name="language_ruby">Ruby</string>
+    <string name="language_php">PHP</string>
+
+    <string name="search_failed">Arama Başarısız</string>
+    <string name="no_repositories_found">Repo bulunamadı</string>
+
+    <!-- Settings -->
+    <string name="profile_title">Profil</string>
+
+    <string name="language_follow_system">Sistemi izle</string>
+    <string name="language_restart_required">Yeni dili uygulamak için yeniden başlatın.</string>
+    <string name="language_restart_action">Yeniden başlat</string>
+
+    <!-- Appearance -->
+    <string name="theme_color">Tema Rengi</string>
+    <string name="amoled_black_theme">AMOLED Siyah Tema</string>
+    <string name="amoled_black_description">Karanlık mod için saf siyah arka plan</string>
+
+
+    <!-- Account -->
+    <string name="logout">Çıkış Yap</string>
+
+    <!-- Snackbar -->
+    <string name="logout_success">Başarılı şekilde çıkış yapıldı</string>
+
+    <!-- Dialog -->
+    <string name="warning">Uyarı!</string>
+    <string name="logout_confirmation">Çıkmak istediğinden emin misin?</string>
+
+    <!-- Theme names -->
+    <string name="theme_forest">Orman</string>
+    <string name="theme_nord">Nord</string>
+    <string name="theme_cream">Cream</string>
+    <string name="theme_plum">Plum</string>
+
+    <!-- Navigation & actions -->
+    <string name="open_repository">Repoyu Aç</string>
+    <string name="open_in_browser">Tarayıcıda aç</string>
+    <string name="cancel_download">İndirmeyi iptal et</string>
+    <string name="show_install_options">Yükleme seçeneklerini göster</string>
+
+    <string name="retry">Tekrar dene</string>
+    <string name="no_description">Açıklama sağlanmadı.</string>
+    <string name="no_release_notes">Sürüm notu yok</string>
+    <string name="report_issue">Sorun bildir</string>
+
+    <!-- Headers -->
+    <string name="about_this_app">Bu uygulama hakkında</string>
+    <string name="install_logs">Yükleme günlükleri</string>
+    <string name="whats_new">Neler Yeni</string>
+
+    <!-- Install status -->
+    <string name="installed">Yüklü</string>
+    <string name="update_available">Güncelleme mevcut</string>
+    <string name="not_available">Mevcut değil</string>
+    <string name="install_latest">En son sürümü yükle</string>
+
+    <!-- Download stages -->
+    <string name="downloading">İndiriliyor</string>
+    <string name="updating">Güncelleniyor</string>
+    <string name="verifying">Doğrulanıyor</string>
+    <string name="installing">Yükleniyor</string>
+
+    <!-- Install helpers -->
+    <string name="open_in_obtainium">Obtainium'da aç</string>
+    <string name="obtainium_description">Uygulamaları otomatik güncelle</string>
+    <string name="inspect_with_appmanager">AppManager ile incele</string>
+    <string name="appmanager_description">İzinleri, izleyici ve güvenliği kontrol et</string>
+
+    <!-- Author -->
+    <string name="profile">Profil</string>
+
+    <!-- Stats -->
+    <string name="forks">Forklar</string>
+    <string name="stars">Yıldızlar</string>
+    <string name="issues">Sorunlar</string>
+    <string name="downloads">İndirmeler</string>
+    <string name="license">Lisans</string>
+    <string name="license_none">—</string>
+    <string name="fetch_more_from_github">GitHub'tan daha fazla getir</string>
+    <string name="fetching_from_github">GitHub'tan getiriliyor…</string>
+    <string name="no_more_github_results">GitHub'ta başka sonuç yok</string>
+    <string name="explore_error">GitHub'tan getirilemedi. Tekrar deneyin.</string>
+
+    <string name="architecture_compatible">Mimari uyumlu</string>
+    <string name="update_to_version">%1$s'e güncelle</string>
+
+    <string name="installer_saved_downloads">Yükleyici, İndirilenler klasörüne kaydedildi</string>
+
+    <!-- Download / install states -->
+    <string name="log_download_started">İndirme başladı</string>
+    <string name="log_downloaded">İndirildi</string>
+    <string name="log_update_started">Güncelleme başladı</string>
+    <string name="log_installed">Yüklendi</string>
+    <string name="log_updated">Güncellendi</string>
+    <string name="log_cancelled">İptal edildi</string>
+    <string name="log_install_started">Yükleme Başladı</string>
+    <string name="log_error">Hata</string>
+    <string name="log_error_with_message">Hata: %1$s</string>
+
+    <!-- External tools -->
+    <string name="log_prepare_appmanager">AppManager için hazırlanıyor</string>
+    <string name="log_opened_appmanager">AppManager'da açıldı</string>
+    <string name="log_permission_blocked">Yükleme izni cihaz politikası tarafından engellendi</string>
+    <string name="log_opened_external_installer">Harici yükleyicide açıldı</string>
+    <string name="install_permission_unavailable">Yükleme izni kullanılamıyor</string>
+    <string name="install_permission_blocked_message">APK başarıyla indirildi ancak bu cihaz doğrudan yüklemeye izin vermiyor. Harici bir yükleyici ile açmak ister misiniz?</string>
+    <string name="open_with_external_installer">Harici yükleyici ile aç</string>
+    <string name="external_installer_description">APK'yı yüklemek için üçüncü taraf bir uygulama kullanın</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Hata: %1$s</string>
+
+
+
+    <string name="home_finding_repositories">Repolar bulunuyor...</string>
+    <string name="home_retry">Tekrar dene</string>
+    <string name="home_failed_to_load_repositories">Repolar yüklenemedi</string>
+
+    <string name="updated_on_date">%1$s tarihinde güncellendi</string>
+
+    <string name="rate_limit_exceeded">Hız Sınırı Aşıldı</string>
+    <string name="rate_limit_used_all">Tüm %1$d API isteklerini kullandınız.</string>
+    <string name="rate_limit_used_all_free">Tüm %1$d ücretsiz API isteğinizi kullandınız.</string>
+    <string name="rate_limit_resets_in_minutes">%1$d dakika içinde yenilenir</string>
+    <string name="rate_limit_tip_sign_in">💡 Saat başı 60 yerine 5.000 istek için giriş yapın!</string>
+    <string name="rate_limit_sign_in">Giriş Yap</string>
+    <string name="rate_limit_ok">Tamam</string>
+    <string name="rate_limit_close">Kapat</string>
+
+    <string name="system_font">Sistem fontu</string>
+    <string name="system_font_description">Daha iyi okunabilirlik için cihazınızın yazı tipini eşleştirin</string>
+
+    <string name="theme_light">Aydınlık</string>
+    <string name="theme_dark">Karanlık</string>
+    <string name="theme_system">Sistem</string>
+
+    <string name="added_to_favourites">Repo favorilere eklendi</string>
+    <string name="removed_from_favourites">Repo favorilerden kaldırıldı</string>
+    <string name="add_to_favourites">Favorilere ekle</string>
+    <string name="remove_from_favourites">Favorilerden kaldır</string>
+    <string name="favourites">Favoriler</string>
+
+    <string name="added_just_now">şimdi eklendi</string>
+    <string name="added_hours_ago">%1$d saat önce eklendi</string>
+    <string name="added_yesterday">dün eklendi</string>
+    <string name="added_days_ago">%1$d gün önce eklendi</string>
+    <string name="added_on_date">%1$s tarihinde eklendi</string>
+
+    <string name="starred_repositories">Yıldızlı Repolar</string>
+    <string name="repository_starred">Repo yıldızlandı</string>
+    <string name="repository_not_starred">Repo yıldızlanmadı</string>
+    <string name="star_from_github">GitHub'dan repo yıldızlayabilirsiniz</string>
+    <string name="unstar_from_github">GitHub'dan repo yıldız kaldırabilirsiniz</string>
+
+    <string name="sign_in_required">Giriş gerekli</string>
+    <string name="sign_in_with_github_for_stars">GitHub ile oturum açarak yıldızlı repolarınızı görüntüleyin</string>
+    <string name="no_starred_repos">Yıldızlı repo yok</string>
+    <string name="star_repos_hint">Yüklenebilir sürümlü repoları görmek için GitHub'da yıldızlayın</string>
+    <string name="last_synced">Son eşitleme</string>
+    <string name="just_now">Şimdi</string>
+    <string name="minutes_ago">%1$d dakika önce</string>
+    <string name="hours_ago">%1$d saat önce</string>
+    <string name="days_ago">%1$d gün önce</string>
+    <string name="dismiss">Kapat</string>
+		<string name="sync_starred_failed">Yıldızlı repoları eşitlerken hata</string>
+
+
+    <string name="failed_to_load_repositories">Repolar yüklenirken hata</string>
+    <string name="failed_to_load_profile">Profil yüklenirken hata</string>
+
+    <!-- Developer Profile - Stats -->
+    <string name="repositories">Repolar</string>
+    <string name="followers">Takipçiler</string>
+    <string name="following">Takip edilenler</string>
+
+    <!-- Developer Profile - Filter & Sort -->
+    <string name="search_repositories">Repo ara…</string>
+    <string name="clear_search">Aramayı temizle</string>
+    <string name="filter_with_releases">Yayınlanmış</string>
+    <string name="filter_installed">İndirilmiş</string>
+    <string name="filter_favorites">Favoriler</string>
+    <string name="sort">Sırala</string>
+    <string name="sort_recently_updated">Yeni Güncellenmiş</string>
+    <string name="sort_name">Ad</string>
+    <string name="sort_recently_added">Son Eklenenler</string>
+    <string name="sort_selected">Seçili</string>
+
+    <!-- Developer Profile - Repository Count -->
+    <string name="repository_singular">repo</string>
+    <string name="showing_x_of_y_repositories">%2$d repodan %1$d tanesi gösteriliyor</string>
+
+    <!-- Developer Profile - Empty States -->
+    <string name="no_repos_with_releases">Yüklenebilir sürümleri olan repo yok</string>
+    <string name="no_installed_repos">Yüklü repo yok</string>
+    <string name="no_favorite_repos">Favori repo yok</string>
+
+    <string name="has_release">Yayınlanmış</string>
+
+    <string name="time_years_ago">%1$d y önce</string>
+    <string name="time_months_ago">%1$d ay önce</string>
+    <string name="time_days_ago">%1$d g önce</string>
+    <string name="time_weeks_ago">%1$d hafta önce</string>
+    <string name="time_hours_ago">%1$d s önce</string>
+    <string name="time_minutes_ago">%1$d d önce</string>
+
+    <!-- Developer Profile - Count Formatting -->
+    <string name="count_millions">%1$dM</string>
+    <string name="count_thousands">%1$dk</string>
+
+    <string name="released_just_now">Az önce yayınlandı</string>
+    <string name="released_hours_ago">%1$d saat önce yayınlandı</string>
+    <string name="released_yesterday">Dün yayınlandı</string>
+    <string name="released_days_ago">%1$d gün önce yayınlandı</string>
+    <string name="released_on_date">%1$s tarihinde yayınlandı</string>
+
+    <string name="bottom_nav_explore_title">Keşfet</string>
+    <string name="bottom_nav_search_title">Ara</string>
+    <string name="bottom_nav_apps_title">Kütüphane</string>
+    <string name="bottom_nav_profile_title">Profil</string>
+
+    <string name="forked_repository">Çatalla</string>
+
+    <string name="category_stable">Kararlı</string>
+    <string name="category_pre_release">Ön sürüm</string>
+    <string name="category_all">Tümü</string>
+    <string name="select_version">Sürüm seç</string>
+    <string name="pre_release_badge">Ön sürüm</string>
+    <string name="no_version_selected">Sürüm seçilmedi</string>
+    <string name="versions_title">Sürümler</string>
+
+    <!-- Install status -->
+    <string name="pending_install">Kurulum bekleniyor</string>
+
+    <!-- Uninstall / Open -->
+    <string name="uninstall">Kaldır</string>
+    <string name="open_app">Aç</string>
+    <string name="downgrade_requires_uninstall">Sürüm düşürme kaldırma gerektirir</string>
+    <string name="downgrade_warning_message">%1$s sürümünü yüklemek için önce mevcut sürümü (%2$s) kaldırmanız gerekir. Uygulama verileri kaybolacaktır.</string>
+    <string name="uninstall_first">Önce kaldır</string>
+    <string name="install_version">%1$s yükle</string>
+    <string name="failed_to_open_app">%1$s açılamadı</string>
+    <string name="failed_to_uninstall">%1$s kaldırılamadı</string>
+
+    <!-- Version picker -->
+    <string name="latest_badge">En son</string>
+
+    <!-- Apps feature - Last checked -->
+    <string name="last_checked">Son kontrol: %1$s</string>
+    <string name="last_checked_just_now">az önce</string>
+    <string name="last_checked_minutes_ago">%1$d dk önce</string>
+    <string name="last_checked_hours_ago">%1$d sa önce</string>
+    <string name="checking_for_updates">Güncellemeler kontrol ediliyor…</string>
+
+    <string name="proxy_host">Ana Bilgisayar</string>
+    <string name="proxy_port">Port</string>
+    <string name="proxy_username">Kullanıcı adı (isteğe bağlı)</string>
+    <string name="proxy_password">Şifre (isteğe bağlı)</string>
+    <string name="proxy_save">Proxy'yi Kaydet</string>
+    <string name="proxy_saved">Proxy ayarları kaydedildi</string>
+    <string name="failed_to_save_proxy_settings">Proxy ayarları kaydedilemedi</string>
+    <string name="proxy_host_required">Proxy ana bilgisayarı gerekli</string>
+    <string name="proxy_host_invalid">Geçerli bir ana bilgisayar adı veya IP adresi girin</string>
+    <string name="invalid_proxy_port">Geçersiz proxy portu</string>
+    <string name="proxy_test_success">Bağlantı tamam (%1$d ms)</string>
+    <string name="proxy_test_error_dns">Sunucu adresi çözümlenemedi. Proxy adresini kontrol edin.</string>
+    <string name="proxy_test_error_unreachable">Proxy sunucusuna ulaşılamadı.</string>
+    <string name="proxy_test_error_timeout">Bağlantı zaman aşımına uğradı.</string>
+    <string name="proxy_test_error_auth_required">Proxy kimlik doğrulaması gerekiyor.</string>
+    <string name="proxy_test_error_status">Beklenmeyen yanıt: HTTP %1$d</string>
+    <string name="proxy_test_error_unknown">Bağlantı testi başarısız</string>
+
+
+
+    <!-- Profile section -->
+    <string name="profile_sign_in_title">GitHub ile giriş yap</string>
+    <string name="profile_sign_in_description">Tam deneyimi keşfedin. Uygulamalarınızı yönetin, tercihlerinizi senkronize edin ve daha hızlı gezinin.</string>
+    <string name="profile_repos">Repolar</string>
+    <string name="profile_login">Giriş yap</string>
+    <string name="profile_stars_description">GitHub'daki yıldızlı repolarınız</string>
+    <string name="profile_favourites_description">Yerel olarak kaydedilen favori repolarınız</string>
+
+    <!-- Session expired dialog -->
+    <string name="session_expired_title">Oturum Süresi Doldu</string>
+    <string name="session_expired_message">GitHub oturumunuzun süresi doldu veya token iptal edildi. Kimliği doğrulanmış özellikleri kullanmaya devam etmek için lütfen tekrar giriş yapın.</string>
+    <string name="session_expired_hint">Sınırlı API istekleriyle misafir olarak gezinmeye devam edebilirsiniz.</string>
+    <string name="sign_in_again">Tekrar Giriş Yap</string>
+    <string name="continue_as_guest">Misafir olarak devam et</string>
+    <string name="logout_revocation_note">Bu işlem yerel oturumunuzu ve önbellek verilerinizi temizleyecektir. Erişimi tamamen iptal etmek için GitHub Settings > Applications sayfasını ziyaret edin.</string>
+    <string name="auth_error_code_expired">Cihaz kodunun süresi doldu.</string>
+    <string name="auth_hint_try_again">Yeni bir kod almak için lütfen tekrar giriş yapmayı deneyin.</string>
+    <string name="auth_hint_check_connection">Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="auth_hint_denied">Yetkilendirme isteğini reddettiniz. İstemeden yaptıysanız tekrar deneyin.</string>
+    <string name="auth_check_status">Zaten yetkilendirdim</string>
+    <string name="auth_polling_status">Kontrol ediliyor…</string>
+    <string name="auth_rate_limited">İstek sınırına ulaşıldı — %1$d sn sonra tekrar denenecek</string>
+
+    <!-- Read More / Show Less -->
+    <string name="read_more">Devamını oku</string>
+    <string name="show_less">Daha az göster</string>
+
+    <string name="share_repository">Depoyu paylaş</string>
+    <string name="failed_to_share_link">Bağlantı paylaşılamadı</string>
+    <string name="link_copied_to_clipboard">Bağlantı panoya kopyalandı</string>
+
+    <string name="translate_to">Şuna çevir…</string>
+    <string name="search_language">Dil ara</string>
+    <string name="translation_failed">Çeviri başarısız. Lütfen tekrar deneyin.</string>
+
+    <string name="open_github_link">GitHub bağlantısını aç</string>
+    <string name="clipboard_link_detected">Panoda GitHub bağlantısı algılandı</string>
+    <string name="detected_links">Algılanan bağlantılar</string>
+    <string name="open_in_app">Uygulamada aç</string>
+    <string name="no_github_link_in_clipboard">Panoda GitHub bağlantısı bulunamadı</string>
+
+    <string name="clear">Temizle</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="installer_type_default">Varsayılan</string>
+    <string name="installer_type_default_description">Standart sistem kurulum penceresi</string>
+    <string name="installer_type_shizuku">Shizuku</string>
+    <string name="installer_type_shizuku_description">Onay gerektirmeyen sessiz kurulum</string>
+    <string name="shizuku_status_not_installed">Shizuku yüklü değil</string>
+    <string name="shizuku_status_not_running">Shizuku çalışmıyor</string>
+    <string name="shizuku_status_permission_needed">İzin gerekli</string>
+    <string name="shizuku_status_ready">Hazır</string>
+    <string name="shizuku_grant_permission">İzin ver</string>
+    <string name="shizuku_install_hint">Sessiz kurulumu etkinleştirmek için Shizuku'yu yükleyin</string>
+    <string name="shizuku_start_hint">Sessiz kurulumu etkinleştirmek için Shizuku'yu başlatın</string>
+    <string name="shizuku_install_failed_fallback">Shizuku kurulumu başarısız, standart yükleyici kullanılıyor</string>
+
+    <string name="auto_update_title">Uygulamaları otomatik güncelle</string>
+    <string name="auto_update_description">Shizuku aracılığıyla arka planda otomatik olarak güncellemeleri indirin ve yükleyin</string>
+
+    <string name="update_check_interval_title">Güncelleme kontrol aralığı</string>
+    <string name="update_check_interval_description">Arka planda uygulama güncellemelerinin ne sıklıkla kontrol edileceği</string>
+    <string name="update_check_enabled_title">Arka planda güncelleme kontrolü</string>
+    <string name="update_check_enabled_description">Arka planda düzenli aralıklarla güncellemeleri kontrol eder. Pil tasarrufu için kapatın — her zaman uygulamanın detay ekranından manuel olarak kontrol edebilirsiniz.</string>
+    <string name="battery_optimization_card_title">Arka planda güncellemelere izin ver</string>
+    <string name="battery_optimization_card_description">Cihazın arka plan görevlerini agresif şekilde kapatıyor. GitHub App Market'u pil optimizasyonundan hariç tut ki zamanlanmış güncelleme kontrolleri ve sessiz kurulumlar güvenilir biçimde çalışsın.</string>
+    <string name="battery_optimization_card_open">Ayarları aç</string>
+    <string name="battery_optimization_card_dismiss">Sonra</string>
+
+    <string name="add_by_link">Uygulama izle</string>
+    <string name="link_app_title">Uygulamayı depoya bağla</string>
+    <string name="pick_installed_app">GitHub deposuna bağlamak için yüklü bir uygulama seçin</string>
+    <string name="search_apps_hint">Uygulama ara…</string>
+    <string name="enter_repo_url">GitHub depo URL'si</string>
+    <string name="repo_url_hint">github.com/owner/repo</string>
+    <string name="validating_repo">Doğrulanıyor…</string>
+    <string name="link_and_track">Bağla ve takip et</string>
+    <string name="checking_release">Son sürüm kontrol ediliyor…</string>
+    <string name="verifying_signing_key">İmza anahtarı doğrulanıyor…</string>
+    <string name="package_name_mismatch">Paket adı uyuşmuyor: APK %1$s, ancak seçilen uygulama %2$s</string>
+    <string name="signing_key_mismatch_link">İmza anahtarı uyuşmuyor: bu depodaki APK farklı bir geliştirici tarafından imzalanmış</string>
+    <string name="select_asset_title">Yükleyici seçin</string>
+    <string name="select_asset_description">Yüklü uygulamanızla doğrulamak için APK seçin</string>
+    <string name="export_apps">Dışa aktar</string>
+    <string name="import_apps">İçe aktar</string>
+    <string name="include_pre_releases_title">Varsayılan beta kanalı</string>
+    <string name="include_pre_releases_description">Yeni takip edilen uygulamalar varsayılan olarak beta sürümleri içerir. Önceden takip edilen uygulamalar kendi ayarını korur (uygulamanın Ayrıntılar ekranından değiştirin).</string>
+    <string name="confirm_uninstall_title">Uygulama kaldırılsın mı?</string>
+    <string name="confirm_uninstall_message">%1$s uygulamasını kaldırmak istediğinizden emin misiniz? Bu işlem geri alınamaz ve uygulama verileri kaybolabilir.</string>
+    <string name="invalid_github_url">Geçersiz GitHub URL'si. Biçim: github.com/owner/repo</string>
+    <string name="repo_not_found">Depo bulunamadı: %1$s/%2$s</string>
+    <string name="rate_limit_try_again">GitHub API istek sınırı aşıldı. Daha sonra tekrar deneyin.</string>
+    <string name="failed_to_link">Bağlama başarısız: %1$s</string>
+    <string name="failed_to_load_apps">Yüklü uygulamalar yüklenemedi</string>
+    <string name="app_linked_success">%1$s, %2$s/%3$s ile bağlandı</string>
+    <string name="export_failed">Dışa aktarma başarısız: %1$s</string>
+    <string name="import_failed">İçe aktarma başarısız: %1$s</string>
+    <string name="signing_key_changed_title">İmza anahtarı değişti</string>
+    <string name="signing_key_changed_message">Bu uygulamanın imza sertifikası ilk kurulumdan bu yana değişti.\n\nBu, geliştiricinin imza anahtarını değiştirdiği veya dosyanın değiştirilmiş olabileceği anlamına gelebilir.\n\nBeklenen: %1$s\nAlınan: %2$s</string>
+    <string name="install_anyway">Yine de yükle</string>
+    <string name="verified_build">Doğrulanmış yapı</string>
+    <string name="checking_attestation">Kontrol ediliyor\u2026</string>
+    <string name="assets_title">Dosyalar</string>
+    <string name="no_assets_selected">Dosya yok</string>
+    <string name="no_assets_in_list">Bu sürümle ilişkili dosya yok</string>
+    <string name="assets_selection_label">Dosya seçeneği belirleyin</string>
+    <string name="multiple_assets_info_dialog_title">Birden fazla dosya mevcut</string>
+    <string name="multiple_assets_info_dialog_text">Bu sürüm için birden fazla kurulabilir dosya mevcut. Listeyi inceleyin ve cihazınıza uygun olanı seçin.</string>
+    <string name="icon_content_description_info">Bilgi</string>
+    <string name="select_language">Dil seçin</string>
+    <string name="update_package_mismatch">Paket uyumsuzluğu: APK %1$s, ancak yüklü uygulama %2$s. Güncelleme engellendi.</string>
+    <string name="update_signing_key_mismatch">İmza anahtarı uyumsuzluğu: güncelleme farklı bir geliştirici tarafından imzalanmış. Güncelleme engellendi.</string>
+
+    <string name="scrollbar_option_title">Kaydırma çubuğu</string>
+    <string name="scrollbar_option_description">Kaydırılabilir listelerde kaydırma çubuğunu göster (masaüstü)</string>
+    <string name="content_width_title">İçerik genişliği</string>
+    <string name="content_width_description">Detay ekranının maksimum sütun genişliği (masaüstü)</string>
+    <string name="content_width_compact">Kompakt</string>
+    <string name="content_width_wide">Geniş</string>
+    <string name="content_width_extra_wide">Çok geniş</string>
+
+    <string name="seen_history_cleared">Görüntüleme geçmişi temizlendi</string>
+    <string name="seen_badge">Görüntülendi</string>
+    <string name="self_owned_badge">Bu deponun sahibisin</string>
+    <string name="hide_repository">Depoyu gizle</string>
+
+    <string name="recently_viewed">Son görüntülenenler</string>
+    <string name="profile_recently_viewed_description">Ziyaret ettiğiniz depolar</string>
+    <string name="delete_all">Tümünü sil</string>
+    <string name="delete_downloads_confirmation_title">Tüm indirmeler silinsin mi?</string>
+    <string name="delete_downloads_confirmation_message">Bu işlem tüm APK ve kurulum dosyalarını kalıcı olarak silecek (%1$s). İstediğiniz zaman yeniden indirebilirsiniz.</string>
+    <string name="downloads_cleared">Tüm indirilen paketler silindi.</string>
+    <string name="unable_to_verify_attestation">Doğrulanamadı</string>
+
+    <string name="recent_searches">Son aramalar</string>
+    <string name="clear_all_history">Tümünü temizle</string>
+    <string name="remove_search_history_item">Kaldır</string>
+
+    <string name="tweaks_title">İnce Ayarlar</string>
+
+    <!-- Monorepo support -->
+    <string name="asset_filter_label">Varlık filtresi</string>
+    <string name="asset_filter_placeholder">örn. ente-auth</string>
+    <string name="asset_filter_help">Yalnızca bu desene (regex) uyan varlıklar yüklenir. Birden fazla uygulama içeren monorepolar için kullanışlıdır.</string>
+    <string name="asset_filter_invalid">Geçersiz regex</string>
+    <string name="asset_filter_no_match">Bu filtreye uyan varlık yok</string>
+    <string name="asset_none_available">Bu sürümde yüklenebilir varlık yok</string>
+    <plurals name="asset_filter_visible_count">
+        <item quantity="one">%2$d varlığın %1$d tanesi gösteriliyor</item>
+        <item quantity="other">%2$d varlığın %1$d tanesi gösteriliyor</item>
+    </plurals>
+    <string name="fallback_older_releases_title">Eski sürümlere geri dön</string>
+    <string name="fallback_older_releases_description">Filtreye uyan biri bulunana kadar önceki sürümlere göz at. Son sürümün başka bir uygulamaya ait olduğu monorepolar için gereklidir.</string>
+    <string name="advanced_settings_title">Gelişmiş filtre</string>
+    <string name="advanced_settings_description">Bu uygulamanın depoda nasıl eşleştiğini yapılandırın. Depo birden fazla uygulama dağıttığında bu ayarları kullanın.</string>
+    <string name="advanced_settings_open">Gelişmiş filtreyi aç</string>
+    <string name="advanced_save">Kaydet</string>
+    <string name="advanced_preview_title">Önizleme</string>
+    <string name="advanced_preview_refresh">Önizlemeyi yenile</string>
+    <string name="advanced_preview_pending">Eşleşen varlıkları önizlemek için bir filtre yazın.</string>
+    <string name="advanced_preview_no_match">Son sürümlerde eşleşen varlık yok. Eski sürümlere geri dönmeyi etkinleştirin veya regex'i ayarlayın.</string>
+    <string name="advanced_preview_failed">Önizleme yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <plurals name="advanced_preview_release">
+        <item quantity="one">%1$s sürümünde eşleşti · %2$d varlık</item>
+        <item quantity="other">%1$s sürümünde eşleşti · %2$d varlık</item>
+    </plurals>
+
+    <!-- Preferred-variant feature -->
+    <string name="variant_picker_title">Tercih edilen varyant</string>
+    <string name="variant_picker_description">Güncellemeler için hangi APK varyantının yüklenmesini istediğinizi seçin. Seçim sürümler arası hatırlanır.</string>
+    <string name="variant_picker_no_assets">En son sürümde yüklenebilir varlık yok.</string>
+    <string name="variant_picker_no_pinnable">Bu sürümde sabitlenebilecek sürüm etiketli varyant yok. Otomatik seçici cihazınız için en iyi varlığı seçmeye devam edecek.</string>
+    <string name="variant_picker_load_failed">Varyantlar yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="variant_picker_save_failed">Seçiminiz kaydedilemedi. Tekrar deneyin.</string>
+    <string name="variant_picker_stale_title">Varyant değişti — tekrar seçin</string>
+    <string name="variant_picker_stale_was">Önceki: %1$s</string>
+    <string name="variant_picker_auto_title">Otomatik</string>
+    <string name="variant_picker_auto_subtitle">Cihazınız için en iyi varyantı GitHub App Market seçsin</string>
+    <string name="markdown_alert_note">Not</string>
+    <string name="markdown_alert_tip">İpucu</string>
+    <string name="markdown_alert_important">Önemli</string>
+    <string name="markdown_alert_warning">Uyarı</string>
+    <string name="markdown_alert_caution">Dikkat</string>
+    <string name="variant_picker_pinned">Sabitlendi: %1$s</string>
+    <string name="variant_stale_hint">Varyant değişti — tekrar seçmek için Güncelle'ye dokunun</string>
+    <string name="variant_label_inline">Varyant: %1$s</string>
+    <string name="variant_picker_unpin">Sabitlemeyi kaldır</string>
+    <string name="variant_picker_pinned_badge">Sabitlendi</string>
+    <string name="variant_picker_open">Varyant seç</string>
+    <string name="variant_picker_open_filter">Filtreyi düzenle</string>
+    <string name="variant_first_pin_toast">Sonraki güncellemeler %1$s varyantını tercih edecek. Bunu uygulama ayarlarından istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="variant_first_pin_toast_generic">Sonraki güncellemeler bu varyantı tercih edecek. Bunu uygulama ayarlarından istediğiniz zaman değiştirebilirsiniz.</string>
+    <string name="variant_unpinned_toast">Varyant sabitlemesi kaldırıldı. Güncellemeler otomatik seçiciyi kullanacak.</string>
+    <string name="advanced_filter_variant_relation">Filtre hangi dosyaların dikkate alınacağına karar verir. Varyant sabitlemesi bunlardan hangisinin yükleneceğine karar verir.</string>
+    <string name="install">Yükle</string>
+    <string name="ready_to_install">Yüklemeye hazır</string>
+    <string name="install_ready">Yükle (hazır)</string>
+
+    <string name="translation_intro">README çevirisi için kullanılacak hizmeti seçin.</string>
+    <string name="translation_provider_title">Çeviri Hizmeti</string>
+    <string name="translation_provider_description">Google yapılandırma gerektirmeden her yerde çalışır. Youdao Çin anakarasından çalışır ancak Youdao geliştirici portalından API kimlik bilgileri gerekir.</string>
+    <string name="translation_provider_google">Google</string>
+    <string name="translation_provider_youdao">Youdao</string>
+    <string name="translation_provider_saved">Çeviri hizmeti güncellendi</string>
+    <string name="translation_youdao_help">App Key ve App Secret almak için ai.youdao.com'a kaydolun. Ücretsiz katman olağan kullanım için yeterlidir.</string>
+    <string name="translation_youdao_app_key">App Key</string>
+    <string name="translation_youdao_app_secret">App Secret</string>
+    <string name="translation_youdao_save">Kimlik bilgilerini kaydet</string>
+    <string name="translation_youdao_saved">Youdao kimlik bilgileri kaydedildi</string>
+
+    <!-- Releases status card -->
+    <string name="releases_load_failed">Sürümler yüklenemedi</string>
+    <string name="releases_load_failed_description">Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="no_releases_published">Henüz yayımlanmış sürüm yok</string>
+    <string name="loading_releases">Sürümler yükleniyor…</string>
+
+    <!-- Personal Access Token sign-in -->
+    <string name="pat_use_token_instead">Sorun mu var? Personal Access Token kullanın</string>
+    <string name="auth_use_device_code_instead">Cihaz kodu kullan</string>
+    <string name="installer_category_side_store">F-Droid / Obtainium</string>
+    <string name="installer_category_sideloaded">Yandan yükleme</string>
+    <string name="installer_category_vendor_store">Üretici mağazası</string>
+    <string name="installer_category_play_store">Play Store</string>
+    <string name="installer_category_system_update">Sistem güncellemesi</string>
+    <string name="link_smart_search_title">Eşleşen depoyu bul</string>
+    <string name="link_smart_search_searching">GitHub'da eşleşme aranıyor…</string>
+    <string name="link_smart_search_no_matches">Otomatik eşleşme bulunamadı.</string>
+    <string name="link_smart_search_failed">Eşleşmeler aranamadı.</string>
+    <string name="link_smart_search_enter_manually">URL'yi elle gir</string>
+    <string name="match_source_manifest">Manifest</string>
+    <string name="match_source_fingerprint">İmza</string>
+    <string name="match_source_search">Arama</string>
+    <string name="match_source_manual">Elle</string>
+    <string name="match_source_starred">Yıldızlı</string>
+    <string name="pat_sheet_title">Personal Access Token ile giriş yap</string>
+    <string name="pat_sheet_description">GitHub'a erişebilen herhangi bir cihazda Personal Access Token (classic veya fine-grained) oluşturun ve aşağıya yapıştırın. Depolara ve profilinize okuma erişimi gerekir.</string>
+    <string name="pat_open_settings">GitHub token ayarlarını aç</string>
+    <string name="pat_input_label">Personal Access Token</string>
+    <string name="pat_input_placeholder">ghp_… veya github_pat_…</string>
+    <string name="pat_submit">Giriş yap</string>
+    <string name="pat_cancel">İptal</string>
+    <string name="pat_error_empty">Lütfen bir token yapıştırın.</string>
+    <string name="pat_error_invalid_format">Bu bir GitHub token'ına benzemiyor. Tokenlar ghp_ veya github_pat_ ile başlar.</string>
+    <string name="pat_error_bad_credentials">Bu token geçersiz veya iptal edilmiş.</string>
+    <string name="pat_error_insufficient_scope">Bu token gerekli izinlere sahip değil.</string>
+    <string name="pat_error_generic">Token kaydedilemedi. Lütfen tekrar deneyin.</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+     E10 — Apps sort
+     ═══════════════════════════════════════════════════════════════ -->
+    <string name="sort_apps">Uygulamaları sırala</string>
+    <string name="sort_updates_first">Güncellemeler önce</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Pre-release channel UX (Details screen)
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="channel_chip_include_betas">Beta sürümleri dahil et</string>
+    <string name="channel_chip_stable_only">Yalnızca kararlı</string>
+    <string name="channel_chip_coachmark_title">Sürüm kanalını seçin</string>
+    <string name="channel_chip_coachmark_body">Bu uygulamanın kararlı sürümleri ile beta sürümleri arasında geçiş yapmak için dokunun.</string>
+    <string name="channel_chip_coachmark_dismiss">Anladım</string>
+    <string name="action_switch_to_stable">%1$s kararlı sürümüne geç</string>
+    <string name="stalled_project_warning_months">%1$d aydır kararlı sürüm yok</string>
+    <string name="stalled_project_warning_days">%1$d gündür kararlı sürüm yok</string>
+    <string name="stalled_project_warning_description">Etkin ön sürümler mevcut, ancak proje bir süredir kararlı bir derleme yayınlamadı. Beta sürümler kararlı bir sürüme ulaşmayabilir.</string>
+    <string name="merged_whats_changed_title">%1$s sürümünden bu yana değişenler</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — External import wizard
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="external_import_top_bar_title">Yüklü uygulamaları içe aktar</string>
+    <string name="external_import_top_bar_back">Geri</string>
+    <string name="external_import_overflow_more">Daha fazla seçenek</string>
+    <string name="external_import_overflow_skip_remaining">Kalanları atla</string>
+    <string name="external_import_progress_scanning">Uygulamalarınız taranıyor…</string>
+    <string name="external_import_progress_auto_importing">Eşleşmeler içe aktarılıyor…</string>
+    <string name="external_import_progress_working">İşleniyor…</string>
+    <plurals name="external_import_progress_subtitle_count">
+        <item quantity="one">%1$d uygulama incelendi</item>
+        <item quantity="other">%1$d uygulama incelendi</item>
+    </plurals>
+    <string name="external_import_card_action_skip">Atla</string>
+    <string name="external_import_card_action_link">Bağla</string>
+    <string name="external_import_card_action_more">Daha fazla eşleşme</string>
+    <string name="external_import_card_action_less">Eşleşmeleri gizle</string>
+    <string name="external_import_card_installer_chip">%1$s aracılığıyla yüklendi</string>
+    <string name="external_import_card_preselect_unknown">Depo bulmak için dokun</string>
+    <string name="external_import_card_expand_label">Diğer eşleşmeleri görmek için genişlet</string>
+    <string name="external_import_card_collapse_label">Kartı daralt</string>
+    <string name="external_import_search_icon_label">GitHub'da ara</string>
+    <string name="external_import_search_empty">Eşleşme yok</string>
+    <string name="external_import_search_error_default">Arama başarısız</string>
+    <string name="external_import_search_placeholder_url">Bir github.com URL'si yapıştırın veya arayın…</string>
+    <plurals name="external_import_completion_headline">
+        <item quantity="one">%1$d uygulama artık takip ediliyor.</item>
+        <item quantity="other">%1$d uygulama artık takip ediliyor.</item>
+    </plurals>
+    <string name="external_import_completion_skipped_subline">%1$d atlandı — Ayarlar'dan yeniden tarama yapabilirsiniz.</string>
+    <string name="external_import_completion_action_view_all">Tümünü görüntüle</string>
+    <string name="external_import_empty_all_matched">Tümü eşleşti.\nBağlanacak bir şey yok.</string>
+    <string name="external_import_empty_done">Tamam</string>
+    <string name="external_import_empty_no_apps_title">Bu cihazda GitHub uygulaması bulunamadı.</string>
+    <string name="external_import_empty_no_apps_body">Bu, her şeyin farklı bir mağaza aracılığıyla yüklendiği ya da yüklü uygulamalara erişimimizin olmadığı anlamına gelir.</string>
+    <string name="external_import_empty_grant_permission">İzin ver</string>
+    <string name="external_import_empty_ok">Tamam</string>
+    <string name="external_import_empty_add_manually">Başka bir mağazadan uygulama ekle</string>
+    <string name="external_import_permission_title">GitHub uygulamalarınızı bulun</string>
+    <string name="external_import_permission_body">Yüklü uygulamalarınızı tarayıp GitHub sürümleriyle eşleştirebiliriz; böylece güncellemeler ve algılama otomatik çalışır.\n\nBunun için hangi uygulamaların yüklü olduğunu görmemiz gerekiyor. İzin vermeden yalnızca yaklaşık 5 uygulama görebiliriz; izinle tümünü görebiliriz.\n\nUygulama listenizi izniniz olmadan hiçbir yere göndermiyoruz. Eşleştirme işlemi cihazınızda gerçekleşir. İsteğe bağlı sunucu araması yalnızca paket adını ve uygulama etiketini, varsa imza parmak izini, kurulum kaynağını ve uygulama manifest'inde belirtilen GitHub depo ipucunu gönderir; yüklü uygulamaların tam listesini asla göndermez.</string>
+    <string name="external_import_permission_continue">Devam et</string>
+    <string name="external_import_permission_not_now">Şimdi değil</string>
+    <plurals name="external_import_proposal_banner_headline">
+        <item quantity="one">GitHub'dan %1$d uygulama bulundu</item>
+        <item quantity="other">GitHub'dan %1$d uygulama bulundu</item>
+    </plurals>
+    <string name="external_import_proposal_banner_body">Güncellemeleri burada takip etmek için inceleyin.</string>
+    <string name="external_import_proposal_banner_review">İncele</string>
+    <string name="external_import_proposal_banner_dismiss">Kapat</string>
+    <string name="external_import_match_confidence_a11y">Eşleşme güveni: yüzde %1$d</string>
+    <string name="external_import_match_confidence_chip">%1$d</string>
+    <string name="external_import_error_link_failed">Bu uygulama bağlanamadı — tekrar deneyin.</string>
+    <string name="external_import_error_link_network">GitHub'a ulaşılamadı. Daha sonra tekrar deneyin.</string>
+    <string name="external_import_error_scan_failed_default">Tarama başarısız</string>
+    <string name="external_import_installer_obtainium">Obtainium</string>
+    <string name="external_import_installer_fdroid">F-Droid</string>
+    <string name="external_import_installer_browser">Tarayıcı</string>
+    <string name="external_import_installer_sideload">Sideload</string>
+    <string name="external_import_installer_self">GitHub App Market</string>
+    <string name="external_import_installer_unknown">Bilinmeyen kaynak</string>
+    <string name="external_import_undo_linked">%1$s bağlandı.</string>
+    <string name="external_import_undo_skipped">%1$s atlandı.</string>
+    <string name="external_import_undo_action">Geri al</string>
+    <string name="external_import_undo_failed">Geri alınamadı — tekrar deneyin.</string>
+    <plurals name="external_import_list_remaining">
+        <item quantity="one">İncelenecek %1$d uygulama</item>
+        <item quantity="other">İncelenecek %1$d uygulama</item>
+    </plurals>
+    <string name="external_import_list_add_manually">Uygulamanızı görmüyor musunuz? Manuel olarak ekleyin</string>
+    <plurals name="external_import_auto_summary_headline">
+        <item quantity="one">%1$d uygulama otomatik olarak bağlandı</item>
+        <item quantity="other">%1$d uygulama otomatik olarak bağlandı</item>
+    </plurals>
+    <string name="external_import_auto_summary_body">Yüksek güvenle tanındılar. Bireysel eşleşmeleri her uygulamanın detaylarından geri alabilir ya da hepsini şimdi geri alabilirsiniz.</string>
+    <plurals name="external_import_auto_summary_review_hint">
+        <item quantity="one">%1$d tanesi daha incelemenizi bekliyor.</item>
+        <item quantity="other">%1$d tanesi daha incelemenizi bekliyor.</item>
+    </plurals>
+    <string name="external_import_auto_summary_continue">Devam et</string>
+    <string name="external_import_auto_summary_undo_all">Tümünü geri al</string>
+    <string name="external_import_auto_summary_more_count">+%1$d daha</string>
+    <string name="external_import_rescan_menu">GitHub uygulamalarını tara</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — Details unlink dialog
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="details_unlink_external_app_menu">Bu depodan bağlantıyı kes</string>
+    <string name="details_unlink_external_app_dialog_title">Bu uygulamanın bağlantısı kesilsin mi?</string>
+    <string name="details_unlink_external_app_dialog_body">%1$s uygulamasını bu depodan yüklü olarak takip etmeyi bırakacağız. Uygulama cihazınızda kalır — yalnızca bağlantı kaldırılır.</string>
+    <string name="details_unlink_external_app_dialog_confirm">Bağlantıyı kes</string>
+    <string name="details_unlink_external_app_success">Bağlantı kesildi. Bir sonraki taramada eşleşme önereceğiz.</string>
+    <string name="details_unlink_external_app_failure">Bağlantı kesilemedi — tekrar deneyin.</string>
+    <string name="details_linked_repo_banner_title">%1$s/%2$s ile bağlantılı</string>
+    <string name="details_linked_repo_banner_body">Manuel bağlandı — sizin tarafınızdan doğrulandı. Yeniden taramak için bağlantıyı kaldırın.</string>
+
+    <!-- Details manual refresh -->
+    <string name="details_refresh">Yenile</string>
+    <string name="details_refresh_cooldown">Yenile (%1$dsn)</string>
+    <string name="details_refresh_more_options">Diğer seçenekler</string>
+    <string name="details_refresh_snackbar_cooldown">Az önce yenilediniz — %1$d sn sonra tekrar deneyin.</string>
+    <string name="details_refresh_snackbar_budget_exhausted">Yenileme hizmeti meşgul — %1$d sn sonra tekrar deneyin.</string>
+    <string name="details_refresh_snackbar_archived">Bu depo GitHub'da arşivlenmiş.</string>
+    <string name="details_refresh_snackbar_not_found">Bu depo artık GitHub'da bulunmuyor.</string>
+    <string name="details_refresh_snackbar_upstream">Yenileme başarısız. Birazdan tekrar deneyin.</string>
+    <string name="details_refresh_snackbar_generic">Yenileme başarısız. Tekrar deneyin.</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Feedback feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="feedback_title">Geri bildirim gönder</string>
+    <string name="feedback_close">Kapat</string>
+    <string name="feedback_category_label">Kategori</string>
+    <string name="feedback_category_bug">Hata</string>
+    <string name="feedback_category_feature">Özellik isteği</string>
+    <string name="feedback_category_change">Değişiklik isteği</string>
+    <string name="feedback_category_other">Diğer</string>
+    <string name="feedback_topic_label">Konu</string>
+    <string name="feedback_topic_install_update">Kurulum / Güncelleme</string>
+    <string name="feedback_topic_search">Arama &amp; Keşif</string>
+    <string name="feedback_topic_details">Depo ayrıntıları</string>
+    <string name="feedback_topic_auth">Kimlik Doğrulama &amp; Hesap</string>
+    <string name="feedback_topic_ui">Arayüz / UX</string>
+    <string name="feedback_topic_translation">Çeviri / Dil</string>
+    <string name="feedback_topic_performance">Performans</string>
+    <string name="feedback_topic_other">Diğer</string>
+    <string name="feedback_field_title">Başlık</string>
+    <string name="feedback_field_description">Açıklama</string>
+    <string name="feedback_field_steps">Yeniden oluşturma adımları</string>
+    <string name="feedback_field_expected_actual">Beklenen ve gerçekleşen</string>
+    <string name="feedback_field_use_case">Kullanım senaryosu</string>
+    <string name="feedback_field_proposed_solution">Önerilen çözüm</string>
+    <string name="feedback_field_current_behaviour">Mevcut davranış</string>
+    <string name="feedback_field_desired_behaviour">İstenen davranış</string>
+    <string name="feedback_diagnostics_header">Tanılama</string>
+    <string name="feedback_diagnostics_include">Tanılama bilgilerini dahil et</string>
+    <string name="feedback_send_via_email">E-posta gönder</string>
+    <string name="feedback_send_via_github">GitHub Issue olarak aç</string>
+    <string name="feedback_send_success_email">Teşekkürler — posta istemciniz açılıyor.</string>
+    <string name="feedback_send_success_github">Teşekkürler — tarayıcınız açılıyor.</string>
+    <string name="feedback_send_error">Geri bildirim kanalı açılamadı: %1$s</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E5 — Mirror feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <!-- Tweaks - Custom forges -->
+    <string name="custom_forges_entry_label">Özel forgeler</string>
+    <string name="custom_forges_dialog_title">Özel forgeler</string>
+    <string name="custom_forges_dialog_help">Bir Forgejo veya Gitea örneğinin host adını gir (örn. git.example.com). GHS, manuel bağlama sayfasında bu hostlardan URL kabul eder.</string>
+    <string name="custom_forges_add_button">Ekle</string>
+    <string name="custom_forges_empty">Henüz özel forge yok.</string>
+    <string name="done">Bitti</string>
+
+    <string name="mirror_picker_title">İndirme Aynası</string>
+    <string name="mirror_picker_description">Sürüm dosyalarını indirmek için kullanılır. GitHub API çağrıları her zaman doğrudan gider. Çoğu kullanıcı bunu Doğrudan GitHub olarak bırakmalıdır.</string>
+    <string name="mirror_section_official">Resmi</string>
+    <string name="mirror_section_community">Topluluk</string>
+    <string name="mirror_status_ok">%1$dms</string>
+    <string name="mirror_status_degraded">%1$dms</string>
+    <string name="mirror_status_down">(kapalı)</string>
+    <string name="mirror_status_unknown">?</string>
+    <string name="mirror_custom_label">Özel ayna…</string>
+    <string name="mirror_custom_dialog_title">Özel ayna</string>
+    <string name="mirror_custom_dialog_hint">https://ayaniniz.ornek/{url}</string>
+    <string name="mirror_custom_validation_https">Şablon https:// ile başlamalıdır</string>
+    <string name="mirror_custom_validation_template">Şablon {url} ifadesini tam olarak bir kez içermelidir</string>
+    <string name="mirror_custom_save">Kaydet</string>
+    <string name="mirror_test_button">Seçileni test et</string>
+    <string name="mirror_test_success">%1$dms'de ulaşıldı</string>
+    <string name="mirror_test_http_error">Ayna %1$d döndürdü</string>
+    <string name="mirror_test_timeout">5s sonra zaman aşımı</string>
+    <string name="mirror_test_dns_fail">Ana bilgisayar çözümlenemedi</string>
+    <string name="mirror_test_other">Başarısız: %1$s</string>
+    <string name="mirror_deploy_your_own_hint">Tüm aynalar mı çöktü? 5 dakikada kendinizinkini barındırabilirsiniz — belgelere bakın.</string>
+    <string name="mirror_removed_toast">%1$s artık kullanılamıyor, Doğrudan GitHub'a geçildi.</string>
+
+    <!-- ───── 1.8.1 backlog ───── -->
+    <string name="add_from_starred_title">Yıldızlılardan ekle</string>
+    <string name="announcements_acknowledge">Bunu okudum</string>
+    <string name="announcements_acknowledged">Onaylandı</string>
+    <string name="announcements_category_news">Haberler</string>
+    <string name="announcements_category_privacy">Gizlilik</string>
+    <string name="announcements_category_security">Güvenlik</string>
+    <string name="announcements_category_status">Durum</string>
+    <string name="announcements_category_survey">Anketler</string>
+    <string name="announcements_empty">Şu anda paylaşılacak bir şey yok.</string>
+    <string name="announcements_mute_locked">Devre dışı bırakılamaz</string>
+    <string name="announcements_mute_settings_title">Şuradan öğeleri göster</string>
+    <string name="announcements_open_mute_settings">Sessize alma ayarlarını aç</string>
+    <string name="announcements_profile_description">Haberler, anketler ve önemli bildirimler.</string>
+    <string name="announcements_read_more">Devamını oku</string>
+    <string name="announcements_refresh_failed">Yenilenemedi — önbellekteki öğeler gösteriliyor.</string>
+    <string name="announcements_severity_critical">Kritik</string>
+    <string name="announcements_severity_important">Önemli</string>
+    <string name="announcements_severity_info">Bilgi</string>
+    <string name="announcements_title">Duyurular</string>
+    <string name="announcements_view_details">Ayrıntıları gör</string>
+    <string name="apk_inspect_button_label">APK'yı incele</string>
+    <string name="apk_inspect_coachmark_body">İzinler, imza, bileşenler — bir APK'nın tam olarak ne bildirdiğini görün.</string>
+    <string name="apk_inspect_coachmark_dismiss">Anladım</string>
+    <string name="apk_inspect_coachmark_title">Yüklemeden önce içine bakın</string>
+    <string name="apk_inspect_compatibility">Uyumluluk</string>
+    <string name="apk_inspect_components">Bileşenler</string>
+    <string name="apk_inspect_debuggable">Debuggable yapı — bir release ise şüpheli.</string>
+    <string name="apk_inspect_empty">Bu uygulama için henüz incelenecek bir şey yok.</string>
+    <string name="apk_inspect_file_info">Dosya</string>
+    <string name="apk_inspect_identity">Kimlik</string>
+    <string name="apk_inspect_min_sdk">Minimum SDK</string>
+    <string name="apk_inspect_permissions">İzinler (%1$d)</string>
+    <string name="apk_inspect_permissions_empty">Bildirilen izin yok.</string>
+    <string name="apk_inspect_permissions_title">İzinler</string>
+    <string name="apk_inspect_protection_dangerous">Hassas</string>
+    <string name="apk_inspect_protection_normal">Normal</string>
+    <string name="apk_inspect_protection_privileged">Ayrıcalıklı</string>
+    <string name="apk_inspect_protection_signature">İmza</string>
+    <string name="apk_inspect_protection_unknown">Bilinmiyor</string>
+    <string name="apk_inspect_section_activities">Aktiviteler</string>
+    <string name="apk_inspect_section_main_activity">Ana aktivite</string>
+    <string name="apk_inspect_section_receivers">Alıcılar</string>
+    <string name="apk_inspect_section_services">Servisler</string>
+    <string name="apk_inspect_signing">İmza parmak izi</string>
+    <string name="apk_inspect_size">Boyut</string>
+    <string name="apk_inspect_source_file">Park edilmiş dosya</string>
+    <string name="apk_inspect_source_installed">Kurulu paket</string>
+    <string name="apk_inspect_target_sdk">Hedef SDK</string>
+    <string name="apk_inspect_title">APK İncele</string>
+    <string name="apk_inspect_version_code">Sürüm</string>
+    <string name="apps_compact_more_actions">%1$s için diğer işlemler</string>
+    <string name="apps_compact_status_filter_active">monorepo filtresi aktif</string>
+    <string name="apps_compact_status_pending_install">kurulum bekliyor</string>
+    <string name="apps_compact_status_pre_release_on">ön sürüm açık</string>
+    <string name="apps_compact_status_ready_to_install">kurulmaya hazır</string>
+    <string name="apps_compact_status_updates_ignored">güncellemeler yok sayıldı</string>
+    <string name="apps_compact_status_variant_pinned">varyant sabitlendi</string>
+    <string name="apps_compact_status_variant_stale">varyant eski, işlem gerekli</string>
+    <string name="apps_ignore_updates">Güncellemeleri yok say</string>
+    <string name="apps_section_collapse">Bölümü daralt</string>
+    <string name="apps_section_count_suffix">· %1$d</string>
+    <string name="apps_section_expand">Bölümü genişlet</string>
+    <string name="apps_section_state_collapsed">Daraltılmış</string>
+    <string name="apps_section_state_expanded">Genişletilmiş</string>
+    <string name="apps_section_up_to_date">Güncel</string>
+    <string name="confirm_discard_pending_message">%1$s için park edilmiş yükleyiciyi silip uygulama listenizden satırı kaldırmak istiyor musunuz? İndirilen APK silinecek.</string>
+    <string name="confirm_discard_pending_title">Bekleyen kurulumu sil?</string>
+    <string name="dhizuku_grant_permission">İzin ver</string>
+    <string name="dhizuku_install_hint">Sessiz kurulumları etkinleştirmek için Dhizuku'yu yükleyin ve Device Owner olarak etkinleştirin</string>
+    <string name="dhizuku_start_hint">Sessiz kurulumları etkinleştirmek için Dhizuku'yu Device Owner olarak etkinleştirin</string>
+    <string name="installer_type_root">Root</string>
+    <string name="installer_type_root_description">Magisk, KernelSU veya APatch root ile sessiz yükleme</string>
+    <string name="root_status_ready">Verildi</string>
+    <string name="root_status_permission_needed">Root'a izin ver</string>
+    <string name="root_status_unavailable">Root yok</string>
+    <string name="root_grant_permission">Root erişimine izin ver</string>
+    <string name="root_unavailable_hint">Bu cihazda root yok. Önce Magisk, KernelSU veya APatch yükleyin.</string>
+    <string name="dhizuku_status_not_installed">Dhizuku yüklü değil</string>
+    <string name="dhizuku_status_not_running">Dhizuku aktif değil</string>
+    <string name="dhizuku_status_permission_needed">İzin gerekli</string>
+    <string name="dhizuku_status_ready">Hazır</string>
+    <string name="discard_pending_install">Sil</string>
+    <string name="error_state_go_back">Geri dön</string>
+    <string name="error_state_subtitle_generic">Bu repo yüklenemedi. Aşağıdaki Yeniden Dene düğmesini kullanın.</string>
+    <string name="error_state_subtitle_not_found">Repo özel, yeniden adlandırılmış veya silinmiş olabilir.</string>
+    <string name="error_state_subtitle_offline">Bağlantınızı kontrol edin ve tekrar deneyin.</string>
+    <string name="error_state_subtitle_rate_limit">GitHub veya arka uç kotaya ulaştı. Birazdan tekrar deneyin.</string>
+    <string name="error_state_title_generic">Bir şeyler ters gitti</string>
+    <string name="error_state_title_not_found">Repo bulunamadı</string>
+    <string name="error_state_title_offline">Çevrimdışısınız</string>
+    <string name="error_state_title_rate_limit">Hız sınırına ulaşıldı</string>
+    <string name="export_apps_obtainium">Obtainium için dışa aktar</string>
+    <string name="external_import_card_owner_byline">%1$s tarafından</string>
+    <string name="external_import_card_preselect_known_prefix">Sanırız bu</string>
+    <string name="failed_to_discard_pending">%1$s için bekleyen kurulum silinemedi</string>
+    <string name="import_summary_already_tracked">%1$d zaten takip ediliyor</string>
+    <string name="import_summary_close">Tamam</string>
+    <string name="import_summary_collapse">Ayrıntıları gizle</string>
+    <string name="import_summary_expand">Ayrıntıları göster</string>
+    <string name="import_summary_failed">%1$d başarısız</string>
+    <string name="import_summary_format_native">GitHub App Market</string>
+    <string name="import_summary_format_obtainium">Obtainium</string>
+    <string name="import_summary_imported">%1$d içe aktarıldı</string>
+    <string name="import_summary_non_github">%1$d GitHub değil</string>
+    <string name="import_summary_non_github_caption">Henüz GitLab, F-Droid veya HTML kaynaklarını takip etmiyoruz.</string>
+    <string name="import_summary_title">İçe aktarma sonuçları — %1$s</string>
+    <string name="import_summary_unknown_caption">Bu, bir GitHub App Market veya Obtainium dışa aktarımına benzemiyor. Dosyanın başlangıcı şöyle:</string>
+    <string name="import_summary_unknown_format">Bu dosya okunamadı</string>
+    <string name="installer_attribution_custom_apply">Uygula</string>
+    <string name="installer_attribution_custom_error">Geçerli bir Android paket adı kullanın (ör. com.example.installer)</string>
+    <string name="installer_attribution_custom_label">Yükleyici paket adı</string>
+    <string name="installer_attribution_description">Uygulamalar, kendilerini cihaza koyan yükleyiciyi görebilir. Varsayılan olarak bu sistem kabuğudur.</string>
+    <string name="installer_attribution_disclosure">Bazı uygulamalar yükleyici değişikliğini algılar, çalışmayı reddedebilir veya güvenlik kontrollerinden geçemez (ör. Play Integrity, bankacılık uygulamaları).</string>
+    <string name="installer_attribution_preset_custom">Özel…</string>
+    <string name="installer_attribution_preset_fdroid">F-Droid</string>
+    <string name="installer_attribution_preset_obtainium">Obtainium</string>
+    <string name="installer_attribution_preset_playstore">Play Store</string>
+    <string name="installer_attribution_preset_system">Sistem varsayılanı</string>
+    <string name="installer_attribution_title">Yükleyici atfı</string>
+    <string name="installer_type_dhizuku">Dhizuku</string>
+    <string name="installer_type_dhizuku_description">Device Owner ile sessiz kurulum — OEM kurulum istemlerini atlar</string>
+    <string name="rate_limit_exceeded_retry_in">Hız sınırına ulaşıldı — %1$d sn sonra tekrar deneyin.</string>
+    <string name="rate_limit_exceeded_signin_hint">Daha yüksek kota için GitHub'a giriş yapın.</string>
+    <string name="releases_unavailable_temporarily">Sürümler geçici olarak kullanılamıyor. Lütfen birazdan tekrar deneyin.</string>
+    <string name="starred_picker_already_tracked">Takip ediliyor</string>
+    <string name="starred_picker_apk_badge">APK</string>
+    <string name="starred_picker_empty">Yıldızlı repo yok. Burada görmek için GitHub'da repolara yıldız verin.</string>
+    <string name="starred_picker_filter_show_all">APK sürümü olmayan repoları göster</string>
+    <string name="starred_picker_header_counts">%1$d yıldızlı · %2$d APK yayınlıyor · %3$d zaten takipte</string>
+    <string name="starred_picker_no_match">Eşleşen yok.</string>
+    <string name="starred_picker_progress">Kontrol ediliyor %1$d / %2$d…</string>
+    <string name="starred_picker_rate_limited">GitHub hız sınırına ulaşıldı. Kontrol etmeye devam etmek için sürdür.</string>
+    <string name="starred_picker_resume">Sürdür</string>
+    <string name="starred_picker_search_hint">Sahip / repo / açıklama ara</string>
+    <string name="starred_picker_sign_in_required">Yıldızlı repolarınızı görmek için GitHub'a giriş yapın.</string>
+    <string name="starred_picker_sort_alphabetical">A → Z</string>
+    <string name="starred_picker_sort_recent">Son yıldızlananlar</string>
+    <string name="starred_picker_sort_stars">En çok yıldız</string>
+    <string name="starred_picker_star_dedup_tooltip">GitHub'da yıldızı kaldırmak uygulamanın takibini bırakmaz.</string>
+    <string name="import_stars_title">Kullanıcı adıyla yıldızlı depoları içe aktar</string>
+    <string name="import_stars_subtitle">Herhangi bir GitHub kullanıcı adı gir, herkese açık yıldızlı repolarına göz at ve favorilerine ekle. Giriş yapmana gerek yok.</string>
+    <string name="import_stars_hint">GitHub kullanıcı adı</string>
+    <string name="import_stars_button">Yıldızlı depoları göster</string>
+    <string name="import_stars_header_count">@%1$s · %2$d yıldızlı depo</string>
+    <string name="import_stars_search_hint">Sahip / repo / açıklama ara</string>
+    <string name="import_stars_add_all">%1$d tanesini favorilere ekle</string>
+    <string name="import_stars_empty">@%1$s'in yıldızlı reposu yok.</string>
+    <string name="import_stars_no_match">Eşleşen yok.</string>
+    <string name="import_stars_add">Favorilere ekle</string>
+    <string name="import_stars_added">Zaten favorilerde</string>
+    <string name="import_stars_try_another">Başkasını dene</string>
+    <string name="import_stars_entry">Kullanıcı adıyla yıldızlı depoları içe aktar</string>
+    <string name="starred_picker_title">Yıldızlılardan ekle</string>
+    <string name="whats_new_cta_dismiss">Anladım</string>
+    <string name="whats_new_cta_history">Önceki sürümleri göster</string>
+    <string name="whats_new_history_empty">Henüz changelog girişi yok.</string>
+    <string name="whats_new_profile_description">Son sürümlerden öne çıkanlar.</string>
+    <string name="whats_new_section_fixed">Düzeltildi</string>
+    <string name="whats_new_section_heads_up">Dikkat</string>
+    <string name="whats_new_section_improved">İyileştirildi</string>
+    <string name="whats_new_section_new">Yeni</string>
+    <string name="whats_new_sheet_heading">%1$s sürümünde neler yeni</string>
+    <string name="whats_new_title">Neler yeni</string>
+    <string name="whats_new_version_label">Sürüm %1$s · %2$s</string>
+
+    <!-- Skip this version (issue #542) -->
+    <string name="apps_skip_version">Bu sürümü atla</string>
+    <string name="apps_skip_version_unskip">Atlamayı kaldır</string>
+    <string name="apps_skip_version_snackbar">%1$s atlandı — daha yeni bir sürüm geldiğinde haber verilecek</string>
+    <string name="apps_unskip_version_snackbar">Güncelleme bildirimi yeniden açık</string>
+    <string name="apps_skip_version_error">Tercih güncellenemedi</string>
+    <string name="apps_unskip_version_error">Güncelleme bildirimi geri yüklenemedi</string>
+    <string name="skipped_updates_entry_title">Atlanan güncellemeler</string>
+    <string name="skipped_updates_entry_description">Yoksaymayı seçtiğin sürümler</string>
+    <string name="skipped_updates_title">Atlanan güncellemeler</string>
+    <string name="skipped_updates_empty_title">Atlanan sürüm yok</string>
+    <string name="skipped_updates_empty_description">Uygulamalar ekranında bir güncellemeyi atladığında kayıt geri almak için burada görünür.</string>
+    <string name="skipped_updates_skipped_label">Atlandı: %1$s</string>
+    <string name="skipped_updates_installed_label">Yüklü: %1$s</string>
+    <string name="skipped_updates_unskip_action">Atlamayı kaldır</string>
+    <string name="skipped_updates_unskipped_snackbar">%1$s için güncelleme bildirimi yeniden açıldı</string>
+    <string name="skipped_updates_unskip_failure">Tercih güncellenemedi</string>
+    <string name="hidden_repositories_title">Gizli depolar</string>
+    <string name="hidden_repositories_entry_description">Ana ekran ve Arama'da gizlediğin depoları yönet.</string>
+    <string name="hidden_repositories_empty_title">Gizli depo yok</string>
+    <string name="hidden_repositories_empty_description">Ana ekran veya Arama'da bir depo kartına basılı tutarak keşiften gizleyin.</string>
+    <string name="hidden_repositories_unhide_action">Göster</string>
+    <string name="hidden_repositories_unhide_all">Tümünü göster</string>
+    <string name="hidden_repositories_unhidden_snackbar">%1$s yeniden görünür</string>
+    <string name="hidden_repositories_unhidden_all_snackbar">Tüm depolar yeniden görünür</string>
+    <string name="hidden_repositories_unhide_failure">Gösterilemedi. Tekrar dene.</string>
+    <string name="open_on_github">GitHub'da aç</string>
+    <string name="mark_as_viewed">Görüldü olarak işaretle</string>
+    <string name="mark_as_unviewed">Görülmedi olarak işaretle</string>
+    <string name="show_all_platforms_label">Tüm platformları göster</string>
+    <string name="platform_section_android">Android</string>
+    <string name="platform_section_windows">Windows</string>
+    <string name="platform_section_macos">macOS</string>
+    <string name="platform_section_linux">Linux</string>
+    <string name="section_chip_your_device">Cihazınız</string>
+    <string name="section_chip_for_transfer">Aktarım için</string>
+    <string name="kao_banner_title">Android'i Açık Tutun</string>
+    <string name="kao_banner_body">Google'ın geliştirici doğrulama politikası açık Android dağıtımını tehdit ediyor. GitHub App Market koalisyonu destekliyor.</string>
+    <string name="kao_banner_cta">Daha fazla bilgi</string>
+    <string name="kao_banner_dismiss_cd">Banner'ı kapat</string>
+
+    <!-- ───── Turkish backlog top-up ───── -->
+    <plurals name="custom_forges_count">
+        <item quantity="one">%1$d host</item>
+        <item quantity="other">%1$d host</item>
+    </plurals>
+    <plurals name="hidden_repositories_count">
+        <item quantity="one">%1$d repo</item>
+        <item quantity="other">%1$d repo</item>
+    </plurals>
+    <plurals name="host_tokens_count">
+        <item quantity="one">%1$d token</item>
+        <item quantity="other">%1$d token</item>
+    </plurals>
+    <plurals name="skipped_updates_count">
+        <item quantity="one">%1$d uygulama</item>
+        <item quantity="other">%1$d uygulama</item>
+    </plurals>
+    <string name="adaptive_pick_repo_subtitle">Ayrıntılarını burada görüntülemek için soldaki herhangi bir karta dokunun.</string>
+    <string name="adaptive_pick_repo_title">Bir depo seçin</string>
+    <string name="apps_section_pending_installs">Kurulmaya hazır</string>
+    <string name="apps_two_pane_advanced_settings">Gelişmiş ayarlar</string>
+    <string name="apps_two_pane_detail_section_actions">Hızlı işlemler</string>
+    <string name="apps_two_pane_detail_section_settings">Ayarlar</string>
+    <string name="apps_two_pane_detail_section_status">Durum</string>
+    <string name="apps_two_pane_empty_subtitle">Ayrıntılarını ve işlemlerini görmek için soldaki herhangi bir uygulamayı seçin.</string>
+    <string name="apps_two_pane_empty_title">Bir uygulama seçin</string>
+    <string name="apps_two_pane_installed_label">Yüklü</string>
+    <string name="apps_two_pane_latest_label">En son</string>
+    <string name="apps_two_pane_open_repo">Depoyu aç</string>
+    <string name="apps_two_pane_pick_variant">Varyant seç</string>
+    <string name="apps_updates_banner_hide">Listeyi gizle</string>
+    <string name="apps_updates_banner_show">Listeyi gör</string>
+    <string name="apps_updates_banner_subtitle">Tümünü tek seferde incele veya güncelle.</string>
+    <string name="apps_updates_banner_title_one">1 güncelleme mevcut</string>
+    <string name="apps_updates_banner_title_other">%1$d güncelleme mevcut</string>
+    <string name="back_cd">Geri</string>
+    <string name="cd_back">Geri</string>
+    <string name="cd_image">Resim</string>
+    <string name="common_see_all">Tümünü gör ›</string>
+    <string name="custom_forges_dialog_builtin_note">Codeberg, gitea.com ve git.disroot.org zaten varsayılan olarak aranır — bunları buraya eklemenize gerek yok. Bu listeyi yalnızca kendi self-hosted Forgejo veya Gitea örneğiniz için kullanın.</string>
+    <string name="details_about_screen_title">Hakkında</string>
+    <string name="details_developer_section">Geliştirici</string>
+    <string name="details_stats_section">İstatistikler</string>
+    <string name="details_view_developer_profile">Profili gör</string>
+    <string name="details_whats_new_screen_title">Neler yeni</string>
+    <string name="external_import_progress_skip">Atla ve sonra incele</string>
+    <string name="feedback_hub_subtitle">Her raporu okuyoruz.</string>
+    <string name="home_action_get">Al</string>
+    <string name="home_rank_format">#%1$d</string>
+    <string name="home_section_from_your_stars">Yıldızlılarınızdan</string>
+    <string name="home_section_hot_releases">Popüler sürümler</string>
+    <string name="home_section_most_popular">En popüler</string>
+    <string name="home_section_trending_now">Şu anda trend</string>
+    <string name="home_topbar_discover">Keşfet</string>
+    <string name="home_view_all">Tümünü gör</string>
+    <string name="home_view_more">Daha fazla gör</string>
+    <string name="host_tokens_action_add">Token ekle</string>
+    <string name="host_tokens_action_back">Geri</string>
+    <string name="host_tokens_action_cancel">İptal</string>
+    <string name="host_tokens_action_delete">Sil</string>
+    <string name="host_tokens_action_save">Kaydet</string>
+    <string name="host_tokens_compose_add_title">Token ekle</string>
+    <string name="host_tokens_compose_detected">Algılandı: %1$s</string>
+    <string name="host_tokens_compose_field_forge_address">Forge adresi</string>
+    <string name="host_tokens_compose_replace_hint">Mevcut tokeni korumak için boş bırakın. Değiştirmek için yeni bir değer girin.</string>
+    <string name="host_tokens_compose_replace_title">%1$s için tokeni değiştir</string>
+    <string name="host_tokens_compose_will_connect">%1$s adresine bağlanacak</string>
+    <string name="host_tokens_empty_subtitle">Bir personal access token eklemek için + simgesine dokunun</string>
+    <string name="host_tokens_empty_title">Kaydedilmiş token yok</string>
+    <string name="host_tokens_entry_subtitle">Her forge hostu için personal access token (GitHub, Codeberg, Forgejo)</string>
+    <string name="host_tokens_field_display_name">Görünen ad (isteğe bağlı)</string>
+    <string name="host_tokens_field_token">Personal access token</string>
+    <string name="host_tokens_oauth_coexistence">Uygulamadan GitHub'a giriş yaptınız — bu önerilen yoldur. Buraya yalnızca tarayıcı girişi çalışmıyorsa (kısıtlı ağ, tarayıcı yok) veya GitHub dışındaki forgeler için token ekleyin.</string>
+    <string name="host_tokens_picker_open_page">Token sayfasını aç</string>
+    <string name="host_tokens_picker_other">Diğer forge</string>
+    <string name="host_tokens_picker_other_subtitle">Forgejo, Gitea, self-hosted</string>
+    <string name="host_tokens_picker_paste">Token yapıştır</string>
+    <string name="host_tokens_picker_title">Şuna token ekle…</string>
+    <string name="host_tokens_row_edit_label">Etiketi düzenle</string>
+    <string name="host_tokens_row_invalid_short">Geçersiz · %1$s</string>
+    <string name="host_tokens_row_menu">Daha fazla</string>
+    <string name="host_tokens_row_open_token_page">%1$s üzerinde yönet</string>
+    <string name="host_tokens_row_replace_token">Tokeni değiştir</string>
+    <string name="host_tokens_row_valid_rate">%1$s kaldı</string>
+    <string name="host_tokens_row_valid_short">Geçerli · %1$s</string>
+    <string name="host_tokens_row_validate">Kontrol et</string>
+    <string name="host_tokens_saved">%1$s için token kaydedildi</string>
+    <string name="host_tokens_title">Kimlik doğrulama tokenleri</string>
+    <string name="host_tokens_undo_action">Geri al</string>
+    <string name="host_tokens_undo_failed">%1$s için token geri yüklenemedi</string>
+    <string name="host_tokens_undo_snackbar">%1$s için token kaldırıldı</string>
+    <string name="host_tokens_validation_failed">Doğrulama başarısız: %1$s</string>
+    <string name="host_tokens_validation_failed_fallback">bilinmeyen hata</string>
+    <string name="host_tokens_validation_host_invalid">Geçersiz host</string>
+    <string name="host_tokens_validation_host_required">Host gerekli</string>
+    <string name="host_tokens_validation_token_required">Token gerekli</string>
+    <string name="host_tokens_validation_token_short">Token çok kısa</string>
+    <string name="menubar_help_about">GitHub App Market Hakkında</string>
+    <string name="menubar_help_feedback">Geri bildirim gönder…</string>
+    <string name="menubar_help_licenses">Açık kaynak lisansları</string>
+    <string name="menubar_file_menu">Dosya</string>
+    <string name="menubar_go_menu">Git</string>
+    <string name="menubar_file_quit">Çıkış</string>
+    <string name="menubar_help_menu">Yardım</string>
+    <string name="menubar_help_privacy">Gizlilik politikası</string>
+    <string name="profile_tweaks_description">Uygulama ayarları, tema, ağ, çeviri, gelişmiş seçenekler.</string>
+    <string name="restart_banner_body">Bazı değişikliklerin uygulanması için yeniden başlatma gerekir.</string>
+    <string name="restart_banner_later">Sonra</string>
+    <string name="restart_banner_reason_language">dil</string>    <string name="restart_banner_reason_theme">tema</string>
+    <string name="restart_banner_reasons_prefix">Etkilenen: %1$s</string>
+    <string name="restart_banner_restart_now">Şimdi yeniden başlat</string>
+    <string name="search_clear_filter_cd">Filtreyi kaldır</string>
+    <string name="search_filters_apply">Tamam</string>
+    <string name="search_filters_button">Filtreler</string>
+    <string name="search_filters_reset">Tümünü sıfırla</string>
+    <string name="search_filters_section_language">Dil</string>
+    <string name="search_filters_section_platform">Platform</string>
+    <string name="search_filters_section_sort">Sırala</string>
+    <string name="search_filters_section_source">Kaynak</string>
+    <string name="search_filters_title">Sonuçları filtrele</string>
+    <string name="section_app_block">Uygulama</string>
+    <string name="section_connectivity">Bağlantı</string>
+    <string name="section_installs_and_updates">Kurulum ve güncellemeler</string>
+    <string name="section_look_and_feel">Görünüm</string>
+    <string name="section_privacy_and_data">Gizlilik ve veri</string>
+    <string name="translation_auto_subtitle">Bir depo açıldığında README ve sürüm notları otomatik çevrilir. Uygulama dilinizi hedef olarak kullanır.</string>
+    <string name="translation_auto_target_followup">Uygulama dilini izle (%1$s)</string>
+    <string name="translation_auto_target_label">Şuna çevir</string>
+    <string name="translation_auto_title">Depoları otomatik çevir</string>
+    <string name="translation_card_cancel">İptal</string>
+    <string name="translation_card_change_language">Dili değiştir</string>
+    <string name="translation_card_detected_source">Algılanan kaynak: %1$s</string>
+    <string name="translation_card_retry">Tekrar dene</string>
+    <string name="translation_card_show_original">Orijinali göster</string>
+    <string name="translation_card_show_translation">Çeviriyi göster</string>
+    <string name="translation_card_subtitle_idle">Bu sayfayı başka bir dilde göster.</string>
+    <string name="translation_card_subtitle_original">Orijinal gösteriliyor</string>
+    <string name="translation_card_subtitle_translated">%1$s diline çevrildi</string>
+    <string name="translation_card_subtitle_translating">Çevriliyor…</string>
+    <string name="translation_card_target_label">Hedef dil</string>
+    <string name="translation_card_title">Çevir</string>
+    <string name="translation_card_translate_to">%1$s diline çevir</string>
+    <string name="translation_deepl_auth_key">Yetkilendirme anahtarı</string>
+    <string name="translation_deepl_get_free_key">Ücretsiz DeepL anahtarı alın →</string>
+    <string name="translation_deepl_help">deepl.com/pro-api adresinden kaydolun. Ücretsiz anahtarlar :fx ile biter ve otomatik olarak ücretsiz uç noktayı kullanır. Pro katmanı metninizi gizli tutar; Ücretsiz katman gönderilen metni model geliştirmek için kullanabilir.</string>
+    <string name="translation_deepl_save">Anahtarı kaydet</string>
+    <string name="translation_deepl_saved">DeepL anahtarı kaydedildi</string>
+    <string name="translation_libre_api_key">API anahtarı (isteğe bağlı)</string>
+    <string name="translation_libre_base_url">Sunucu URL'si</string>
+    <string name="translation_libre_help">Public Disroot aynası aracılığıyla kutudan çıkar çıkmaz çalışır — kullanmak için alanları boş bırakın. Daha fazla gizlilik için kendi self-hosted URL'nizi yapıştırın. API anahtarı yalnızca sunucu istiyorsa gereklidir.</string>
+    <string name="translation_libre_save">Ayarları kaydet</string>
+    <string name="translation_libre_saved">LibreTranslate ayarları kaydedildi</string>
+    <string name="translation_microsoft_get_free_key">Ücretsiz Azure anahtarı alın →</string>
+    <string name="translation_microsoft_help">Azure Translator gizliliğe saygılıdır (varsayılan olarak No-Trace — metniniz asla saklanmaz veya eğitim için kullanılmaz). Ücretsiz katman aylık 2M karakteri kapsar. Bölge yalnızca global olmayan kaynaklar için gereklidir.</string>
+    <string name="translation_microsoft_key">Abonelik anahtarı</string>
+    <string name="translation_microsoft_region">Bölge (ör. westeurope, Global için boş bırakın)</string>
+    <string name="translation_microsoft_save">Kimlik bilgilerini kaydet</string>
+    <string name="translation_microsoft_saved">Microsoft Translator kimlik bilgileri kaydedildi</string>
+    <string name="translation_provider_deepl">DeepL</string>
+    <string name="translation_provider_libre">LibreTranslate</string>
+    <string name="translation_provider_microsoft">Microsoft</string>
+    <string name="tweaks_app_info_app_name">GitHub App Market</string>
+    <string name="tweaks_app_info_licenses_subtitle">Uygulamada kullanılan kütüphaneler.</string>
+    <string name="tweaks_app_info_licenses_title">Açık kaynak lisansları</string>
+    <string name="tweaks_app_info_privacy_policy_subtitle">github-store.org üzerinde gör.</string>
+    <string name="tweaks_app_info_privacy_policy_title">Gizlilik politikası</string>
+    <string name="tweaks_app_info_source_code_subtitle">Bu uygulamanın kaynağını gör.</string>
+    <string name="tweaks_app_info_source_code_title">GitHub'da kaynak kodu</string>
+    <string name="tweaks_app_info_tagline">GitHub, Codeberg ve Forgejo sürümleri için çapraz platform uygulama mağazası.</string>
+    <string name="tweaks_app_info_whats_new_subtitle">Geçmiş sürüm notları.</string>
+    <string name="tweaks_app_info_whats_new_title">Neler yeni</string>
+    <string name="tweaks_connection_applies_to_all">Aşağıdan geçersiz kılınmadıkça tüm trafiğe uygulanır.</string>
+    <string name="tweaks_connection_custom">Özel</string>
+    <string name="tweaks_connection_intro_body">Aşağıdan bir bağlantı modu seçin. Çoğu kullanıcı bunu Proxy yok olarak bırakır.</string>
+    <string name="tweaks_connection_intro_title">Uygulama internete nasıl ulaşır</string>
+    <string name="tweaks_connection_main_section">Ana bağlantı</string>
+    <string name="tweaks_connection_mode_http">HTTP/HTTPS</string>
+    <string name="tweaks_connection_mode_http_caption">Çoğu kurumsal proxy.</string>
+    <string name="tweaks_connection_mode_no_proxy">Proxy yok</string>
+    <string name="tweaks_connection_mode_socks">SOCKS5</string>
+    <string name="tweaks_connection_mode_socks_caption">Tor, SSH tünelleri.</string>
+    <string name="tweaks_connection_mode_system">Sistem</string>
+    <string name="tweaks_connection_overrides_body">Her kapsam varsayılan olarak ana bağlantıyı kullanır. Kendi ayarlarını korumak için 'Özel'i seçin.</string>
+    <string name="tweaks_connection_overrides_section">Kapsama göre geçersiz kılmalar</string>
+    <string name="tweaks_connection_paste_url">Tam URL yapıştır</string>
+    <string name="tweaks_connection_paste_url_body">Tam bir proxy URL'si yapıştırın, formu sizin için dolduralım.</string>
+    <string name="tweaks_connection_paste_url_cta">Bu URL'yi kullan</string>
+    <string name="tweaks_connection_paste_url_error">Bu URL okunamadı.</string>
+    <string name="tweaks_connection_paste_url_placeholder">scheme://user:pass@host:port</string>
+    <string name="tweaks_connection_paste_url_title">Proxy URL'sini yapıştır</string>
+    <string name="tweaks_connection_scope_discovery_body">GitHub API, arama, repo ayrıntıları.</string>
+    <string name="tweaks_connection_scope_discovery_title">Arama ve meta veri</string>
+    <string name="tweaks_connection_scope_download_body">APK ve dosya indirmeleri.</string>
+    <string name="tweaks_connection_scope_download_title">İndirmeler</string>
+    <string name="tweaks_connection_scope_translation_body">DeepL, Microsoft, LibreTranslate çağrıları.</string>
+    <string name="tweaks_connection_scope_translation_title">Çeviri</string>
+    <string name="tweaks_connection_test">Test</string>
+    <string name="tweaks_connection_use_main">Ana bağlantıyı kullan</string>
+    <string name="tweaks_entry_access_tokens">Erişim tokenleri</string>
+    <string name="tweaks_entry_app_info">Uygulama bilgisi</string>
+    <string name="tweaks_entry_appearance">Görünüm</string>
+    <string name="tweaks_entry_connection">Bağlantı</string>
+    <string name="tweaks_entry_feedback">Geri bildirim gönder</string>
+    <string name="tweaks_entry_install_method">Kurulum yöntemi</string>
+    <string name="tweaks_entry_language">Dil</string>
+    <string name="tweaks_entry_privacy">Gizlilik</string>
+    <string name="tweaks_entry_sources">Kaynaklar</string>
+    <string name="tweaks_entry_storage">Depolama</string>
+    <string name="tweaks_entry_subtitle_tap">Yönetmek için dokunun</string>
+    <string name="tweaks_entry_translation">Çeviri</string>
+    <string name="tweaks_entry_updates">Güncelleme davranışı</string>
+    <string name="tweaks_install_method_desktop_empty_body">Sessiz yükleyiciler ve yükleyici atfı yalnızca Android özellikleridir. Masaüstü kurulumlar işletim sistemi paket yöneticisi üzerinden yapılır.</string>
+    <string name="tweaks_install_method_desktop_empty_title">Kurulum yöntemi yalnızca Android</string>
+    <string name="tweaks_language_intro_body">Dili değiştirdiğinizde uygulama yeniden başlar.</string>
+    <string name="tweaks_licenses_intro_body">Proje sayfasını açmak için herhangi bir girişe dokunun.</string>
+    <string name="tweaks_licenses_intro_title">GitHub App Market bu kütüphaneler üzerinde yükselir.</string>
+    <string name="tweaks_licenses_title">Açık kaynak lisansları</string>
+    <string name="tweaks_privacy_browsing_history_section">Tarama geçmişi</string>
+    <string name="tweaks_privacy_clear_viewed_body">Hangi repoları açtığınızı unut.</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_body">Bu işlem hiçbir şeyin yıldızını veya favorisini kaldırmaz.</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_confirm">Temizle</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_title">Görüntüleme geçmişi temizlensin mi?</string>
+    <string name="tweaks_privacy_clear_viewed_title">Görüntüleme geçmişini temizle</string>
+    <string name="tweaks_privacy_clipboard_body">github.com veya codeberg.org bağlantısı kopyaladığınızda, açmanız için size soracağız.</string>
+    <string name="tweaks_privacy_clipboard_title">Panodaki repo bağlantılarını algıla</string>
+    <string name="tweaks_privacy_hidden_repos_body">Akışlardan ve aramadan sessize aldığınız repolar.</string>
+    <string name="tweaks_privacy_hidden_repos_title">Gizli depolar</string>
+    <string name="tweaks_privacy_hide_seen_body">Akışlarda ve aramada görülen repoları atla.</string>
+    <string name="tweaks_privacy_hide_seen_title">Daha önce görüntülediğim repoları gizle</string>    <string name="tweaks_privacy_telemetry_collect_no_identifiers">Tanımlayıcı yok.</string>    <string name="tweaks_privacy_telemetry_collect_os">İşletim sistemi ve platform.</string>    <string name="tweaks_search_empty">'%1$s' ile eşleşen ayar yok.</string>
+    <string name="tweaks_search_placeholder">Ayarları ara</string>
+    <string name="tweaks_sources_add_a_host">Bir Forgejo veya Gitea hostu ekle</string>
+    <string name="tweaks_sources_added_hosts_section">Eklenen hostlar</string>
+    <string name="tweaks_sources_github_mirror_title">GitHub aynası</string>
+    <string name="tweaks_sources_intro_body">Uygulama varsayılan olarak GitHub'da arama yapar. Bölgesel bir aynaya yönlendirin veya özel Forgejo / Gitea hostları ekleyin.</string>
+    <string name="tweaks_sources_intro_title">Uygulama repoları nerede arar</string>
+    <string name="tweaks_sources_mirror_default">Varsayılan (github.com)</string>
+    <string name="tweaks_storage_downloaded_apks_body">Güncellemelerin hızlı devam etmesi için yükleyicileri saklarız.</string>
+    <string name="tweaks_storage_downloaded_apks_clear">Temizle</string>
+    <string name="tweaks_storage_downloaded_apks_title">İndirilen APK'lar</string>
+    <string name="tweaks_storage_empty_size">0 B</string>
+    <string name="tweaks_storage_using_label">Kullanılıyor: %1$s</string>
+    <string name="tweaks_stub_coming_soon_body">Bu ekran sürmekte olan yeniden tasarımın bir parçası. Ayarlar hâlâ çalışıyor — sadece eski düzenden buraya taşınıyor.</string>
+    <string name="tweaks_stub_coming_soon_title">Yakında bir sonraki sürümde</string>
+    <string name="tweaks_app_info_community_section">Bağlan</string>
+    <string name="tweaks_app_info_community_title">Topluluğa katıl</string>
+    <string name="tweaks_app_info_community_subtitle">6 yer</string>
+    <string name="tweaks_app_info_community_business_title">Ticari sorular</string>
+    <string name="tweaks_app_info_community_business_subtitle">Ortaklıklar, basın, entegrasyonlar.</string>
+    <string name="tweaks_app_info_community_business_cta">İletişim</string>
+    <string name="profile_section_library">Kitaplık</string>
+    <string name="profile_section_updates">Güncellemeler</string>
+    <string name="profile_section_account">Hesap</string>
+    <string name="appearance_section_mode">Mod</string>
+    <string name="appearance_section_display">Görüntü</string>
+    <string name="theme_dynamic">Dinamik</string>
+    <string name="auth_more_signin_options">Diğer giriş seçenekleri</string>
+    <string name="auth_hide_signin_options">Seçenekleri gizle</string>
+    <string name="tweaks_sources_platforms_title">Keşif platformları</string>
+    <string name="tweaks_sources_platforms_body">Ana akışı platforma göre filtrele. Hepsini kapalı bırakırsan her şey gösterilir.</string>
+    <string name="profile_entry_about_title">Hakkında</string>
+    <string name="profile_entry_about_subtitle">Sürüm, topluluk, yasal</string>
+    <string name="filter_with_installable">Burada kurulabilir</string>
+    <string name="no_repos_with_installable">Bu platform için kurulabilir varlığı olan depo yok</string>
+    <string name="interval_every_hours">%1$d saatte bir</string>
+    <string name="interval_daily">Günlük</string>
+    <string name="interval_every_days">%1$d günde bir</string>
+    <string name="interval_weekly">Haftalık</string>
+    <string name="interval_biweekly">2 haftada bir</string>
+    <string name="interval_monthly">30 günde bir</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_palette_title">Paletini seç</string>
+    <string name="onboarding_palette_subtitle">Dört palet × Aydınlık, Karanlık, AMOLED, Sistem.</string>
+    <string name="onboarding_signin_subtitle">Yıldızlar, profil ve daha geniş hız sınırı. İsteğe bağlı — anonim gezinmek için atlayın.</string>
+    <string name="onboarding_signin_button">Giriş yap</string>
+    <string name="onboarding_permissions_title">İki hızlı izin</string>
+    <string name="onboarding_permissions_subtitle">İkisi de isteğe bağlı. Bunları daha sonra İnce Ayarlar'dan değiştirebilirsiniz.</string>
+    <string name="onboarding_permission_notifications">Bildirimler</string>
+    <string name="onboarding_permission_notifications_desc">Güncelleme uyarıları ve kurulum ilerlemesi</string>
+    <string name="onboarding_permission_install">Bilinmeyen uygulamaları yükle</string>
+    <string name="onboarding_permission_install_desc">Play dışındaki APK'ları yüklemek için gerekli</string>
+    <string name="onboarding_permission_granted">Verildi</string>
+    <string name="onboarding_permission_allow">İzin ver</string>
+    <string name="onboarding_skip">Atla</string>
+    <string name="onboarding_get_started">Başla</string>
+    <string name="onboarding_next">İleri</string>
+
+    <!-- Developer profile -->
+    <string name="dev_profile_contribution_activity">Katkı etkinliği</string>
+    <string name="dev_profile_contributions_this_year">Bu yıl %1$d katkı</string>
+    <string name="dev_profile_contributions_load_failed">Katkılar yüklenemedi.</string>
+    <string name="dev_profile_contributions_less">Az</string>
+    <string name="dev_profile_contributions_more">Çok</string>
+    <string name="dev_profile_org_badge">Kuruluş</string>
+
+    <!-- Common -->
+    <string name="loading">Yükleniyor…</string>
+    <string name="failed_to_load">Yükleme başarısız</string>
+    <string name="failed_to_load_details">Ayrıntılar yüklenemedi</string>
+
+    <!-- Tweaks: licenses / app info / custom forges -->
+    <string name="tweaks_licenses_load_failed">Lisanslar yüklenemedi.</string>
+    <string name="tweaks_app_info_website">Web sitesi</string>
+    <string name="tweaks_clear_downloads_failed">İndirmeler temizlenemedi</string>
+    <string name="tweaks_custom_forge_invalid_hostname">Geçerli bir host adı girin (ör. forgejo.example.com).</string>
+    <string name="tweaks_custom_forge_save_failed">Host kaydedilemedi. Tekrar deneyin.</string>
+    <string name="tweaks_custom_forge_remove_failed">Host kaldırılamadı. Tekrar deneyin.</string>
+
+    <!-- Repo pages: issues -->
+    <string name="repo_pages_issues_title">Sorunlar</string>
+    <string name="repo_pages_issues_filter_open">Açık</string>
+    <string name="repo_pages_issues_filter_closed">Kapalı</string>
+    <string name="repo_pages_issues_empty_open">Açık sorun yok.</string>
+    <string name="repo_pages_issues_empty_closed">Kapalı sorun yok.</string>
+    <string name="repo_pages_issue_comments_section">Yorumlar</string>
+    <string name="repo_pages_issue_no_body">Açıklama sağlanmadı.</string>
+    <string name="repo_pages_issue_opened_by">%1$s tarafından açıldı</string>
+
+    <!-- Repo pages: security -->
+    <string name="repo_pages_security_title">Güvenlik</string>
+    <string name="repo_pages_security_advisories_header">Güvenlik danışma bültenleri</string>
+    <string name="repo_pages_security_no_advisories">Yayımlanmış danışma bülteni yok.</string>
+    <string name="repo_pages_security_policy_header">Güvenlik politikası</string>
+    <string name="repo_pages_security_no_policy">Yayımlanmış güvenlik politikası yok.</string>
+    <string name="repo_pages_severity_critical">Kritik</string>
+    <string name="repo_pages_severity_high">Yüksek</string>
+    <string name="repo_pages_severity_medium">Orta</string>
+    <string name="repo_pages_severity_low">Düşük</string>
+    <string name="repo_pages_severity_unknown">Bilinmiyor</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_issues_button">Sorunlar</string>
+    <string name="repo_pages_details_security_button">Güvenlik</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_pulls_button">Pull request&apos;ler</string>
+
+    <!-- Repo interactions: star -->
+    <string name="star_added">Yıldızlandı</string>
+    <string name="star_removed">Yıldız kaldırıldı</string>
+    <string name="star_sign_in_required">Repoları yıldızlamak için giriş yapın.</string>
+
+    <!-- Repo interactions: comments -->
+    <string name="repo_pages_comment_hint">Yorum ekle…</string>
+    <string name="repo_pages_comment_send">Gönder</string>
+    <string name="repo_pages_comment_sign_in">Yorum yapmak için giriş yapın.</string>
+    <string name="repo_pages_comment_failed">Yorum gönderilemedi.</string>
+    <string name="repo_pages_comment_posted">Yorum gönderildi</string>
+
+    <!-- Repo interactions: new issue -->
+    <string name="repo_pages_new_issue">Yeni sorun</string>
+    <string name="repo_pages_new_issue_title_hint">Başlık</string>
+    <string name="repo_pages_new_issue_body_hint">Sorunu açıklayın…</string>
+    <string name="repo_pages_new_issue_submit">Oluştur</string>
+    <string name="repo_pages_new_issue_sign_in">Sorun açmak için giriş yapın.</string>
+    <string name="repo_pages_new_issue_failed">Sorun oluşturulamadı.</string>
+    <string name="repo_pages_new_issue_created">Sorun oluşturuldu</string>
+
+    <!-- Repo interactions: reactions -->
+    <string name="repo_pages_react_sign_in">Tepki vermek için giriş yapın.</string>
+    <string name="repo_pages_react_failed">Tepki eklenemedi.</string>
+    <string name="cd_thumbs_up">Beğen</string>
+
+    <!-- Repo pages: pull requests -->
+    <string name="repo_pages_pulls_title">Pull request&apos;ler</string>
+    <string name="repo_pages_pulls_empty_open">Açık pull request yok.</string>
+    <string name="repo_pages_pulls_empty_closed">Kapalı pull request yok.</string>
+    <string name="repo_pages_pr_state_merged">Birleştirildi</string>
+    <string name="repo_pages_pr_draft">Taslak</string>
+
+    <string name="feed_end_cap">続く · TO BE CONTINUED</string>
+    <string name="feed_masthead_subtitle">発見 · DISCOVER APPS</string>
+    <string name="home_masthead_subtitle">ランキング · CHARTS &amp; PICKS</string>
+    <string name="feed_platform_picker_title_jp">対応</string>
+    <string name="home_chart_popular_jp">人気</string>
+    <string name="home_chart_releases_jp">新着</string>
+    <string name="home_chart_trending_jp">急上昇</string>
+    <string name="sidebar_browse_jp">航行</string>
+    <string name="sidebar_categories_jp">部門</string>
+    <string name="sidebar_nav_charts_jp">ランキング</string>
+    <string name="sidebar_nav_explore_jp">発見</string>
+    <string name="sidebar_nav_search_jp">検索</string>
+    <string name="sidebar_nav_you_jp">あなた</string>
+    <string name="sidebar_platform_jp">対応</string>
+    <string name="feed_masthead_title">GitHub App Market</string>
+    <string name="feed_masthead_title_accent">Store</string>
+    <string name="platform_section_ios">iOS</string>
+    <string name="paper_nord">Nord</string>
+    <string name="appearance_section_paper">Kağıt</string>
+    <string name="bottom_nav_top_charts_title">En Popüler</string>
+    <string name="cd_more_actions">Diğer işlemler</string>
+    <string name="feed_category_ai">Yapay Zeka</string>
+    <string name="feed_category_media">Medya</string>
+    <string name="feed_category_networking">Ağ</string>
+    <string name="feed_category_privacy">Gizlilik</string>
+    <string name="feed_category_reading">Okuma</string>
+    <string name="feed_category_social">Sosyal</string>
+    <string name="feed_category_tools">Araçlar</string>
+    <string name="feed_cd_profile">Profil</string>
+    <string name="feed_cd_search">Ara</string>
+    <string name="feed_empty_reset">Filtreleri sıfırla</string>
+    <string name="feed_empty_subtitle">Henüz %2$s için %1$s uygulama yok.</string>
+    <string name="feed_empty_title">Burada henüz bir şey yok</string>
+    <string name="feed_failed_to_load">Akış yüklenemedi</string>
+    <string name="feed_browsing">Göz at</string>
+    <string name="feed_loading">En yenisi yükleniyor…</string>
+    <string name="feed_offline">Çevrimdışı — kayıtlı bir akış gösteriliyor</string>
+    <string name="feed_platform_all">Tüm Platformlar</string>
+    <string name="feed_platform_picker_title">İşletim sisteminizi seçin</string>
+    <string name="home_chart_popular">Popüler</string>
+    <string name="home_chart_releases">Sürümler</string>
+    <string name="home_chart_trending">Trend</string>
+    <string name="home_masthead_title">En Popüler</string>
+    <string name="home_platform_filter">Platformları filtrele</string>
+    <string name="paper_day">Gündüz</string>
+    <string name="paper_night">Gece</string>
+    <string name="repo_card_details">Ayrıntılar</string>
+    <string name="sidebar_browse">Gözat</string>
+    <string name="sidebar_categories">Kategoriler</string>
+    <string name="sidebar_platform">Platform</string>
+    <string name="tweaks_privacy_usage_data_section">Kullanım verileri</string>
+</resources>

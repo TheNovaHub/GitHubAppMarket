@@ -1,0 +1,9 @@
+GitHub App Market is a simple marketplace for Android apps and projects that publish releases on GitHub.
+
+* Search apps and projects
+* Browse what is popular, trending and recently updated
+* Save favorites
+* Download and install with one tap
+* Keep downloaded apps up to date
+
+Based on the open-source Komi Store project (Apache License 2.0).

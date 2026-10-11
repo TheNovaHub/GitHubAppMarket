@@ -1,0 +1,32 @@
+{
+  "versionCode": 17,
+  "versionName": "1.8.2",
+  "releaseDate": "2026-05-13",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Ignorar actualizaciones por app — silencia la insignia de actualización en cualquier app que no quieras actualizar.",
+        "Saltar una actualización concreta — descarta un aviso si es un falso positivo; recibirás un nuevo aviso cuando salga otra versión.",
+        "Instalación silenciosa por root — usuarios de Magisk, KernelSU y APatch pueden instalar sin Shizuku o Dhizuku."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Las apps desinstaladas desde Ajustes del sistema ahora desaparecen al instante de la lista de seguimiento.",
+        "Mejor detección de versiones — las releases que comparten número pero llevan metadatos de build distintos ya no se marcan por error como 'ya instaladas'.",
+        "Actualizar varias apps seguidas ahora funciona bien — las instalaciones se serializan para que cada diálogo del sistema muestre el APK correcto. Las versiones en la pantalla de apps también se mantienen al día tras cada instalación.",
+        "La actualización automática elige el APK correcto cuando una release incluye tanto la variante normal como la de F-Droid — adiós a instalar por accidente una app hermana con otro ID de paquete."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Actualizaciones en segundo plano más fiables en Oppo, OnePlus, Realme, Xiaomi, vivo y Honor — Ajustes ofrece ahora un acceso directo a la exclusión de optimización de batería, y las comprobaciones de actualización se ejecutan con prioridad acelerada.",
+        "Instalación silenciosa Dhizuku en Android 14+ — la app reintenta automáticamente sin atribución de instalador cuando el sistema exigiría una confirmación."
+      ]
+    }
+  ]
+}

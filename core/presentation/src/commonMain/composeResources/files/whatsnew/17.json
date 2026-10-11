@@ -1,0 +1,39 @@
+{
+  "versionCode": 17,
+  "versionName": "1.8.2",
+  "releaseDate": "2026-05-13",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Ignore updates per app — silence the update badge for any app you don't want to update.",
+        "Skip a specific update — dismiss a single release if it's a false-positive prompt; you'll be re-notified when a newer one lands.",
+        "Silent install via root — Magisk, KernelSU, and APatch users can now install without Shizuku or Dhizuku.",
+        "Search in Starred and Favourites — quickly filter long lists by repo name, owner, description, or language.",
+        "Self-owned ✓ badge — when you're signed in, repos you own get a verified checkmark on Home and Search cards.",
+        "Hide repository — long-press any repo card on Home or Search to hide it from discovery. The repo stays in your library if you have it installed.",
+        "Multi-OS release picker — toggle 'Show all platforms' on the asset picker to grab Android APKs from desktop or Linux .debs from your phone. Other-platform downloads open in your browser to save for transfer."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Uninstalled apps now disappear from the tracked list right away, even when removed from system Settings.",
+        "Better version detection — releases that share a numeric version but ship distinct build artifacts are no longer falsely flagged as 'already installed'.",
+        "Updating multiple apps in a row now works reliably — installs serialize so each one shows the correct APK in the system dialog. Apps screen versions also stay in sync after every install.",
+        "Auto-update picks the right APK when a release ships both a regular and an F-Droid variant — no more accidentally installing a sibling app with a different package id.",
+        "Search no longer shows a result count over an empty list — when 'Hide seen' filters out every hit, the screen now explains why and offers a one-tap reset.",
+        "Sibling-app detection — auto-update no longer mistakes a different app shipped from the same repo (e.g. APP A → APP B) for a higher version of the tracked one."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "More reliable background updates on Oppo, OnePlus, Realme, Xiaomi, vivo, and Honor — Tweaks now offers a one-tap battery-optimization shortcut and update workers run with expedited priority.",
+        "Dhizuku silent install on Android 14+ — the app now retries automatically without installer attribution when the system would otherwise demand a confirmation tap.",
+        "First-time coachmark on the per-app release-channel chip — explains how to switch between stable and beta builds, surfaces the toggle users were missing."
+      ]
+    }
+  ]
+}

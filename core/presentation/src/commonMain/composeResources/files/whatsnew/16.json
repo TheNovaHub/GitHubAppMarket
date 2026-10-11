@@ -1,0 +1,30 @@
+{
+  "versionCode": 16,
+  "versionName": "1.8.1",
+  "releaseDate": "2026-05-03",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "APK Inspect — peek inside any release before installing.",
+        "Dhizuku silent install — bypass OEM install prompts on Xiaomi, OPPO, vivo, Huawei devices via Device Owner.",
+        "Obtainium import/export — bring your library over from Obtainium with one tap, or export to Obtainium any time.",
+        "Add from starred — surface APK-shipping repos from your GitHub stars."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Open-issues count and license now shown to everyone, including signed-out users — sourced from the backend, no GitHub quota cost.",
+        "Background update check can be turned off entirely — saves battery if you'd rather check for updates manually."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Liquid Glass effect removed — icons in dark mode could become invisible against transparent backgrounds. Cleaner, higher-contrast UI everywhere."
+      ]
+    }
+  ]
+}

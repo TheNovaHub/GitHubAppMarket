@@ -1,0 +1,32 @@
+{
+  "versionCode": 17,
+  "versionName": "1.8.2",
+  "releaseDate": "2026-05-13",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Ignorowanie aktualizacji dla każdej aplikacji — wycisz powiadomienie o aktualizacji dla dowolnej aplikacji, której nie chcesz aktualizować.",
+        "Pomiń konkretną aktualizację — odrzuć fałszywy alarm aktualizacji; gdy pojawi się nowsza wersja, zostaniesz powiadomiony ponownie.",
+        "Cicha instalacja przez root — użytkownicy Magisk, KernelSU i APatch mogą instalować bez Shizuku lub Dhizuku."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Aplikacje odinstalowane przez ustawienia systemu znikają teraz natychmiast z listy śledzonych.",
+        "Lepsze wykrywanie wersji — wydania o tym samym numerze, ale z różnymi metadanymi build, nie są już błędnie oznaczane jako 'już zainstalowane'.",
+        "Aktualizowanie wielu aplikacji po kolei działa teraz niezawodnie — instalacje są szeregowane, więc okno dialogowe systemu nie pokazuje już poprzedniego APK. Wersje na ekranie aplikacji również są aktualizowane po każdej instalacji.",
+        "Automatyczna aktualizacja wybiera właściwy APK, gdy wydanie zawiera zarówno wariant zwykły, jak i F-Droid — koniec z przypadkowym instalowaniem siostrzanej aplikacji z innym ID pakietu."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Bardziej niezawodne aktualizacje w tle na Oppo, OnePlus, Realme, Xiaomi, vivo i Honor — Ustawienia oferują teraz skrót do wyłączenia optymalizacji baterii w jednym kliknięciu, a zadania aktualizacji działają z przyspieszonym priorytetem.",
+        "Cicha instalacja Dhizuku na Androidzie 14+ — aplikacja automatycznie ponawia bez atrybucji instalatora, gdy system wymagałby potwierdzenia."
+      ]
+    }
+  ]
+}

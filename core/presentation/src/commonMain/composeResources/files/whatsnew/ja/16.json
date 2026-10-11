@@ -1,0 +1,30 @@
+{
+  "versionCode": 16,
+  "versionName": "1.8.1",
+  "releaseDate": "2026-05-03",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "APK Inspect: インストール前にリリースの中身を確認できます。",
+        "Dhizuku によるサイレントインストール — Device Owner 経由で Xiaomi、OPPO、vivo、Huawei 端末の OEM インストール確認をスキップ。",
+        "Obtainium インポート/エクスポート — Obtainium のライブラリをワンタップで取り込み、いつでも Obtainium 形式で書き出し。",
+        "スター付きから追加 — GitHub のスター付きリポから APK を配布しているものを表示します。"
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "オープン Issue 数とライセンスを未ログインユーザーを含む全員に表示。バックエンドから取得するため GitHub のクォータを消費しません。",
+        "バックグラウンドの更新確認を完全にオフにできます — 手動でチェックしたい場合はバッテリーを節約できます。"
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "リキッドグラス効果を削除しました — ダークモードでは透明な背景にアイコンが見えなくなることがありました。全体的にすっきりした、コントラストの高い UI になりました。"
+      ]
+    }
+  ]
+}

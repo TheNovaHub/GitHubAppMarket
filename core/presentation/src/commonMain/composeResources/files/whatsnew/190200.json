@@ -1,0 +1,31 @@
+{
+  "versionCode": 190200,
+  "versionName": "1.9.2-custom",
+  "releaseDate": "2026-10-08",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "New Clay look: soft 3D cards, Morning and Night modes, blue, red and green accents.",
+        "GitHub App Market: discover Android apps and projects from GitHub.",
+        "Simple navigation: Home, Explore, Downloads, Favorites and Settings.",
+        "New logo, launcher icon and splash screen."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Friendly messages when something goes wrong, with optional technical details.",
+        "Simpler Settings: power-user options are under Advanced.",
+        "Clear empty states for search, downloads and favorites."
+      ]
+    },
+    {
+      "type": "HEADS_UP",
+      "bullets": [
+        "Based on the open-source Komi Store project (Apache License 2.0)."
+      ]
+    }
+  ]
+}

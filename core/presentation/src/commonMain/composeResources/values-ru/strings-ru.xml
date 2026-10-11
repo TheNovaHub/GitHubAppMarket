@@ -1,0 +1,1459 @@
+<resources>
+    <string name="app_name">GitHub App Market</string>
+
+    <string name="navigate_back">Назад</string>
+    <string name="check_for_updates">Проверить обновления</string>
+
+    <string name="cannot_launch">Не удалось запустить %1$s</string>
+    <string name="failed_to_open">Не удалось открыть %1$s</string>
+    <string name="failed_to_update">Не удалось обновить %1$s: %2$s</string>
+    <string name="update_all_failed">Ошибка обновления всех: %1$s</string>
+    <string name="all_apps_updated_successfully">Все приложения успешно обновлены</string>
+    <string name="no_updates_available">Обновлений нет</string>
+
+    <string name="search_your_apps">Поиск приложений</string>
+    <string name="no_apps_found">Приложения не найдены</string>
+
+    <string name="update_all">Обновить все</string>
+    <string name="update">Обновить</string>
+    <string name="open">Открыть</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="checking">Проверка…</string>
+    <string name="updated_successfully">Успешно обновлено</string>
+    <string name="error_with_message">Ошибка: %1$s</string>
+
+    <string name="updating_x_of_y">Обновление %1$d из %2$d</string>
+    <string name="currently_updating">Сейчас: %1$s</string>
+
+    <string name="percent">%1$d%%</string>
+
+    <string name="waiting_for_authorization">Ожидание авторизации…</string>
+    <string name="signed_in">Вход выполнен!</string>
+    <string name="redirecting_message">Теперь ты можешь использовать приложение. Перенаправление…</string>
+    <string name="try_again">Попробовать снова</string>
+
+    <string name="auth_error_with_message">Ошибка: %1$s</string>
+
+    <string name="enter_code_on_github">Введи этот код на GitHub:</string>
+    <string name="copy_code">Скопировать код</string>
+    <string name="open_github">Открыть GitHub</string>
+
+    <string name="unlock_full_experience">Открой полный\nдоступ</string>
+
+    <string name="more_requests">Больше запросов</string>
+    <string name="more_requests_description">
+        Войди, чтобы получить более высокий лимит API и избежать прерываний.
+    </string>
+
+    <string name="sign_in_with_github">Войти через GitHub</string>
+
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+
+    <string name="search_repositories_hint">Поиск по репозиторию, описанию…</string>
+
+    <string name="filter_by_language">Фильтр по языку</string>
+
+    <string name="results_found">Найдено результатов: %1$d</string>
+    <string name="search_results_hidden_by_seen_filter">Все результаты скрыты фильтром 'Скрыть просмотренные'</string>
+    <string name="show_all_results">Отключить фильтр 'Скрыть просмотренные'</string>
+    <string name="searching_for_unseen_repos">Поиск непросмотренных репозиториев…</string>
+
+    <string name="sort_by">Сортировать по</string>
+    <string name="close">Закрыть</string>
+
+    <string name="sort_most_stars">Больше звёзд</string>
+    <string name="sort_most_forks">Больше форков</string>
+    <string name="sort_best_match">Лучшее совпадение</string>
+    <string name="sort_recently_released">Недавно выпущенные</string>
+
+    <string name="sort_order_descending">По убыванию</string>
+    <string name="sort_order_ascending">По возрастанию</string>
+    <string name="sort_label">Сортировать</string>
+
+    <string name="language_all">Все языки</string>
+    <string name="language_kotlin">Kotlin</string>
+    <string name="language_java">Java</string>
+    <string name="language_javascript">JavaScript</string>
+    <string name="language_typescript">TypeScript</string>
+    <string name="language_python">Python</string>
+    <string name="language_swift">Swift</string>
+    <string name="language_rust">Rust</string>
+    <string name="language_go">Go</string>
+    <string name="language_csharp">C#</string>
+    <string name="language_cpp">C++</string>
+    <string name="language_c">C</string>
+    <string name="language_dart">Dart</string>
+    <string name="language_ruby">Ruby</string>
+    <string name="language_php">PHP</string>
+
+    <string name="search_failed">Поиск не удался</string>
+    <string name="no_repositories_found">Репозитории не найдены</string>
+
+    <string name="profile_title">Профиль</string>
+
+    <string name="language_follow_system">Как в системе</string>
+    <string name="language_restart_required">Перезапусти, чтобы применить новый язык.</string>
+    <string name="language_restart_action">Перезапустить</string>
+
+    <string name="theme_color">Цвет темы</string>
+    <string name="amoled_black_theme">AMOLED чёрная тема</string>
+    <string name="amoled_black_description">Чёрный фон для тёмного режима</string>
+
+
+    <string name="logout">Выйти</string>
+
+    <string name="logout_success">Ты успешно вышел</string>
+
+    <string name="warning">Внимание!</string>
+    <string name="logout_confirmation">Точно хочешь выйти?</string>
+
+    <string name="theme_forest">Лесная</string>
+    <string name="theme_nord">Nord</string>
+    <string name="theme_cream">Cream</string>
+    <string name="theme_plum">Plum</string>
+
+    <string name="open_repository">Открыть репозиторий</string>
+    <string name="cancel_download">Отменить загрузку</string>
+
+    <string name="retry">Повторить</string>
+    <string name="no_description">Описание отсутствует.</string>
+
+    <string name="about_this_app">Об этом приложении</string>
+    <string name="install_logs">Журнал установки</string>
+    <string name="whats_new">Что нового</string>
+
+    <string name="installed">Установлено</string>
+    <string name="update_available">Доступно обновление</string>
+    <string name="not_available">Недоступно</string>
+    <string name="install_latest">Установить последнюю</string>
+    <string name="report_issue">Сообщить о проблеме</string>
+
+    <string name="downloading">Загрузка</string>
+    <string name="updating">Обновление</string>
+    <string name="verifying">Проверка</string>
+    <string name="installing">Установка</string>
+
+    <string name="open_in_obtainium">Открыть в Obtainium</string>
+    <string name="obtainium_description">Автоматическое управление обновлениями</string>
+    <string name="inspect_with_appmanager">Проверить в AppManager</string>
+    <string name="appmanager_description">Разрешения, трекеры и безопасность</string>
+
+    <string name="profile">Профиль</string>
+
+    <string name="forks">Форки</string>
+    <string name="stars">Звёзды</string>
+    <string name="issues">Проблемы</string>
+    <string name="downloads">Загрузки</string>
+    <string name="license">Лицензия</string>
+    <string name="license_none">—</string>
+    <string name="fetch_more_from_github">Найти ещё на GitHub</string>
+    <string name="fetching_from_github">Поиск на GitHub…</string>
+    <string name="no_more_github_results">Больше результатов на GitHub нет</string>
+    <string name="explore_error">Не удалось загрузить с GitHub. Попробуй снова.</string>
+
+    <string name="architecture_compatible">Совместимо с архитектурой</string>
+    <string name="update_to_version">Обновить до %1$s</string>
+
+    <string name="no_release_notes">Нет заметок о выпуске</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="show_install_options">Показать параметры установки</string>
+
+    <string name="installer_saved_downloads">Установщик сохранён в папку Загрузки</string>
+
+    <string name="log_download_started">Загрузка начата</string>
+    <string name="log_downloaded">Загружено</string>
+    <string name="log_update_started">Обновление начато</string>
+    <string name="log_installed">Установлено</string>
+    <string name="log_updated">Обновлено</string>
+    <string name="log_cancelled">Отменено</string>
+    <string name="log_install_started">Установка началась</string>
+    <string name="log_error">Ошибка</string>
+    <string name="log_error_with_message">Ошибка: %1$s</string>
+
+
+    <string name="log_prepare_appmanager">Подготовка для AppManager</string>
+    <string name="log_opened_appmanager">Открыто в AppManager</string>
+    <string name="log_permission_blocked">Разрешение на установку заблокировано политикой устройства</string>
+    <string name="log_opened_external_installer">Открыто во внешнем установщике</string>
+    <string name="install_permission_unavailable">Разрешение на установку недоступно</string>
+    <string name="install_permission_blocked_message">APK был успешно загружен, но это устройство не разрешает прямую установку. Хочешь открыть его с помощью внешнего установщика?</string>
+    <string name="open_with_external_installer">Открыть во внешнем установщике</string>
+    <string name="external_installer_description">Использовать стороннее приложение для установки APK</string>
+
+    <string name="error_generic">Ошибка: %1$s</string>
+
+
+
+    <string name="home_finding_repositories">Поиск репозиториев...</string>
+    <string name="home_retry">Повторить</string>
+    <string name="home_failed_to_load_repositories">Не удалось загрузить репозитории</string>
+
+    <string name="updated_on_date">обновлено %1$s</string>
+
+    <string name="rate_limit_exceeded">Превышен лимит запросов</string>
+    <string name="rate_limit_used_all">Ты использовал все %1$d API-запросов.</string>
+    <string name="rate_limit_used_all_free">Ты использовал все %1$d бесплатных API-запросов.</string>
+    <string name="rate_limit_resets_in_minutes">Сброс через %1$d мин</string>
+    <string name="rate_limit_tip_sign_in">💡 Войди, чтобы получить 5 000 запросов в час вместо 60!</string>
+    <string name="rate_limit_sign_in">Войти</string>
+    <string name="rate_limit_ok">ОК</string>
+    <string name="rate_limit_close">Закрыть</string>
+
+    <string name="system_font">Системный шрифт</string>
+    <string name="system_font_description">Используй шрифт своего устройства для лучшей читаемости</string>
+
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_system">Системная</string>
+
+    <string name="added_to_favourites">Репозиторий добавлен в избранное</string>
+    <string name="removed_from_favourites">Репозиторий удалён из избранного</string>
+    <string name="add_to_favourites">Добавить в избранное</string>
+    <string name="remove_from_favourites">Удалить из избранного</string>
+    <string name="favourites">Избранное</string>
+
+    <string name="added_just_now">только что добавлено</string>
+    <string name="added_hours_ago">добавлено %1$d час(ов) назад</string>
+    <string name="added_yesterday">добавлено вчера</string>
+    <string name="added_days_ago">добавлено %1$d дн. назад</string>
+    <string name="added_on_date">добавлено %1$s</string>
+
+    <string name="starred_repositories">Избранные репозитории</string>
+    <string name="repository_starred">Репозиторий добавлен в избранное</string>
+    <string name="repository_not_starred">Репозиторий не в избранном</string>
+    <string name="star_from_github">Ты можешь добавить репозиторий в избранное на GitHub</string>
+    <string name="unstar_from_github">Ты можешь убрать репозиторий из избранного на GitHub</string>
+
+    <string name="sign_in_required">Требуется вход</string>
+    <string name="no_starred_repos">Нет избранных репозиториев</string>
+    <string name="sign_in_with_github_for_stars">Войди через GitHub, чтобы увидеть избранные репозитории</string>
+    <string name="star_repos_hint">Отмечай репозитории с установочными релизами на GitHub</string>
+    <string name="last_synced">Последняя синхронизация</string>
+    <string name="just_now">Только что</string>
+    <string name="minutes_ago">%1$d мин назад</string>
+    <string name="hours_ago">%1$d ч назад</string>
+    <string name="days_ago">%1$d д назад</string>
+    <string name="dismiss">Закрыть</string>
+    <string name="sync_starred_failed">Не удалось синхронизировать избранные репозитории</string>
+
+
+    <!-- Developer Profile - General -->
+    <string name="failed_to_load_repositories">Не удалось загрузить репозитории</string>
+    <string name="failed_to_load_profile">Не удалось загрузить профиль</string>
+
+    <!-- Developer Profile - Stats -->
+    <string name="repositories">Репозитории</string>
+    <string name="followers">Подписчики</string>
+    <string name="following">Подписки</string>
+
+    <!-- Developer Profile - Filter & Sort -->
+    <string name="search_repositories">Поиск репозиториев…</string>
+    <string name="clear_search">Очистить поиск</string>
+    <string name="filter_with_releases">С релизами</string>
+    <string name="filter_installed">Установленные</string>
+    <string name="filter_favorites">Избранные</string>
+    <string name="sort">Сортировка</string>
+    <string name="sort_recently_updated">Недавно обновлённые</string>
+    <string name="sort_name">Название</string>
+    <string name="sort_recently_added">Недавно добавленные</string>
+    <string name="sort_selected">Выбрано</string>
+
+    <!-- Developer Profile - Repository Count -->
+    <string name="repository_singular">репозиторий</string>
+    <string name="showing_x_of_y_repositories">Показано %1$d из %2$d репозиториев</string>
+
+    <!-- Developer Profile - Empty States -->
+    <string name="no_repos_with_releases">Нет репозиториев с устанавливаемыми релизами</string>
+    <string name="no_installed_repos">Нет установленных репозиториев</string>
+    <string name="no_favorite_repos">Нет избранных репозиториев</string>
+
+    <string name="has_release">Есть релиз</string>
+
+    <!-- Developer Profile - Relative Time -->
+    <string name="time_years_ago">%1$d г</string>
+    <string name="time_months_ago">%1$d мес</string>
+    <string name="time_days_ago">%1$d д</string>
+    <string name="time_weeks_ago">%1$d нед</string>
+    <string name="time_hours_ago">%1$d ч</string>
+    <string name="time_minutes_ago">%1$d мин</string>
+
+    <!-- Developer Profile - Count Formatting -->
+    <string name="count_millions">%1$dM</string>
+    <string name="count_thousands">%1$dk</string>
+
+    <string name="released_just_now">Опубликовано только что</string>
+    <string name="released_hours_ago">Опубликовано %1$d час(ов) назад</string>
+    <string name="released_yesterday">Опубликовано вчера</string>
+    <string name="released_days_ago">Опубликовано %1$d день(дней) назад</string>
+    <string name="released_on_date">Опубликовано %1$s</string>
+
+    <string name="bottom_nav_explore_title">Обзор</string>
+    <string name="bottom_nav_search_title">Поиск</string>
+    <string name="bottom_nav_apps_title">Библиотека</string>
+    <string name="bottom_nav_profile_title">Профиль</string>
+
+    <string name="forked_repository">Форк</string>
+
+    <string name="category_stable">Стабильная</string>
+    <string name="category_pre_release">Предварительный релиз</string>
+    <string name="category_all">Все</string>
+    <string name="select_version">Выбрать версию</string>
+    <string name="pre_release_badge">Предрелиз</string>
+    <string name="no_version_selected">Версия не выбрана</string>
+    <string name="versions_title">Версии</string>
+
+    <!-- Install status -->
+    <string name="pending_install">Ожидает установки</string>
+
+    <!-- Uninstall / Open -->
+    <string name="uninstall">Удалить</string>
+    <string name="open_app">Открыть</string>
+    <string name="downgrade_requires_uninstall">Для понижения версии требуется удаление</string>
+    <string name="downgrade_warning_message">Для установки версии %1$s необходимо сначала удалить текущую версию (%2$s). Данные приложения будут потеряны.</string>
+    <string name="uninstall_first">Сначала удалить</string>
+    <string name="install_version">Установить %1$s</string>
+    <string name="failed_to_open_app">Не удалось открыть %1$s</string>
+    <string name="failed_to_uninstall">Не удалось удалить %1$s</string>
+
+    <!-- Version picker -->
+    <string name="latest_badge">Последняя</string>
+
+    <!-- Apps feature - Last checked -->
+    <string name="last_checked">Последняя проверка: %1$s</string>
+    <string name="last_checked_just_now">только что</string>
+    <string name="last_checked_minutes_ago">%1$d мин назад</string>
+    <string name="last_checked_hours_ago">%1$d ч назад</string>
+    <string name="checking_for_updates">Проверка обновлений…</string>
+
+    <string name="proxy_host">Хост</string>
+    <string name="proxy_port">Порт</string>
+    <string name="proxy_username">Имя пользователя (необязательно)</string>
+    <string name="proxy_password">Пароль (необязательно)</string>
+    <string name="proxy_save">Сохранить прокси</string>
+    <string name="proxy_saved">Настройки прокси сохранены</string>
+    <string name="failed_to_save_proxy_settings">Не удалось сохранить настройки прокси</string>
+    <string name="proxy_host_required">Требуется хост прокси</string>
+    <string name="proxy_host_invalid">Введи корректное имя хоста или IP-адрес</string>
+    <string name="invalid_proxy_port">Недопустимый порт прокси</string>
+    <string name="proxy_test_success">Соединение в порядке (%1$d мс)</string>
+    <string name="proxy_test_error_dns">Не удалось разрешить хост. Проверь адрес прокси.</string>
+    <string name="proxy_test_error_unreachable">Не удалось подключиться к прокси-серверу.</string>
+    <string name="proxy_test_error_timeout">Время ожидания истекло.</string>
+    <string name="proxy_test_error_auth_required">Требуется аутентификация прокси.</string>
+    <string name="proxy_test_error_status">Неожиданный ответ: HTTP %1$d</string>
+    <string name="proxy_test_error_unknown">Не удалось проверить соединение</string>
+
+
+
+    <!-- Profile section -->
+    <string name="profile_sign_in_title">Войти через GitHub</string>
+    <string name="profile_sign_in_description">Открой полный доступ. Управляй приложениями, синхронизируй настройки и просматривай быстрее.</string>
+    <string name="profile_repos">Репозитории</string>
+    <string name="profile_login">Войти</string>
+    <string name="profile_stars_description">Твои избранные репозитории на GitHub</string>
+    <string name="profile_favourites_description">Твои избранные репозитории, сохранённые локально</string>
+
+    <!-- Session expired dialog -->
+    <string name="session_expired_title">Сессия истекла</string>
+    <string name="session_expired_message">Твоя сессия GitHub истекла или токен был отозван. Пожалуйста, войди снова, чтобы продолжить пользоваться авторизованными функциями.</string>
+    <string name="session_expired_hint">Ты можешь продолжить просмотр как гость с ограниченным количеством API-запросов.</string>
+    <string name="sign_in_again">Войти снова</string>
+    <string name="continue_as_guest">Продолжить как гость</string>
+    <string name="logout_revocation_note">Это очистит твою локальную сессию и кэшированные данные. Чтобы полностью отозвать доступ, перейди в GitHub Settings > Applications.</string>
+    <string name="auth_error_code_expired">Срок действия кода устройства истёк.</string>
+    <string name="auth_hint_try_again">Пожалуйста, попробуй войти снова, чтобы получить новый код.</string>
+    <string name="auth_hint_check_connection">Проверь подключение к интернету и попробуй снова.</string>
+    <string name="auth_hint_denied">Ты отклонил запрос авторизации. Попробуй снова, если это было непреднамеренно.</string>
+    <string name="auth_check_status">Я уже авторизовался</string>
+    <string name="auth_polling_status">Проверка…</string>
+    <string name="auth_rate_limited">Превышен лимит — повтор через %1$d с</string>
+
+    <!-- Read More / Show Less -->
+    <string name="read_more">Читать далее</string>
+    <string name="show_less">Свернуть</string>
+
+    <string name="share_repository">Поделиться репозиторием</string>
+    <string name="failed_to_share_link">Не удалось поделиться ссылкой</string>
+    <string name="link_copied_to_clipboard">Ссылка скопирована в буфер обмена</string>
+
+    <string name="translate_to">Перевести на…</string>
+    <string name="search_language">Поиск языка</string>
+    <string name="translation_failed">Ошибка перевода. Попробуй ещё раз.</string>
+
+    <string name="open_github_link">Открыть ссылку GitHub</string>
+    <string name="clipboard_link_detected">Обнаружена ссылка GitHub в буфере обмена</string>
+    <string name="detected_links">Обнаруженные ссылки</string>
+    <string name="open_in_app">Открыть в приложении</string>
+    <string name="no_github_link_in_clipboard">Ссылка GitHub не найдена в буфере обмена</string>
+
+    <string name="clear">Очистить</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="installer_type_default">По умолчанию</string>
+    <string name="installer_type_default_description">Стандартный системный диалог установки</string>
+    <string name="installer_type_shizuku">Shizuku</string>
+    <string name="installer_type_shizuku_description">Тихая установка без подтверждений</string>
+    <string name="shizuku_status_not_installed">Shizuku не установлен</string>
+    <string name="shizuku_status_not_running">Shizuku не запущен</string>
+    <string name="shizuku_status_permission_needed">Требуется разрешение</string>
+    <string name="shizuku_status_ready">Готов</string>
+    <string name="shizuku_grant_permission">Предоставить разрешение</string>
+    <string name="shizuku_install_hint">Установи Shizuku для тихой установки</string>
+    <string name="shizuku_start_hint">Запусти Shizuku для тихой установки</string>
+    <string name="shizuku_install_failed_fallback">Установка через Shizuku не удалась, используется стандартный установщик</string>
+
+    <string name="auto_update_title">Автообновление приложений</string>
+    <string name="auto_update_description">Автоматически загружать и устанавливать обновления в фоне через Shizuku</string>
+
+    <string name="update_check_interval_title">Интервал проверки обновлений</string>
+    <string name="update_check_interval_description">Как часто проверять обновления приложения в фоне</string>
+    <string name="update_check_enabled_title">Фоновая проверка обновлений</string>
+    <string name="update_check_enabled_description">Периодически проверяет обновления в фоне. Отключи для экономии батареи — всегда можно проверить вручную из экрана деталей любого приложения.</string>
+    <string name="battery_optimization_card_title">Разрешить обновления в фоне</string>
+    <string name="battery_optimization_card_description">Твоё устройство агрессивно завершает фоновые задачи. Исключи GitHub App Market из оптимизации батареи, чтобы запланированные проверки обновлений и тихая установка работали надёжно.</string>
+    <string name="battery_optimization_card_open">Открыть настройки</string>
+    <string name="battery_optimization_card_dismiss">Позже</string>
+
+    <string name="add_by_link">Отслеживать приложение</string>
+    <string name="link_app_title">Привязать приложение к репозиторию</string>
+    <string name="pick_installed_app">Выбери установленное приложение для привязки к репозиторию GitHub</string>
+    <string name="search_apps_hint">Поиск приложений…</string>
+    <string name="enter_repo_url">URL репозитория GitHub</string>
+    <string name="repo_url_hint">github.com/owner/repo</string>
+    <string name="validating_repo">Проверка…</string>
+    <string name="link_and_track">Привязать и отслеживать</string>
+    <string name="checking_release">Проверка последнего релиза…</string>
+    <string name="verifying_signing_key">Проверка ключа подписи…</string>
+    <string name="package_name_mismatch">Несоответствие имени пакета: APK — %1$s, а выбранное приложение — %2$s</string>
+    <string name="signing_key_mismatch_link">Несоответствие ключа подписи: APK в этом репозитории подписан другим разработчиком</string>
+    <string name="select_asset_title">Выбери установщик</string>
+    <string name="select_asset_description">Выбери APK, чтобы проверить соответствие установленному приложению</string>
+    <string name="export_apps">Экспорт</string>
+    <string name="import_apps">Импорт</string>
+    <string name="include_pre_releases_title">Канал бета по умолчанию</string>
+    <string name="include_pre_releases_description">Вновь отслеживаемые приложения по умолчанию включают бета-сборки. Ранее отслеживаемые приложения сохраняют своё значение (переключи на экране Подробностей приложения).</string>
+    <string name="confirm_uninstall_title">Удалить приложение?</string>
+    <string name="confirm_uninstall_message">Точно хочешь удалить %1$s? Это действие нельзя отменить, данные приложения могут быть утеряны.</string>
+    <string name="invalid_github_url">Неверный URL GitHub. Используй формат: github.com/owner/repo</string>
+    <string name="repo_not_found">Репозиторий не найден: %1$s/%2$s</string>
+    <string name="rate_limit_try_again">Превышен лимит запросов GitHub API. Попробуй позже.</string>
+    <string name="failed_to_link">Не удалось привязать: %1$s</string>
+    <string name="failed_to_load_apps">Не удалось загрузить установленные приложения</string>
+    <string name="app_linked_success">%1$s привязано к %2$s/%3$s</string>
+    <string name="export_failed">Ошибка экспорта: %1$s</string>
+    <string name="import_failed">Ошибка импорта: %1$s</string>
+    <string name="signing_key_changed_title">Ключ подписи изменён</string>
+    <string name="signing_key_changed_message">Сертификат подписи этого приложения изменился с момента первой установки.\n\nЭто может означать, что разработчик сменил ключ подписи, или бинарный файл был изменён.\n\nОжидалось: %1$s\nПолучено: %2$s</string>
+    <string name="install_anyway">Всё равно установить</string>
+    <string name="verified_build">Проверенная сборка</string>
+    <string name="checking_attestation">Проверка\u2026</string>
+    <string name="assets_title">Ресурсы</string>
+    <string name="no_assets_selected">Нет ресурсов</string>
+    <string name="no_assets_in_list">Нет ресурсов, связанных с этим релизом</string>
+    <string name="assets_selection_label">Выбрать вариант ресурса</string>
+    <string name="multiple_assets_info_dialog_title">Доступно несколько ресурсов</string>
+    <string name="multiple_assets_info_dialog_text">Для этого релиза доступно несколько устанавливаемых файлов. Просмотри список и выбери подходящий для своего устройства.</string>
+    <string name="icon_content_description_info">Информация</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="update_package_mismatch">Несоответствие пакета: APK — %1$s, но установленное приложение — %2$s. Обновление заблокировано.</string>
+    <string name="update_signing_key_mismatch">Несоответствие ключа подписи: обновление подписано другим разработчиком. Обновление заблокировано.</string>
+
+    <string name="scrollbar_option_title">Полоса прокрутки</string>
+    <string name="scrollbar_option_description">Показывать скроллбар в длинных списках (ПК)</string>
+    <string name="content_width_title">Ширина контента</string>
+    <string name="content_width_description">Максимальная ширина колонки на экране подробностей (ПК)</string>
+    <string name="content_width_compact">Компактная</string>
+    <string name="content_width_wide">Широкая</string>
+    <string name="content_width_extra_wide">Очень широкая</string>
+
+    <string name="seen_history_cleared">История просмотров очищена</string>
+    <string name="seen_badge">Просмотрено</string>
+    <string name="self_owned_badge">Твой репозиторий</string>
+    <string name="hide_repository">Скрыть репозиторий</string>
+
+    <string name="recently_viewed">Недавно просмотренные</string>
+    <string name="profile_recently_viewed_description">Репозитории, которые ты посещал</string>
+    <string name="delete_all">Удалить всё</string>
+    <string name="delete_downloads_confirmation_title">Удалить все загрузки?</string>
+    <string name="delete_downloads_confirmation_message">Это навсегда удалит все APK и установщики (%1$s). Ты сможешь скачать их снова в любое время.</string>
+    <string name="downloads_cleared">Все загруженные пакеты удалены.</string>
+    <string name="unable_to_verify_attestation">Не удалось проверить</string>
+
+    <string name="recent_searches">Недавние поиски</string>
+    <string name="clear_all_history">Очистить всё</string>
+    <string name="remove_search_history_item">Удалить</string>
+
+    <string name="tweaks_title">Настройки</string>
+
+    <!-- Monorepo support -->
+    <string name="asset_filter_label">Фильтр ассетов</string>
+    <string name="asset_filter_placeholder">напр. ente-auth</string>
+    <string name="asset_filter_help">Будут установлены только ассеты, соответствующие этому шаблону (regex). Полезно для монорепо с несколькими приложениями.</string>
+    <string name="asset_filter_invalid">Недопустимое регулярное выражение</string>
+    <string name="asset_filter_no_match">Ни один ассет не соответствует фильтру</string>
+    <string name="asset_none_available">В этом релизе нет устанавливаемых ассетов</string>
+    <plurals name="asset_filter_visible_count">
+        <item quantity="one">Показан %1$d из %2$d ассета</item>
+        <item quantity="few">Показано %1$d из %2$d ассетов</item>
+        <item quantity="many">Показано %1$d из %2$d ассетов</item>
+        <item quantity="other">Показано %1$d из %2$d ассетов</item>
+    </plurals>
+    <string name="fallback_older_releases_title">Возврат к старым релизам</string>
+    <string name="fallback_older_releases_description">Просматривать предыдущие релизы, пока не найдётся соответствующий фильтру. Необходимо для монорепо, где последний релиз принадлежит другому приложению.</string>
+    <string name="advanced_settings_title">Расширенный фильтр</string>
+    <string name="advanced_settings_description">Настрой, как это приложение определяется в репозитории. Используй эти настройки, если репо содержит несколько приложений.</string>
+    <string name="advanced_settings_open">Открыть расширенный фильтр</string>
+    <string name="advanced_save">Сохранить</string>
+    <string name="advanced_preview_title">Предпросмотр</string>
+    <string name="advanced_preview_refresh">Обновить предпросмотр</string>
+    <string name="advanced_preview_pending">Введи фильтр, чтобы увидеть подходящие ассеты.</string>
+    <string name="advanced_preview_no_match">В последних релизах нет подходящих ассетов. Включи возврат к старым релизам или измени regex.</string>
+    <string name="advanced_preview_failed">Не удалось загрузить предпросмотр. Проверь подключение и попробуй снова.</string>
+    <plurals name="advanced_preview_release">
+        <item quantity="one">Совпадение в %1$s · %2$d ассет</item>
+        <item quantity="few">Совпадение в %1$s · %2$d ассета</item>
+        <item quantity="many">Совпадение в %1$s · %2$d ассетов</item>
+        <item quantity="other">Совпадение в %1$s · %2$d ассетов</item>
+    </plurals>
+
+    <!-- Preferred-variant feature -->
+    <string name="variant_picker_title">Предпочтительный вариант</string>
+    <string name="variant_picker_description">Выбери, какой вариант APK будет устанавливаться при обновлениях. Выбор запоминается между релизами.</string>
+    <string name="variant_picker_no_assets">В последнем релизе нет устанавливаемых ассетов.</string>
+    <string name="variant_picker_no_pinnable">В этом релизе нет вариантов с тегом версии, которые можно закрепить. Автоматический селектор продолжит выбирать лучший ассет для твоего устройства.</string>
+    <string name="variant_picker_load_failed">Не удалось загрузить варианты. Проверь подключение и попробуй снова.</string>
+    <string name="variant_picker_save_failed">Не удалось сохранить выбор. Попробуй снова.</string>
+    <string name="variant_picker_stale_title">Вариант изменился — выбери снова</string>
+    <string name="variant_picker_stale_was">Было: %1$s</string>
+    <string name="variant_picker_auto_title">Автоматически</string>
+    <string name="variant_picker_auto_subtitle">Пусть GitHub App Market сам выберет лучший вариант для твоего устройства</string>
+    <string name="markdown_alert_note">Примечание</string>
+    <string name="markdown_alert_tip">Совет</string>
+    <string name="markdown_alert_important">Важно</string>
+    <string name="markdown_alert_warning">Предупреждение</string>
+    <string name="markdown_alert_caution">Осторожно</string>
+    <string name="variant_picker_pinned">Закреплено: %1$s</string>
+    <string name="variant_stale_hint">Вариант изменился — нажми Обновить, чтобы выбрать снова</string>
+    <string name="variant_label_inline">Вариант: %1$s</string>
+    <string name="variant_picker_unpin">Открепить</string>
+    <string name="variant_picker_pinned_badge">Закреплено</string>
+    <string name="variant_picker_open">Выбрать вариант</string>
+    <string name="variant_picker_open_filter">Настроить фильтр</string>
+    <string name="variant_first_pin_toast">Будущие обновления будут предпочитать вариант %1$s. Изменить это можно в любое время в настройках приложения.</string>
+    <string name="variant_first_pin_toast_generic">Будущие обновления будут предпочитать этот вариант. Изменить это можно в любое время в настройках приложения.</string>
+    <string name="variant_unpinned_toast">Вариант откреплён. Обновления будут использовать автоматический выбор.</string>
+    <string name="advanced_filter_variant_relation">Фильтр определяет, какие файлы рассматриваются. Закреплённый вариант определяет, какой из них будет установлен.</string>
+    <string name="install">Установить</string>
+    <string name="ready_to_install">Готово к установке</string>
+    <string name="install_ready">Установить (готово)</string>
+
+    <string name="translation_intro">Выбери сервис для перевода README.</string>
+    <string name="translation_provider_title">Сервис перевода</string>
+    <string name="translation_provider_description">Google работает глобально без настройки. Youdao работает из материкового Китая, но требует учётных данных API с портала разработчиков Youdao.</string>
+    <string name="translation_provider_google">Google</string>
+    <string name="translation_provider_youdao">Youdao</string>
+    <string name="translation_provider_saved">Сервис перевода обновлён</string>
+    <string name="translation_youdao_help">Зарегистрируйся на ai.youdao.com, чтобы получить App Key и App Secret. Бесплатного тарифа достаточно для обычного использования.</string>
+    <string name="translation_youdao_app_key">App Key</string>
+    <string name="translation_youdao_app_secret">App Secret</string>
+    <string name="translation_youdao_save">Сохранить учётные данные</string>
+    <string name="translation_youdao_saved">Учётные данные Youdao сохранены</string>
+
+    <!-- Releases status card -->
+    <string name="releases_load_failed">Не удалось загрузить релизы</string>
+    <string name="releases_load_failed_description">Проверь подключение и попробуй снова.</string>
+    <string name="no_releases_published">Релизы ещё не опубликованы</string>
+    <string name="loading_releases">Загрузка релизов…</string>
+
+    <!-- Personal Access Token sign-in -->
+    <string name="pat_use_token_instead">Проблемы со входом? Используй Personal Access Token</string>
+    <string name="auth_use_device_code_instead">Использовать код устройства</string>
+    <string name="installer_category_side_store">F-Droid / Obtainium</string>
+    <string name="installer_category_sideloaded">Установлено вручную</string>
+    <string name="installer_category_vendor_store">Магазин производителя</string>
+    <string name="installer_category_play_store">Play Маркет</string>
+    <string name="installer_category_system_update">Системное обновление</string>
+    <string name="link_smart_search_title">Найти подходящий репозиторий</string>
+    <string name="link_smart_search_searching">Поиск совпадения на GitHub…</string>
+    <string name="link_smart_search_no_matches">Автоматических совпадений не найдено.</string>
+    <string name="link_smart_search_failed">Не удалось выполнить поиск совпадений.</string>
+    <string name="link_smart_search_enter_manually">Ввести URL вручную</string>
+    <string name="match_source_manifest">Манифест</string>
+    <string name="match_source_fingerprint">Подпись</string>
+    <string name="match_source_search">Поиск</string>
+    <string name="match_source_manual">Вручную</string>
+    <string name="match_source_starred">Со звездой</string>
+    <string name="pat_sheet_title">Вход с Personal Access Token</string>
+    <string name="pat_sheet_description">Создай Personal Access Token (classic или fine-grained) на устройстве, где доступен GitHub, и вставь его ниже. Требуется доступ на чтение к репозиториям и твоему профилю.</string>
+    <string name="pat_open_settings">Открыть настройки токенов GitHub</string>
+    <string name="pat_input_label">Personal Access Token</string>
+    <string name="pat_input_placeholder">ghp_… или github_pat_…</string>
+    <string name="pat_submit">Войти</string>
+    <string name="pat_cancel">Отмена</string>
+    <string name="pat_error_empty">Вставь токен.</string>
+    <string name="pat_error_invalid_format">Это не похоже на токен GitHub. Токены начинаются с ghp_ или github_pat_.</string>
+    <string name="pat_error_bad_credentials">Этот токен недействителен или отозван.</string>
+    <string name="pat_error_insufficient_scope">У этого токена нет необходимых прав.</string>
+    <string name="pat_error_generic">Не удалось сохранить токен. Попробуй снова.</string>
+
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E10 — Apps sort
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="sort_apps">Сортировка приложений</string>
+    <string name="sort_updates_first">Сначала обновления</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Pre-release channel UX (Details screen)
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="channel_chip_include_betas">Включить бета-версии</string>
+    <string name="channel_chip_stable_only">Только стабильные</string>
+    <string name="channel_chip_coachmark_title">Выбери канал релизов</string>
+    <string name="channel_chip_coachmark_body">Нажми, чтобы переключаться между стабильными релизами и бета-сборками этого приложения.</string>
+    <string name="channel_chip_coachmark_dismiss">Понятно</string>
+    <string name="action_switch_to_stable">Перейти на стабильную %1$s</string>
+    <string name="stalled_project_warning_months">Нет стабильного релиза уже %1$d месяцев</string>
+    <string name="stalled_project_warning_days">Нет стабильного релиза уже %1$d дней</string>
+    <string name="stalled_project_warning_description">Есть активные предварительные версии, но проект давно не выпускал стабильную сборку. Бета-версии могут так и не перейти в стабильный релиз.</string>
+    <string name="merged_whats_changed_title">Что изменилось с %1$s</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — External import wizard
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="external_import_top_bar_title">Импорт установленных приложений</string>
+    <string name="external_import_top_bar_back">Назад</string>
+    <string name="external_import_overflow_more">Другие параметры</string>
+    <string name="external_import_overflow_skip_remaining">Пропустить оставшиеся</string>
+    <string name="external_import_progress_scanning">Сканирование приложений…</string>
+    <string name="external_import_progress_auto_importing">Импорт совпадений…</string>
+    <string name="external_import_progress_working">Обработка…</string>
+    <!-- Russian plurals: one (ends in 1 not 11), few (ends in 2-4 not 12-14), many (rest), other (fractions) -->
+    <plurals name="external_import_progress_subtitle_count">
+        <item quantity="one">Проверено %1$d приложение</item>
+        <item quantity="few">Проверено %1$d приложения</item>
+        <item quantity="many">Проверено %1$d приложений</item>
+        <item quantity="other">Проверено %1$d приложения</item>
+    </plurals>
+    <string name="external_import_card_action_skip">Пропустить</string>
+    <string name="external_import_card_action_link">Связать</string>
+    <string name="external_import_card_action_more">Другие совпадения</string>
+    <string name="external_import_card_action_less">Скрыть совпадения</string>
+    <string name="external_import_card_installer_chip">Установлено через %1$s</string>
+    <string name="external_import_card_preselect_unknown">Нажми, чтобы найти репозиторий</string>
+    <string name="external_import_card_expand_label">Развернуть для просмотра других совпадений</string>
+    <string name="external_import_card_collapse_label">Свернуть карточку</string>
+    <string name="external_import_search_icon_label">Поиск в GitHub</string>
+    <string name="external_import_search_empty">Нет совпадений</string>
+    <string name="external_import_search_error_default">Ошибка поиска</string>
+    <string name="external_import_search_placeholder_url">Вставь URL github.com или выполни поиск…</string>
+    <plurals name="external_import_completion_headline">
+        <item quantity="one">Отслеживается %1$d приложение.</item>
+        <item quantity="few">Отслеживается %1$d приложения.</item>
+        <item quantity="many">Отслеживается %1$d приложений.</item>
+        <item quantity="other">Отслеживается %1$d приложения.</item>
+    </plurals>
+    <string name="external_import_completion_skipped_subline">Пропущено %1$d — повтори сканирование в Настройках.</string>
+    <string name="external_import_completion_action_view_all">Посмотреть все</string>
+    <string name="external_import_empty_all_matched">Всё связано.\nНечего связывать.</string>
+    <string name="external_import_empty_done">Готово</string>
+    <string name="external_import_empty_no_apps_title">На этом устройстве не найдено приложений GitHub.</string>
+    <string name="external_import_empty_no_apps_body">Это означает, что всё установлено через другой магазин или у нас нет доступа к списку установленных приложений.</string>
+    <string name="external_import_empty_grant_permission">Предоставить разрешение</string>
+    <string name="external_import_empty_ok">ОК</string>
+    <string name="external_import_empty_add_manually">Добавить приложение из другого магазина</string>
+    <string name="external_import_permission_title">Найди свои приложения GitHub</string>
+    <string name="external_import_permission_body">Мы можем просканировать установленные приложения и сопоставить их с релизами GitHub, чтобы обновления и обнаружение работали автоматически.\n\nДля этого нам нужно видеть, какие приложения у тебя установлены. Без разрешения мы можем видеть только около 5 приложений; с ним — все.\n\nМы никогда не отправляем список твоих приложений без твоего согласия. Сопоставление выполняется на твоём устройстве. Необязательный серверный поиск передаёт только имя пакета и метку приложения, а при наличии — отпечаток подписи, источник установки и любую подсказку о репозитории GitHub, указанную в манифесте приложения; полный список установленных приложений никогда не передаётся.</string>
+    <string name="external_import_permission_continue">Продолжить</string>
+    <string name="external_import_permission_not_now">Не сейчас</string>
+    <plurals name="external_import_proposal_banner_headline">
+        <item quantity="one">Найдено %1$d приложение из GitHub</item>
+        <item quantity="few">Найдено %1$d приложения из GitHub</item>
+        <item quantity="many">Найдено %1$d приложений из GitHub</item>
+        <item quantity="other">Найдено %1$d приложения из GitHub</item>
+    </plurals>
+    <string name="external_import_proposal_banner_body">Просмотри их, чтобы отслеживать обновления здесь.</string>
+    <string name="external_import_proposal_banner_review">Просмотреть</string>
+    <string name="external_import_proposal_banner_dismiss">Закрыть</string>
+    <string name="external_import_match_confidence_a11y">Достоверность совпадения: %1$d процентов</string>
+    <string name="external_import_match_confidence_chip">%1$d</string>
+    <string name="external_import_error_link_failed">Не удалось связать это приложение — попробуй ещё раз.</string>
+    <string name="external_import_error_link_network">Не удалось подключиться к GitHub. Попробуй позже.</string>
+    <string name="external_import_error_scan_failed_default">Ошибка сканирования</string>
+    <string name="external_import_installer_obtainium">Obtainium</string>
+    <string name="external_import_installer_fdroid">F-Droid</string>
+    <string name="external_import_installer_browser">Браузер</string>
+    <string name="external_import_installer_sideload">Sideload</string>
+    <string name="external_import_installer_self">GitHub App Market</string>
+    <string name="external_import_installer_unknown">Неизвестный источник</string>
+    <string name="external_import_undo_linked">%1$s связано.</string>
+    <string name="external_import_undo_skipped">%1$s пропущено.</string>
+    <string name="external_import_undo_action">Отменить</string>
+    <string name="external_import_undo_failed">Не удалось отменить — попробуй ещё раз.</string>
+    <plurals name="external_import_list_remaining">
+        <item quantity="one">%1$d приложение для просмотра</item>
+        <item quantity="few">%1$d приложения для просмотра</item>
+        <item quantity="many">%1$d приложений для просмотра</item>
+        <item quantity="other">%1$d приложения для просмотра</item>
+    </plurals>
+    <string name="external_import_list_add_manually">Не видишь своё приложение? Добавь вручную</string>
+    <plurals name="external_import_auto_summary_headline">
+        <item quantity="one">%1$d приложение связано автоматически</item>
+        <item quantity="few">%1$d приложения связано автоматически</item>
+        <item quantity="many">%1$d приложений связано автоматически</item>
+        <item quantity="other">%1$d приложения связано автоматически</item>
+    </plurals>
+    <string name="external_import_auto_summary_body">Мы распознали их с высокой точностью. Ты можешь отменить отдельные совпадения в деталях каждого приложения или отменить все сейчас.</string>
+    <plurals name="external_import_auto_summary_review_hint">
+        <item quantity="one">Ещё %1$d требует твоего внимания.</item>
+        <item quantity="few">Ещё %1$d требуют твоего внимания.</item>
+        <item quantity="many">Ещё %1$d требуют твоего внимания.</item>
+        <item quantity="other">Ещё %1$d требуют твоего внимания.</item>
+    </plurals>
+    <string name="external_import_auto_summary_continue">Продолжить</string>
+    <string name="external_import_auto_summary_undo_all">Отменить все</string>
+    <string name="external_import_auto_summary_more_count">+%1$d ещё</string>
+    <string name="external_import_rescan_menu">Сканировать приложения GitHub</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — Details unlink dialog
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="details_unlink_external_app_menu">Отвязать от этого репозитория</string>
+    <string name="details_unlink_external_app_dialog_title">Отвязать это приложение?</string>
+    <string name="details_unlink_external_app_dialog_body">Мы перестанем отслеживать %1$s как установленное из этого репозитория. Приложение останется на устройстве — удаляется только связь.</string>
+    <string name="details_unlink_external_app_dialog_confirm">Отвязать</string>
+    <string name="details_unlink_external_app_success">Отвязано. При следующем сканировании мы предложим совпадение.</string>
+    <string name="details_unlink_external_app_failure">Не удалось отвязать — попробуй ещё раз.</string>
+    <string name="details_linked_repo_banner_title">Связан с %1$s/%2$s</string>
+    <string name="details_linked_repo_banner_body">Привязано вручную — проверено тобой. Отвяжи, чтобы пересканировать.</string>
+
+    <!-- Details manual refresh -->
+    <string name="details_refresh">Обновить</string>
+    <string name="details_refresh_cooldown">Обновить (%1$dс)</string>
+    <string name="details_refresh_more_options">Дополнительно</string>
+    <string name="details_refresh_snackbar_cooldown">Только что обновлено — повтори через %1$d с.</string>
+    <string name="details_refresh_snackbar_budget_exhausted">Сервис обновления занят — повтори через %1$d с.</string>
+    <string name="details_refresh_snackbar_archived">Этот репозиторий заархивирован на GitHub.</string>
+    <string name="details_refresh_snackbar_not_found">Этот репозиторий больше не существует на GitHub.</string>
+    <string name="details_refresh_snackbar_upstream">Не удалось обновить. Повтори попытку позже.</string>
+    <string name="details_refresh_snackbar_generic">Ошибка обновления. Повтори попытку.</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Feedback feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="feedback_title">Отправить отзыв</string>
+    <string name="feedback_close">Закрыть</string>
+    <string name="feedback_category_label">Категория</string>
+    <string name="feedback_category_bug">Ошибка</string>
+    <string name="feedback_category_feature">Запрос функции</string>
+    <string name="feedback_category_change">Запрос на изменение</string>
+    <string name="feedback_category_other">Другое</string>
+    <string name="feedback_topic_label">Тема</string>
+    <string name="feedback_topic_install_update">Установка / Обновление</string>
+    <string name="feedback_topic_search">Поиск &amp; Обнаружение</string>
+    <string name="feedback_topic_details">Детали репозитория</string>
+    <string name="feedback_topic_auth">Авторизация &amp; Аккаунт</string>
+    <string name="feedback_topic_ui">Интерфейс / UX</string>
+    <string name="feedback_topic_translation">Перевод / Язык</string>
+    <string name="feedback_topic_performance">Производительность</string>
+    <string name="feedback_topic_other">Другое</string>
+    <string name="feedback_field_title">Заголовок</string>
+    <string name="feedback_field_description">Описание</string>
+    <string name="feedback_field_steps">Шаги для воспроизведения</string>
+    <string name="feedback_field_expected_actual">Ожидаемое и фактическое</string>
+    <string name="feedback_field_use_case">Сценарий использования</string>
+    <string name="feedback_field_proposed_solution">Предлагаемое решение</string>
+    <string name="feedback_field_current_behaviour">Текущее поведение</string>
+    <string name="feedback_field_desired_behaviour">Желаемое поведение</string>
+    <string name="feedback_diagnostics_header">Диагностика</string>
+    <string name="feedback_diagnostics_include">Включить диагностику</string>
+    <string name="feedback_send_via_email">Отправить по e-mail</string>
+    <string name="feedback_send_via_github">Открыть как Issue на GitHub</string>
+    <string name="feedback_send_success_email">Спасибо — открываем почтовый клиент.</string>
+    <string name="feedback_send_success_github">Спасибо — открываем браузер.</string>
+    <string name="feedback_send_error">Не удалось открыть канал обратной связи: %1$s</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E5 — Mirror feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <!-- Tweaks - Custom forges -->
+    <string name="custom_forges_entry_label">Свои форджи</string>
+    <string name="custom_forges_dialog_title">Свои форджи</string>
+    <string name="custom_forges_dialog_help">Введи имя хоста Forgejo или Gitea (например git.example.com). GHS будет принимать URL с этих хостов в форме ручной привязки.</string>
+    <string name="custom_forges_add_button">Добавить</string>
+    <string name="custom_forges_empty">Пока нет своих форджей.</string>
+    <string name="done">Готово</string>
+
+    <string name="mirror_picker_title">Зеркало для загрузки</string>
+    <string name="mirror_picker_description">Используется для загрузки файлов релизов. Обращения к API GitHub всегда идут напрямую. Большинству пользователей следует оставить настройку «Напрямую через GitHub».</string>
+    <string name="mirror_section_official">Официальное</string>
+    <string name="mirror_section_community">Сообщество</string>
+    <string name="mirror_status_ok">%1$dms</string>
+    <string name="mirror_status_degraded">%1$dms</string>
+    <string name="mirror_status_down">(недоступно)</string>
+    <string name="mirror_status_unknown">?</string>
+    <string name="mirror_custom_label">Своё зеркало…</string>
+    <string name="mirror_custom_dialog_title">Своё зеркало</string>
+    <string name="mirror_custom_dialog_hint">https://vashezerkalo.primer/{url}</string>
+    <string name="mirror_custom_validation_https">Шаблон должен начинаться с https://</string>
+    <string name="mirror_custom_validation_template">Шаблон должен содержать {url} ровно один раз</string>
+    <string name="mirror_custom_save">Сохранить</string>
+    <string name="mirror_test_button">Проверить выбранное</string>
+    <string name="mirror_test_success">Достигнуто за %1$dms</string>
+    <string name="mirror_test_http_error">Зеркало вернуло %1$d</string>
+    <string name="mirror_test_timeout">Превышено время ожидания (5s)</string>
+    <string name="mirror_test_dns_fail">Не удалось разрешить имя хоста</string>
+    <string name="mirror_test_other">Ошибка: %1$s</string>
+    <string name="mirror_deploy_your_own_hint">Все зеркала недоступны? За 5 минут можно развернуть своё — смотри документацию.</string>
+    <string name="mirror_removed_toast">%1$s больше недоступно, выполнен переход на прямой доступ через GitHub.</string>
+
+    <!-- ───── 1.8.1 backlog ───── -->
+    <string name="add_from_starred_title">Добавить из избранных</string>
+    <string name="announcements_acknowledge">Прочитано</string>
+    <string name="announcements_acknowledged">Принято к сведению</string>
+    <string name="announcements_category_news">Новости</string>
+    <string name="announcements_category_privacy">Конфиденциальность</string>
+    <string name="announcements_category_security">Безопасность</string>
+    <string name="announcements_category_status">Статус</string>
+    <string name="announcements_category_survey">Опросы</string>
+    <string name="announcements_empty">Сейчас нечем поделиться.</string>
+    <string name="announcements_mute_locked">Нельзя отключить</string>
+    <string name="announcements_mute_settings_title">Показывать элементы из</string>
+    <string name="announcements_open_mute_settings">Открыть настройки отключения</string>
+    <string name="announcements_profile_description">Новости, опросы и важные уведомления.</string>
+    <string name="announcements_read_more">Подробнее</string>
+    <string name="announcements_refresh_failed">Не удалось обновить — показаны элементы из кеша.</string>
+    <string name="announcements_severity_critical">Критично</string>
+    <string name="announcements_severity_important">Важно</string>
+    <string name="announcements_severity_info">Инфо</string>
+    <string name="announcements_title">Объявления</string>
+    <string name="announcements_view_details">Подробнее</string>
+    <string name="apk_inspect_button_label">Проверить APK</string>
+    <string name="apk_inspect_coachmark_body">Разрешения, подпись, компоненты — посмотри, что именно объявляет APK.</string>
+    <string name="apk_inspect_coachmark_dismiss">Понятно</string>
+    <string name="apk_inspect_coachmark_title">Загляни внутрь перед установкой</string>
+    <string name="apk_inspect_compatibility">Совместимость</string>
+    <string name="apk_inspect_components">Компоненты</string>
+    <string name="apk_inspect_debuggable">Отладочная сборка — подозрительно для релиза.</string>
+    <string name="apk_inspect_empty">Пока нечего проверять для этого приложения.</string>
+    <string name="apk_inspect_file_info">Файл</string>
+    <string name="apk_inspect_identity">Идентификация</string>
+    <string name="apk_inspect_min_sdk">Минимальный SDK</string>
+    <string name="apk_inspect_permissions">Разрешения (%1$d)</string>
+    <string name="apk_inspect_permissions_empty">Разрешения не объявлены.</string>
+    <string name="apk_inspect_permissions_title">Разрешения</string>
+    <string name="apk_inspect_protection_dangerous">Чувствительное</string>
+    <string name="apk_inspect_protection_normal">Обычное</string>
+    <string name="apk_inspect_protection_privileged">Привилегированное</string>
+    <string name="apk_inspect_protection_signature">Подпись</string>
+    <string name="apk_inspect_protection_unknown">Неизвестно</string>
+    <string name="apk_inspect_section_activities">Activity</string>
+    <string name="apk_inspect_section_main_activity">Главная Activity</string>
+    <string name="apk_inspect_section_receivers">Receivers</string>
+    <string name="apk_inspect_section_services">Сервисы</string>
+    <string name="apk_inspect_signing">Отпечаток подписи</string>
+    <string name="apk_inspect_size">Размер</string>
+    <string name="apk_inspect_source_file">Отложенный файл</string>
+    <string name="apk_inspect_source_installed">Установленный пакет</string>
+    <string name="apk_inspect_target_sdk">Целевой SDK</string>
+    <string name="apk_inspect_title">Проверка APK</string>
+    <string name="apk_inspect_version_code">Версия</string>
+    <string name="apps_compact_more_actions">Больше действий для %1$s</string>
+    <string name="apps_compact_status_filter_active">фильтр monorepo активен</string>
+    <string name="apps_compact_status_pending_install">установка в ожидании</string>
+    <string name="apps_compact_status_pre_release_on">пре-релиз включён</string>
+    <string name="apps_compact_status_ready_to_install">готов к установке</string>
+    <string name="apps_compact_status_updates_ignored">обновления игнорируются</string>
+    <string name="apps_compact_status_variant_pinned">вариант закреплён</string>
+    <string name="apps_compact_status_variant_stale">вариант устарел, нужно действие</string>
+    <string name="apps_ignore_updates">Игнорировать обновления</string>
+    <string name="apps_section_collapse">Свернуть раздел</string>
+    <string name="apps_section_count_suffix">· %1$d</string>
+    <string name="apps_section_expand">Развернуть раздел</string>
+    <string name="apps_section_state_collapsed">Свёрнут</string>
+    <string name="apps_section_state_expanded">Развёрнут</string>
+    <string name="apps_section_up_to_date">Актуально</string>
+    <string name="confirm_discard_pending_message">Отбросить отложенный установщик для %1$s и удалить строку из списка приложений? Загруженный APK будет удалён.</string>
+    <string name="confirm_discard_pending_title">Отбросить ожидающую установку?</string>
+    <string name="dhizuku_grant_permission">Предоставить разрешение</string>
+    <string name="dhizuku_install_hint">Установи Dhizuku и активируй его как Device Owner для тихих установок</string>
+    <string name="dhizuku_start_hint">Активируй Dhizuku как Device Owner для тихих установок</string>
+    <string name="installer_type_root">Root</string>
+    <string name="installer_type_root_description">Тихая установка через Magisk, KernelSU или APatch root</string>
+    <string name="root_status_ready">Предоставлен</string>
+    <string name="root_status_permission_needed">Разрешить root</string>
+    <string name="root_status_unavailable">Нет root</string>
+    <string name="root_grant_permission">Разрешить root-доступ</string>
+    <string name="root_unavailable_hint">Root недоступен на этом устройстве. Сначала установи Magisk, KernelSU или APatch.</string>
+    <string name="dhizuku_status_not_installed">Dhizuku не установлен</string>
+    <string name="dhizuku_status_not_running">Dhizuku не активен</string>
+    <string name="dhizuku_status_permission_needed">Требуется разрешение</string>
+    <string name="dhizuku_status_ready">Готов</string>
+    <string name="discard_pending_install">Отбросить</string>
+    <string name="error_state_go_back">Назад</string>
+    <string name="error_state_subtitle_generic">Не удалось загрузить этот репо. Нажми «Повторить» ниже.</string>
+    <string name="error_state_subtitle_not_found">Репозиторий мог стать приватным, быть переименован или удалён.</string>
+    <string name="error_state_subtitle_offline">Проверь подключение и попробуй снова.</string>
+    <string name="error_state_subtitle_rate_limit">GitHub или наш бэкенд достиг квоты. Попробуй чуть позже.</string>
+    <string name="error_state_title_generic">Что-то пошло не так</string>
+    <string name="error_state_title_not_found">Репозиторий не найден</string>
+    <string name="error_state_title_offline">Ты офлайн</string>
+    <string name="error_state_title_rate_limit">Достигнут лимит запросов</string>
+    <string name="export_apps_obtainium">Экспорт для Obtainium</string>
+    <string name="external_import_card_owner_byline">от %1$s</string>
+    <string name="external_import_card_preselect_known_prefix">Похоже, это</string>
+    <string name="failed_to_discard_pending">Не удалось отбросить ожидающую установку для %1$s</string>
+    <string name="import_summary_already_tracked">%1$d уже отслеживается</string>
+    <string name="import_summary_close">Готово</string>
+    <string name="import_summary_collapse">Скрыть детали</string>
+    <string name="import_summary_expand">Показать детали</string>
+    <string name="import_summary_failed">%1$d не удалось</string>
+    <string name="import_summary_format_native">GitHub App Market</string>
+    <string name="import_summary_format_obtainium">Obtainium</string>
+    <string name="import_summary_imported">%1$d импортировано</string>
+    <string name="import_summary_non_github">%1$d не GitHub</string>
+    <string name="import_summary_non_github_caption">Мы пока не отслеживаем GitLab, F-Droid и HTML-источники.</string>
+    <string name="import_summary_title">Результаты импорта — %1$s</string>
+    <string name="import_summary_unknown_caption">Это не похоже на экспорт GitHub App Market или Obtainium. Вот начало файла:</string>
+    <string name="import_summary_unknown_format">Не удалось прочитать этот файл</string>
+    <string name="installer_attribution_custom_apply">Применить</string>
+    <string name="installer_attribution_custom_error">Используй корректное имя Android-пакета (например, com.example.installer)</string>
+    <string name="installer_attribution_custom_label">Имя пакета установщика</string>
+    <string name="installer_attribution_description">Приложения видят, какой установщик поместил их на устройство. По умолчанию это системная оболочка.</string>
+    <string name="installer_attribution_disclosure">Некоторые приложения отслеживают смену установщика и могут отказаться запускаться или не пройти проверки безопасности (например, Play Integrity, банковские приложения).</string>
+    <string name="installer_attribution_preset_custom">Свой…</string>
+    <string name="installer_attribution_preset_fdroid">F-Droid</string>
+    <string name="installer_attribution_preset_obtainium">Obtainium</string>
+    <string name="installer_attribution_preset_playstore">Play Store</string>
+    <string name="installer_attribution_preset_system">Системный по умолчанию</string>
+    <string name="installer_attribution_title">Атрибуция установщика</string>
+    <string name="installer_type_dhizuku">Dhizuku</string>
+    <string name="installer_type_dhizuku_description">Тихая установка через Device Owner — обходит подсказки установки OEM</string>
+    <string name="rate_limit_exceeded_retry_in">Лимит достигнут — повтор через %1$d с.</string>
+    <string name="rate_limit_exceeded_signin_hint">Войди в GitHub для большей квоты.</string>
+    <string name="releases_unavailable_temporarily">Релизы временно недоступны. Попробуй чуть позже.</string>
+    <string name="starred_picker_already_tracked">Отслеживается</string>
+    <string name="starred_picker_apk_badge">APK</string>
+    <string name="starred_picker_empty">Нет избранных репо. Отметь репо звездой на GitHub, чтобы увидеть их здесь.</string>
+    <string name="starred_picker_filter_show_all">Показывать репо без релизов APK</string>
+    <string name="starred_picker_header_counts">%1$d избранных · %2$d с APK · %3$d уже отслеживается</string>
+    <string name="starred_picker_no_match">Ничего не найдено.</string>
+    <string name="starred_picker_progress">Проверка %1$d / %2$d…</string>
+    <string name="starred_picker_rate_limited">Достигнут лимит GitHub. Возобнови, чтобы продолжить проверку.</string>
+    <string name="starred_picker_resume">Возобновить</string>
+    <string name="starred_picker_search_hint">Поиск по владельцу / репо / описанию</string>
+    <string name="starred_picker_sign_in_required">Войди в GitHub, чтобы увидеть избранные репо.</string>
+    <string name="starred_picker_sort_alphabetical">А → Я</string>
+    <string name="starred_picker_sort_recent">Недавно отмеченные</string>
+    <string name="starred_picker_sort_stars">Больше звёзд</string>
+    <string name="starred_picker_star_dedup_tooltip">Снятие звезды на GitHub не отменяет отслеживание приложения.</string>
+    <string name="import_stars_title">Импорт репозиториев со звездой по имени пользователя</string>
+    <string name="import_stars_subtitle">Введи любое имя пользователя GitHub, чтобы посмотреть его публичные репозитории со звездой и добавить их в избранное. Вход не требуется.</string>
+    <string name="import_stars_hint">Имя пользователя GitHub</string>
+    <string name="import_stars_button">Показать репозитории со звездой</string>
+    <string name="import_stars_header_count">@%1$s · %2$d репозиториев со звездой</string>
+    <string name="import_stars_search_hint">Поиск по владельцу / репо / описанию</string>
+    <string name="import_stars_add_all">Добавить %1$d в избранное</string>
+    <string name="import_stars_empty">У @%1$s нет репозиториев со звездой.</string>
+    <string name="import_stars_no_match">Ничего не найдено.</string>
+    <string name="import_stars_add">Добавить в избранное</string>
+    <string name="import_stars_added">Уже в избранном</string>
+    <string name="import_stars_try_another">Попробуй другое</string>
+    <string name="import_stars_entry">Импорт репозиториев со звездой по имени пользователя</string>
+    <string name="starred_picker_title">Добавить из избранных</string>
+    <string name="whats_new_cta_dismiss">Понятно</string>
+    <string name="whats_new_cta_history">Предыдущие версии</string>
+    <string name="whats_new_history_empty">Записей в журнале изменений пока нет.</string>
+    <string name="whats_new_profile_description">Главное из последних релизов.</string>
+    <string name="whats_new_section_fixed">Исправлено</string>
+    <string name="whats_new_section_heads_up">Внимание</string>
+    <string name="whats_new_section_improved">Улучшено</string>
+    <string name="whats_new_section_new">Новое</string>
+    <string name="whats_new_sheet_heading">Что нового в %1$s</string>
+    <string name="whats_new_title">Что нового</string>
+    <string name="whats_new_version_label">Версия %1$s · %2$s</string>
+
+    <!-- Skip this version (issue #542) -->
+    <string name="apps_skip_version">Пропустить эту версию</string>
+    <string name="apps_skip_version_unskip">Не пропускать</string>
+    <string name="apps_skip_version_snackbar">Версия %1$s пропущена — ты получишь уведомление, когда выйдет более новая</string>
+    <string name="apps_unskip_version_snackbar">Уведомление об обновлении снова включено</string>
+    <string name="apps_skip_version_error">Не удалось обновить настройку</string>
+    <string name="apps_unskip_version_error">Не удалось восстановить уведомление об обновлении</string>
+    <string name="skipped_updates_entry_title">Пропущенные обновления</string>
+    <string name="skipped_updates_entry_description">Версии, которые ты решил игнорировать</string>
+    <string name="skipped_updates_title">Пропущенные обновления</string>
+    <string name="skipped_updates_empty_title">Нет пропущенных версий</string>
+    <string name="skipped_updates_empty_description">Когда ты пропускаешь обновление на экране приложений, запись появляется здесь, чтобы её можно было отменить.</string>
+    <string name="skipped_updates_skipped_label">Пропущена %1$s</string>
+    <string name="skipped_updates_installed_label">Установлена: %1$s</string>
+    <string name="skipped_updates_unskip_action">Не пропускать</string>
+    <string name="skipped_updates_unskipped_snackbar">Уведомление снова включено для %1$s</string>
+    <string name="skipped_updates_unskip_failure">Не удалось обновить настройку</string>
+    <string name="hidden_repositories_title">Скрытые репозитории</string>
+    <string name="hidden_repositories_entry_description">Управление репозиториями, скрытыми с Главной и Поиска.</string>
+    <string name="hidden_repositories_empty_title">Нет скрытых репозиториев</string>
+    <string name="hidden_repositories_empty_description">Удерживай карточку репозитория на Главной или в Поиске, чтобы скрыть её из обзора.</string>
+    <string name="hidden_repositories_unhide_action">Показать</string>
+    <string name="hidden_repositories_unhide_all">Показать все</string>
+    <string name="hidden_repositories_unhidden_snackbar">%1$s снова виден</string>
+    <string name="hidden_repositories_unhidden_all_snackbar">Все репозитории снова видны</string>
+    <string name="hidden_repositories_unhide_failure">Не удалось показать. Повтори попытку.</string>
+    <string name="open_on_github">Открыть на GitHub</string>
+    <string name="mark_as_viewed">Отметить как просмотренный</string>
+    <string name="mark_as_unviewed">Снять отметку</string>
+    <string name="show_all_platforms_label">Показать все платформы</string>
+    <string name="platform_section_android">Android</string>
+    <string name="platform_section_windows">Windows</string>
+    <string name="platform_section_macos">macOS</string>
+    <string name="platform_section_linux">Linux</string>
+    <string name="section_chip_your_device">Это устройство</string>
+    <string name="section_chip_for_transfer">Для переноса</string>
+    <string name="kao_banner_title">Сохраним Android открытым</string>
+    <string name="kao_banner_body">Политика верификации разработчиков Google угрожает открытому распространению Android. GitHub App Market поддерживает коалицию.</string>
+    <string name="kao_banner_cta">Подробнее</string>
+    <string name="kao_banner_dismiss_cd">Закрыть баннер</string>
+
+    <!-- ───── Russian completion pass ───── -->
+    <string name="adaptive_pick_repo_subtitle">Нажми на любую карточку слева, чтобы увидеть детали здесь.</string>
+    <string name="adaptive_pick_repo_title">Выбери репозиторий</string>
+    <string name="apps_section_pending_installs">Готово к установке</string>
+    <string name="apps_two_pane_advanced_settings">Расширенные настройки</string>
+    <string name="apps_two_pane_detail_section_actions">Быстрые действия</string>
+    <string name="apps_two_pane_detail_section_settings">Настройки</string>
+    <string name="apps_two_pane_detail_section_status">Статус</string>
+    <string name="apps_two_pane_empty_subtitle">Выбери любое приложение слева, чтобы увидеть его детали и действия.</string>
+    <string name="apps_two_pane_empty_title">Выбери приложение</string>
+    <string name="apps_two_pane_installed_label">Установлено</string>
+    <string name="apps_two_pane_latest_label">Последняя</string>
+    <string name="apps_two_pane_open_repo">Открыть репозиторий</string>
+    <string name="apps_two_pane_pick_variant">Выбрать вариант</string>
+    <string name="apps_updates_banner_hide">Скрыть список</string>
+    <string name="apps_updates_banner_show">Показать список</string>
+    <string name="apps_updates_banner_subtitle">Просмотри или обнови всё сразу.</string>
+    <string name="apps_updates_banner_title_one">Доступно 1 обновление</string>
+    <string name="apps_updates_banner_title_other">Доступно обновлений: %1$d</string>
+    <string name="back_cd">Назад</string>
+    <string name="cd_back">Назад</string>
+    <string name="cd_image">Изображение</string>
+    <string name="common_see_all">Все ›</string>
+    <plurals name="custom_forges_count">
+        <item quantity="one">%1$d хост</item>
+        <item quantity="few">%1$d хоста</item>
+        <item quantity="many">%1$d хостов</item>
+        <item quantity="other">%1$d хоста</item>
+    </plurals>
+    <string name="custom_forges_dialog_builtin_note">Codeberg, gitea.com и git.disroot.org уже доступны по умолчанию — добавлять их сюда не нужно. Используй этот список только для собственного Forgejo или Gitea.</string>
+    <string name="details_about_screen_title">О репозитории</string>
+    <string name="details_developer_section">Разработчик</string>
+    <string name="details_stats_section">Статистика</string>
+    <string name="details_view_developer_profile">Профиль</string>
+    <string name="details_whats_new_screen_title">Что нового</string>
+    <string name="external_import_progress_skip">Пропустить и посмотреть позже</string>
+    <string name="feedback_hub_subtitle">Мы читаем каждый отзыв.</string>
+    <string name="home_action_get">Получить</string>
+    <string name="home_rank_format">#%1$d</string>
+    <string name="home_section_from_your_stars">Из твоих избранных</string>
+    <string name="home_section_hot_releases">Свежие релизы</string>
+    <string name="home_section_most_popular">Самые популярные</string>
+    <string name="home_section_trending_now">В тренде</string>
+    <string name="home_topbar_discover">Обзор</string>
+    <string name="home_view_all">Показать все</string>
+    <string name="home_view_more">Показать ещё</string>
+    <string name="host_tokens_action_add">Добавить токен</string>
+    <string name="host_tokens_action_back">Назад</string>
+    <string name="host_tokens_action_cancel">Отмена</string>
+    <string name="host_tokens_action_delete">Удалить</string>
+    <string name="host_tokens_action_save">Сохранить</string>
+    <string name="host_tokens_compose_add_title">Добавить токен</string>
+    <string name="host_tokens_compose_detected">Определено: %1$s</string>
+    <string name="host_tokens_compose_field_forge_address">Адрес форджа</string>
+    <string name="host_tokens_compose_replace_hint">Оставь пустым, чтобы сохранить текущий токен. Введи новое значение, чтобы заменить его.</string>
+    <string name="host_tokens_compose_replace_title">Заменить токен для %1$s</string>
+    <string name="host_tokens_compose_will_connect">Подключение к %1$s</string>
+    <plurals name="host_tokens_count">
+        <item quantity="one">%1$d токен</item>
+        <item quantity="few">%1$d токена</item>
+        <item quantity="many">%1$d токенов</item>
+        <item quantity="other">%1$d токена</item>
+    </plurals>
+    <string name="host_tokens_empty_subtitle">Нажми +, чтобы добавить персональный токен доступа</string>
+    <string name="host_tokens_empty_title">Токены не сохранены</string>
+    <string name="host_tokens_entry_subtitle">Персональные токены для каждого хоста (GitHub, Codeberg, Forgejo)</string>
+    <string name="host_tokens_field_display_name">Отображаемое имя (необязательно)</string>
+    <string name="host_tokens_field_token">Персональный токен доступа</string>
+    <string name="host_tokens_oauth_coexistence">Ты уже вошёл в GitHub через приложение — это рекомендуемый путь. Добавляй токен сюда, только если вход через браузер не работает (ограниченная сеть, нет браузера) или для других форджей, кроме GitHub.</string>
+    <string name="host_tokens_picker_open_page">Открыть страницу токена</string>
+    <string name="host_tokens_picker_other">Другой фордж</string>
+    <string name="host_tokens_picker_other_subtitle">Forgejo, Gitea, собственный</string>
+    <string name="host_tokens_picker_paste">Вставить токен</string>
+    <string name="host_tokens_picker_title">Добавить токен для…</string>
+    <string name="host_tokens_row_edit_label">Изменить метку</string>
+    <string name="host_tokens_row_invalid_short">Недействителен · %1$s</string>
+    <string name="host_tokens_row_menu">Ещё</string>
+    <string name="host_tokens_row_open_token_page">Управлять на %1$s</string>
+    <string name="host_tokens_row_replace_token">Заменить токен</string>
+    <string name="host_tokens_row_valid_rate">Осталось %1$s</string>
+    <string name="host_tokens_row_valid_short">Действителен · %1$s</string>
+    <string name="host_tokens_row_validate">Проверить</string>
+    <string name="host_tokens_saved">Токен сохранён для %1$s</string>
+    <string name="host_tokens_title">Токены аутентификации</string>
+    <string name="host_tokens_undo_action">Отменить</string>
+    <string name="host_tokens_undo_failed">Не удалось восстановить токен для %1$s</string>
+    <string name="host_tokens_undo_snackbar">Токен для %1$s удалён</string>
+    <string name="host_tokens_validation_failed">Проверка не пройдена: %1$s</string>
+    <string name="host_tokens_validation_failed_fallback">неизвестная ошибка</string>
+    <string name="host_tokens_validation_host_invalid">Неверный хост</string>
+    <string name="host_tokens_validation_host_required">Требуется хост</string>
+    <string name="host_tokens_validation_token_required">Требуется токен</string>
+    <string name="host_tokens_validation_token_short">Токен слишком короткий</string>
+    <string name="menubar_help_about">О GitHub App Market</string>
+    <string name="menubar_help_feedback">Отправить отзыв…</string>
+    <string name="menubar_help_licenses">Лицензии открытого ПО</string>
+    <string name="menubar_file_menu">Файл</string>
+    <string name="menubar_go_menu">Переход</string>
+    <string name="menubar_file_quit">Выход</string>
+    <string name="menubar_help_menu">Помощь</string>
+    <string name="menubar_help_privacy">Политика конфиденциальности</string>
+    <string name="profile_tweaks_description">Настройки приложения, тема, сеть, перевод, расширенные параметры.</string>
+    <string name="restart_banner_body">Некоторым изменениям нужен перезапуск.</string>
+    <string name="restart_banner_later">Позже</string>
+    <string name="restart_banner_reason_language">язык</string>    <string name="restart_banner_reason_theme">тема</string>
+    <string name="restart_banner_reasons_prefix">Затронуто: %1$s</string>
+    <string name="restart_banner_restart_now">Перезапустить</string>
+    <string name="search_clear_filter_cd">Убрать фильтр</string>
+    <string name="search_filters_apply">Готово</string>
+    <string name="search_filters_button">Фильтры</string>
+    <string name="search_filters_reset">Сбросить</string>
+    <string name="search_filters_section_language">Язык</string>
+    <string name="search_filters_section_platform">Платформа</string>
+    <string name="search_filters_section_sort">Сортировка</string>
+    <string name="search_filters_section_source">Источник</string>
+    <string name="search_filters_title">Фильтр результатов</string>
+    <string name="section_app_block">Приложение</string>
+    <string name="section_connectivity">Подключение</string>
+    <string name="section_installs_and_updates">Установка и обновления</string>
+    <string name="section_look_and_feel">Внешний вид</string>
+    <string name="section_privacy_and_data">Приватность и данные</string>
+    <plurals name="skipped_updates_count">
+        <item quantity="one">%1$d приложение</item>
+        <item quantity="few">%1$d приложения</item>
+        <item quantity="many">%1$d приложений</item>
+        <item quantity="other">%1$d приложения</item>
+    </plurals>
+    <string name="translation_auto_subtitle">Автоматически переводить README и заметки о выпуске при открытии репозитория. В качестве цели используется язык приложения.</string>
+    <string name="translation_auto_target_followup">Следовать языку приложения (%1$s)</string>
+    <string name="translation_auto_target_label">Переводить на</string>
+    <string name="translation_auto_title">Автоперевод репозиториев</string>
+    <string name="translation_card_cancel">Отмена</string>
+    <string name="translation_card_change_language">Сменить язык</string>
+    <string name="translation_card_detected_source">Исходный язык: %1$s</string>
+    <string name="translation_card_retry">Повторить</string>
+    <string name="translation_card_show_original">Показать оригинал</string>
+    <string name="translation_card_show_translation">Показать перевод</string>
+    <string name="translation_card_subtitle_idle">Покажи эту страницу на другом языке.</string>
+    <string name="translation_card_subtitle_original">Показан оригинал</string>
+    <string name="translation_card_subtitle_translated">Переведено на %1$s</string>
+    <string name="translation_card_subtitle_translating">Перевод…</string>
+    <string name="translation_card_target_label">Язык перевода</string>
+    <string name="translation_card_title">Перевод</string>
+    <string name="translation_card_translate_to">Перевести на %1$s</string>
+    <string name="translation_deepl_auth_key">Ключ авторизации</string>
+    <string name="translation_deepl_get_free_key">Получить бесплатный ключ DeepL →</string>
+    <string name="translation_deepl_help">Зарегистрируйся на deepl.com/pro-api. Ключи бесплатного тарифа оканчиваются на :fx и автоматически используют бесплатный эндпоинт. Pro-тариф сохраняет приватность текста; Free-тариф может использовать отправленный текст для улучшения моделей.</string>
+    <string name="translation_deepl_save">Сохранить ключ</string>
+    <string name="translation_deepl_saved">Ключ DeepL сохранён</string>
+    <string name="translation_libre_api_key">API-ключ (необязательно)</string>
+    <string name="translation_libre_base_url">URL инстанса</string>
+    <string name="translation_libre_help">Работает «из коробки» через публичное зеркало Disroot — оставь поля пустыми, чтобы использовать его. Для большей приватности укажи URL своего инстанса. API-ключ нужен, только если этого требует инстанс.</string>
+    <string name="translation_libre_save">Сохранить настройки</string>
+    <string name="translation_libre_saved">Настройки LibreTranslate сохранены</string>
+    <string name="translation_microsoft_get_free_key">Получить бесплатный ключ Azure →</string>
+    <string name="translation_microsoft_help">Azure Translator уважает приватность (No-Trace по умолчанию — текст не сохраняется и не используется для обучения). Бесплатный тариф — до 2M символов в месяц. Регион нужен только для не-глобальных ресурсов.</string>
+    <string name="translation_microsoft_key">Ключ подписки</string>
+    <string name="translation_microsoft_region">Регион (например, westeurope, оставь пустым для Global)</string>
+    <string name="translation_microsoft_save">Сохранить учётные данные</string>
+    <string name="translation_microsoft_saved">Учётные данные Microsoft Translator сохранены</string>
+    <string name="translation_provider_deepl">DeepL</string>
+    <string name="translation_provider_libre">LibreTranslate</string>
+    <string name="translation_provider_microsoft">Microsoft</string>
+    <string name="tweaks_app_info_app_name">GitHub App Market</string>
+    <string name="tweaks_app_info_licenses_subtitle">Библиотеки, используемые в приложении.</string>
+    <string name="tweaks_app_info_licenses_title">Лицензии открытого ПО</string>
+    <string name="tweaks_app_info_privacy_policy_subtitle">Открыть на github-store.org.</string>
+    <string name="tweaks_app_info_privacy_policy_title">Политика конфиденциальности</string>
+    <string name="tweaks_app_info_source_code_subtitle">Посмотреть исходный код приложения.</string>
+    <string name="tweaks_app_info_source_code_title">Исходный код на GitHub</string>
+    <string name="tweaks_app_info_tagline">Кросс-платформенный магазин приложений для релизов GitHub, Codeberg и Forgejo.</string>
+    <string name="tweaks_app_info_whats_new_subtitle">Заметки прошлых релизов.</string>
+    <string name="tweaks_app_info_whats_new_title">Что нового</string>
+    <string name="tweaks_connection_applies_to_all">Применяется ко всему трафику, если ниже не задано иное.</string>
+    <string name="tweaks_connection_custom">Своё</string>
+    <string name="tweaks_connection_intro_body">Выбери режим подключения ниже. Большинству подойдёт «Без прокси».</string>
+    <string name="tweaks_connection_intro_title">Как приложение выходит в интернет</string>
+    <string name="tweaks_connection_main_section">Основное подключение</string>
+    <string name="tweaks_connection_mode_http">HTTP/HTTPS</string>
+    <string name="tweaks_connection_mode_http_caption">Большинство корпоративных прокси.</string>
+    <string name="tweaks_connection_mode_no_proxy">Без прокси</string>
+    <string name="tweaks_connection_mode_socks">SOCKS5</string>
+    <string name="tweaks_connection_mode_socks_caption">Tor, SSH-туннели.</string>
+    <string name="tweaks_connection_mode_system">Системный</string>
+    <string name="tweaks_connection_overrides_body">Каждая область по умолчанию использует основное подключение. Выбери «Своё», чтобы задать отдельные настройки.</string>
+    <string name="tweaks_connection_overrides_section">Переопределения по областям</string>
+    <string name="tweaks_connection_paste_url">Вставить полный URL</string>
+    <string name="tweaks_connection_paste_url_body">Вставь полный URL прокси, и мы заполним форму за тебя.</string>
+    <string name="tweaks_connection_paste_url_cta">Использовать этот URL</string>
+    <string name="tweaks_connection_paste_url_error">Не удалось прочитать этот URL.</string>
+    <string name="tweaks_connection_paste_url_placeholder">scheme://user:pass@host:port</string>
+    <string name="tweaks_connection_paste_url_title">Вставить URL прокси</string>
+    <string name="tweaks_connection_scope_discovery_body">API GitHub, поиск, детали репозитория.</string>
+    <string name="tweaks_connection_scope_discovery_title">Поиск и метаданные</string>
+    <string name="tweaks_connection_scope_download_body">Загрузка APK и ассетов.</string>
+    <string name="tweaks_connection_scope_download_title">Загрузки</string>
+    <string name="tweaks_connection_scope_translation_body">Запросы к DeepL, Microsoft, LibreTranslate.</string>
+    <string name="tweaks_connection_scope_translation_title">Перевод</string>
+    <string name="tweaks_connection_test">Проверить</string>
+    <string name="tweaks_connection_use_main">Как основное</string>
+    <string name="tweaks_entry_access_tokens">Токены доступа</string>
+    <string name="tweaks_entry_app_info">О приложении</string>
+    <string name="tweaks_entry_appearance">Внешний вид</string>
+    <string name="tweaks_entry_connection">Подключение</string>
+    <string name="tweaks_entry_feedback">Отправить отзыв</string>
+    <string name="tweaks_entry_install_method">Способ установки</string>
+    <string name="tweaks_entry_language">Язык</string>
+    <string name="tweaks_entry_privacy">Приватность</string>
+    <string name="tweaks_entry_sources">Источники</string>
+    <string name="tweaks_entry_storage">Хранилище</string>
+    <string name="tweaks_entry_subtitle_tap">Нажми, чтобы настроить</string>
+    <string name="tweaks_entry_translation">Перевод</string>
+    <string name="tweaks_entry_updates">Обновления</string>
+    <string name="tweaks_install_method_desktop_empty_body">Тихие установщики и атрибуция установщика — это функции Android. На десктопе установка идёт через системный менеджер пакетов.</string>
+    <string name="tweaks_install_method_desktop_empty_title">Способ установки доступен только на Android</string>
+    <string name="tweaks_language_intro_body">Приложение перезапустится при смене языка.</string>
+    <string name="tweaks_licenses_intro_body">Нажми на любую запись, чтобы открыть её страницу проекта.</string>
+    <string name="tweaks_licenses_intro_title">GitHub App Market построен на этих библиотеках.</string>
+    <string name="tweaks_licenses_title">Лицензии открытого ПО</string>
+    <string name="tweaks_privacy_browsing_history_section">История просмотров</string>
+    <string name="tweaks_privacy_clear_viewed_body">Забыть, какие репо ты уже открывал.</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_body">Это не уберёт звёзды и не снимет с избранного.</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_confirm">Очистить</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_title">Очистить историю просмотров?</string>
+    <string name="tweaks_privacy_clear_viewed_title">Очистить историю просмотров</string>
+    <string name="tweaks_privacy_clipboard_body">Когда ты копируешь ссылку на github.com или codeberg.org, мы предложим её открыть.</string>
+    <string name="tweaks_privacy_clipboard_title">Замечать ссылки на репо в буфере обмена</string>
+    <string name="tweaks_privacy_hidden_repos_body">Репо, которые ты убрал из ленты и поиска.</string>
+    <string name="tweaks_privacy_hidden_repos_title">Скрытые репозитории</string>
+    <string name="tweaks_privacy_hide_seen_body">Пропускать просмотренные репо в ленте и поиске.</string>
+    <string name="tweaks_privacy_hide_seen_title">Скрывать уже просмотренные репо</string>    <string name="tweaks_privacy_telemetry_collect_no_identifiers">Никаких идентификаторов.</string>    <string name="tweaks_privacy_telemetry_collect_os">ОС и платформа.</string>    <string name="tweaks_search_empty">Под «%1$s» ничего не нашлось.</string>
+    <string name="tweaks_search_placeholder">Поиск по настройкам</string>
+    <string name="tweaks_sources_add_a_host">Добавить хост Forgejo или Gitea</string>
+    <string name="tweaks_sources_added_hosts_section">Добавленные хосты</string>
+    <string name="tweaks_sources_github_mirror_title">Зеркало GitHub</string>
+    <string name="tweaks_sources_intro_body">По умолчанию приложение ищет на GitHub. Можно направить через региональное зеркало или добавить свои хосты Forgejo / Gitea.</string>
+    <string name="tweaks_sources_intro_title">Где приложение ищет репозитории</string>
+    <string name="tweaks_sources_mirror_default">По умолчанию (github.com)</string>
+    <string name="tweaks_storage_downloaded_apks_body">Установщики остаются на диске, чтобы обновления возобновлялись быстро.</string>
+    <string name="tweaks_storage_downloaded_apks_clear">Очистить</string>
+    <string name="tweaks_storage_downloaded_apks_title">Загруженные APK</string>
+    <string name="tweaks_storage_empty_size">0 Б</string>
+    <string name="tweaks_storage_using_label">Занято: %1$s</string>
+    <string name="tweaks_stub_coming_soon_body">Этот экран — часть продолжающегося редизайна. Сами настройки работают — их просто переносят сюда со старого экрана.</string>
+    <string name="tweaks_stub_coming_soon_title">Появится в следующем обновлении</string>
+    <plurals name="hidden_repositories_count">
+        <item quantity="one">%1$d репозиторий скрыт</item>
+        <item quantity="few">%1$d репозитория скрыто</item>
+        <item quantity="many">%1$d репозиториев скрыто</item>
+        <item quantity="other">%1$d репозитория скрыто</item>
+    </plurals>
+    <string name="tweaks_app_info_community_section">Связь</string>
+    <string name="tweaks_app_info_community_title">Присоединяйся к сообществу</string>
+    <string name="tweaks_app_info_community_subtitle">6 мест</string>
+    <string name="tweaks_app_info_community_business_title">Деловые запросы</string>
+    <string name="tweaks_app_info_community_business_subtitle">Партнёрства, пресса, интеграции.</string>
+    <string name="tweaks_app_info_community_business_cta">Написать</string>
+    <string name="profile_section_library">Библиотека</string>
+    <string name="profile_section_updates">Обновления</string>
+    <string name="profile_section_account">Аккаунт</string>
+    <string name="appearance_section_mode">Режим</string>
+    <string name="appearance_section_display">Отображение</string>
+    <string name="theme_dynamic">Динамичная</string>
+    <string name="auth_more_signin_options">Другие способы входа</string>
+    <string name="auth_hide_signin_options">Скрыть параметры</string>
+    <string name="tweaks_sources_platforms_title">Платформы для подборки</string>
+    <string name="tweaks_sources_platforms_body">Фильтрация главной ленты по платформам. Если все выключены, показываются все.</string>
+    <string name="profile_entry_about_title">О приложении</string>
+    <string name="profile_entry_about_subtitle">Версия, сообщество, юридическая информация</string>
+    <string name="filter_with_installable">Можно установить здесь</string>
+    <string name="no_repos_with_installable">Нет репозиториев с устанавливаемыми сборками для этой платформы</string>
+    <string name="interval_every_hours">Каждые %1$d часов</string>
+    <string name="interval_daily">Ежедневно</string>
+    <string name="interval_every_days">Каждые %1$d дней</string>
+    <string name="interval_weekly">Еженедельно</string>
+    <string name="interval_biweekly">Раз в 2 недели</string>
+    <string name="interval_monthly">Каждые 30 дней</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_palette_title">Выбери палитру</string>
+    <string name="onboarding_palette_subtitle">Четыре палитры × Светлая, Тёмная, AMOLED, Системная.</string>
+    <string name="onboarding_signin_subtitle">Звёзды, профиль и более высокий лимит запросов. Необязательно — пропусти, чтобы просматривать анонимно.</string>
+    <string name="onboarding_signin_button">Войти</string>
+    <string name="onboarding_permissions_title">Два быстрых разрешения</string>
+    <string name="onboarding_permissions_subtitle">Оба необязательны. Их можно изменить позже в Настройках.</string>
+    <string name="onboarding_permission_notifications">Уведомления</string>
+    <string name="onboarding_permission_notifications_desc">Оповещения об обновлениях и ход установки</string>
+    <string name="onboarding_permission_install">Установка неизвестных приложений</string>
+    <string name="onboarding_permission_install_desc">Нужно для установки APK вне Play</string>
+    <string name="onboarding_permission_granted">Предоставлено</string>
+    <string name="onboarding_permission_allow">Разрешить</string>
+    <string name="onboarding_skip">Пропустить</string>
+    <string name="onboarding_get_started">Начать</string>
+    <string name="onboarding_next">Далее</string>
+
+    <!-- Developer profile -->
+    <string name="dev_profile_contribution_activity">Активность вкладов</string>
+    <string name="dev_profile_contributions_this_year">%1$d в этом году</string>
+    <string name="dev_profile_contributions_load_failed">Не удалось загрузить вклады.</string>
+    <string name="dev_profile_contributions_less">Меньше</string>
+    <string name="dev_profile_contributions_more">Больше</string>
+    <string name="dev_profile_org_badge">Организация</string>
+
+    <!-- Common -->
+    <string name="loading">Загрузка…</string>
+    <string name="failed_to_load">Не удалось загрузить</string>
+    <string name="failed_to_load_details">Не удалось загрузить детали</string>
+
+    <!-- Tweaks: licenses / app info / custom forges -->
+    <string name="tweaks_licenses_load_failed">Не удалось загрузить лицензии.</string>
+    <string name="tweaks_app_info_website">Веб-сайт</string>
+    <string name="tweaks_clear_downloads_failed">Не удалось очистить загрузки</string>
+    <string name="tweaks_custom_forge_invalid_hostname">Введи корректное имя хоста (например, forgejo.example.com).</string>
+    <string name="tweaks_custom_forge_save_failed">Не удалось сохранить хост. Попробуй снова.</string>
+    <string name="tweaks_custom_forge_remove_failed">Не удалось удалить хост. Попробуй снова.</string>
+
+    <!-- Repo pages: issues -->
+    <string name="repo_pages_issues_title">Issues</string>
+    <string name="repo_pages_issues_filter_open">Открытые</string>
+    <string name="repo_pages_issues_filter_closed">Закрытые</string>
+    <string name="repo_pages_issues_empty_open">Нет открытых issue.</string>
+    <string name="repo_pages_issues_empty_closed">Нет закрытых issue.</string>
+    <string name="repo_pages_issue_comments_section">Комментарии</string>
+    <string name="repo_pages_issue_no_body">Описание отсутствует.</string>
+    <string name="repo_pages_issue_opened_by">открыл %1$s</string>
+
+    <!-- Repo pages: security -->
+    <string name="repo_pages_security_title">Безопасность</string>
+    <string name="repo_pages_security_advisories_header">Уведомления о безопасности</string>
+    <string name="repo_pages_security_no_advisories">Нет опубликованных уведомлений.</string>
+    <string name="repo_pages_security_policy_header">Политика безопасности</string>
+    <string name="repo_pages_security_no_policy">Политика безопасности не опубликована.</string>
+    <string name="repo_pages_severity_critical">Критическая</string>
+    <string name="repo_pages_severity_high">Высокая</string>
+    <string name="repo_pages_severity_medium">Средняя</string>
+    <string name="repo_pages_severity_low">Низкая</string>
+    <string name="repo_pages_severity_unknown">Неизвестно</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_issues_button">Issues</string>
+    <string name="repo_pages_details_security_button">Безопасность</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_pulls_button">Pull requests</string>
+
+    <!-- Repo interactions: star -->
+    <string name="star_added">Помечено звездой</string>
+    <string name="star_removed">Звезда убрана</string>
+    <string name="star_sign_in_required">Войди, чтобы отмечать репозитории звездой.</string>
+
+    <!-- Repo interactions: comments -->
+    <string name="repo_pages_comment_hint">Добавь комментарий…</string>
+    <string name="repo_pages_comment_send">Отправить</string>
+    <string name="repo_pages_comment_sign_in">Войди, чтобы комментировать.</string>
+    <string name="repo_pages_comment_failed">Не удалось отправить комментарий.</string>
+    <string name="repo_pages_comment_posted">Комментарий отправлен</string>
+
+    <!-- Repo interactions: new issue -->
+    <string name="repo_pages_new_issue">Новый issue</string>
+    <string name="repo_pages_new_issue_title_hint">Заголовок</string>
+    <string name="repo_pages_new_issue_body_hint">Опиши проблему…</string>
+    <string name="repo_pages_new_issue_submit">Создать</string>
+    <string name="repo_pages_new_issue_sign_in">Войди, чтобы создавать issue.</string>
+    <string name="repo_pages_new_issue_failed">Не удалось создать issue.</string>
+    <string name="repo_pages_new_issue_created">Issue создан</string>
+
+    <!-- Repo interactions: reactions -->
+    <string name="repo_pages_react_sign_in">Войди, чтобы оставить реакцию.</string>
+    <string name="repo_pages_react_failed">Не удалось добавить реакцию.</string>
+    <string name="cd_thumbs_up">Палец вверх</string>
+
+    <!-- Repo pages: pull requests -->
+    <string name="repo_pages_pulls_title">Pull requests</string>
+    <string name="repo_pages_pulls_empty_open">Нет открытых pull request.</string>
+    <string name="repo_pages_pulls_empty_closed">Нет закрытых pull request.</string>
+    <string name="repo_pages_pr_state_merged">Влит</string>
+    <string name="repo_pages_pr_draft">Черновик</string>
+
+    <string name="feed_end_cap">続く · TO BE CONTINUED</string>
+    <string name="feed_masthead_subtitle">発見 · DISCOVER APPS</string>
+    <string name="home_masthead_subtitle">ランキング · CHARTS &amp; PICKS</string>
+    <string name="feed_platform_picker_title_jp">対応</string>
+    <string name="home_chart_popular_jp">人気</string>
+    <string name="home_chart_releases_jp">新着</string>
+    <string name="home_chart_trending_jp">急上昇</string>
+    <string name="sidebar_browse_jp">航行</string>
+    <string name="sidebar_categories_jp">部門</string>
+    <string name="sidebar_nav_charts_jp">ランキング</string>
+    <string name="sidebar_nav_explore_jp">発見</string>
+    <string name="sidebar_nav_search_jp">検索</string>
+    <string name="sidebar_nav_you_jp">あなた</string>
+    <string name="sidebar_platform_jp">対応</string>
+    <string name="feed_masthead_title">GitHub App Market</string>
+    <string name="feed_masthead_title_accent">Store</string>
+    <string name="platform_section_ios">iOS</string>
+    <string name="paper_nord">Nord</string>
+    <string name="appearance_section_paper">Бумага</string>
+    <string name="bottom_nav_top_charts_title">Топ-чарты</string>
+    <string name="cd_more_actions">Другие действия</string>
+    <string name="feed_category_ai">ИИ</string>
+    <string name="feed_category_media">Медиа</string>
+    <string name="feed_category_networking">Сеть</string>
+    <string name="feed_category_privacy">Приватность</string>
+    <string name="feed_category_reading">Чтение</string>
+    <string name="feed_category_social">Соцсети</string>
+    <string name="feed_category_tools">Инструменты</string>
+    <string name="feed_cd_profile">Профиль</string>
+    <string name="feed_cd_search">Поиск</string>
+    <string name="feed_empty_reset">Сбросить фильтры</string>
+    <string name="feed_empty_subtitle">Пока нет приложений %1$s для %2$s.</string>
+    <string name="feed_empty_title">Здесь пока пусто</string>
+    <string name="feed_failed_to_load">Не удалось загрузить ленту</string>
+    <string name="feed_browsing">Просмотр</string>
+    <string name="feed_loading">Загрузка новинок…</string>
+    <string name="feed_offline">Не в сети — показана сохранённая лента</string>
+    <string name="feed_platform_all">Все платформы</string>
+    <string name="feed_platform_picker_title">Выбери свою ОС</string>
+    <string name="home_chart_popular">Популярное</string>
+    <string name="home_chart_releases">Релизы</string>
+    <string name="home_chart_trending">В тренде</string>
+    <string name="home_masthead_title">Топ-чарты</string>
+    <string name="home_platform_filter">Фильтр платформ</string>
+    <string name="paper_day">День</string>
+    <string name="paper_night">Ночь</string>
+    <string name="repo_card_details">Подробнее</string>
+    <string name="sidebar_browse">Обзор</string>
+    <string name="sidebar_categories">Категории</string>
+    <string name="sidebar_platform">Платформа</string>
+    <string name="tweaks_privacy_usage_data_section">Данные об использовании</string>
+</resources>

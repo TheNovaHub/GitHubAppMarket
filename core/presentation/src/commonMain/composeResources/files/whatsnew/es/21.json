@@ -1,0 +1,22 @@
+{
+  "versionCode": 21,
+  "versionName": "1.9.2",
+  "releaseDate": "2026-06-25",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Nueva pestaña Explorar — un feed de descubrimiento de apps instalables para tu plataforma. Se actualiza a diario para que siempre haya algo nuevo y carga más a medida que te desplazas.",
+        "Nueva pestaña Populares — descubre lo que es tendencia, lo recién lanzado y lo más popular, clasificado en toda la tienda."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Las descargas de apps ahora eligen automáticamente la versión que coincide con la CPU de tu dispositivo (como aarch64) en lugar de recurrir a un APK universal más grande.",
+        "Se corrigió el inicio de sesión con GitHub en Windows: la aplicación de escritorio ahora se abre y completa el inicio de sesión de forma fiable después de autorizar en el navegador."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "versionCode": 18,
+  "versionName": "1.8.3",
+  "releaseDate": "2026-05-14",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "Codeberg + Forgejo + Gitea desteği. Codeberg / Forgejo URL'sini yapıştır veya Ayarlar → Ağ altında kendi host'unu ekle. Detaylar, kurulum, güncellemeler, arama — tümü bağlı.",
+        "Homebrew ile macOS kurulumu: `brew install --cask github-store`.",
+        "GitHub girişi standart web akışını kullanır — 8 haneli kod yok.",
+        "Tercihler ve kimlik bilgileri KSafe ile AES-256-GCM şifreli (Android'de donanım Keystore). İlk açılışta taşıma.",
+        "Kısıtlı GitHub için fastly.jsdelivr.net mirror eklendi.",
+        "Keep Android Open koalisyonuna katıldık — banner açıklıyor."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Detaylar'daki platform çipleri filtrelenmiş Search açıyor (önceden tepkisizdi).",
+        "Klavye arama düğmesi Android 12'de Çince IME'lerle çalışıyor.",
+        "Harici bağlanmış depo Detaylar'da tek dokunuşla bağlantı kaldırma banner'ı gösteriyor.",
+        "Oturum açma önceden doldurulmuş kod URL'sini açıyor + yapıştırmaya uygun kodu kopyalıyor.",
+        "Android 16 / özel ROM'larda Ayarlar + indirme çökmesi — dahili depolamaya geçer.",
+        "Android 13+ üzerinde Magisk / KernelSU / APatch algılama (SELinux ile maskelenmiş sonda).",
+        "Sabitlenmiş varyant etiketi yenileniyor — eski beta/rc numaraları yok.",
+        "README / sürüm notları viewport temizlikleri arası kaydırma konumunu koruyor."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Manuel bağlama sayfası yükleyici kaynağına göre sıralı (önce F-Droid / Obtainium, en sonda sistem güncellemeleri), uygulama başına kaynak çipi.",
+        "Smart match GitHub + Codeberg + özel forge'lardan sıralı depo öneriyor.",
+        "GFM uyarıları (Note / Tip / Important / Warning / Caution) renkli kartlar olarak.",
+        "Emoji kısayolları — :rocket: → 🚀 (~250 kapsanır).",
+        "SVG görselleri doğrudan render. Temaya özel görseller açık/koyu'ya saygı duyar. Tarayıcı UA CDN rozet engelini aşar.",
+        "Kod bloklarında sözdizimi vurgulama (Kotlin / Java / Python / JS/TS / Rust / Swift / C# / Ruby / Shell, temaya uyumlu).",
+        "Markdown rötuşu — HTML blockquote'ları ve `<pre><code>` render, alt/üst → unicode, HTML varlıkları çözülür.",
+        "Daraltılabilir `<details>` bölümleri dokunmayla açılan kartlar. Rozet/buton görsel satırları tek satırda akar.",
+        "Manuel eşleme seçtiğin sürüme güvenir — doğrulama için yeniden indirme yok.",
+        "Bölüme özel sıralama — Yüklü, Yıldızlı, Favoriler kendi tercihini hatırlar."
+      ]
+    }
+  ]
+}

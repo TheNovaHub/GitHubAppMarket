@@ -1,0 +1,1421 @@
+<resources>
+    <string name="app_name">GitHub App Market</string>
+
+    <string name="navigate_back">戻る</string>
+    <string name="check_for_updates">更新を確認</string>
+
+    <string name="cannot_launch">%1$s を起動できません</string>
+    <string name="failed_to_open">%1$s を開けませんでした</string>
+    <string name="failed_to_update">%1$s の更新に失敗しました：%2$s</string>
+    <string name="update_all_failed">すべての更新に失敗しました：%1$s</string>
+    <string name="all_apps_updated_successfully">すべてのアプリが更新されました</string>
+    <string name="no_updates_available">更新はありません</string>
+
+    <string name="search_your_apps">アプリを検索</string>
+    <string name="no_apps_found">アプリが見つかりません</string>
+
+    <string name="update_all">すべて更新</string>
+    <string name="update">更新</string>
+    <string name="open">開く</string>
+    <string name="cancel">キャンセル</string>
+
+    <string name="checking">確認中…</string>
+    <string name="updated_successfully">更新完了</string>
+    <string name="error_with_message">エラー：%1$s</string>
+
+    <string name="updating_x_of_y">%2$d 件中 %1$d 件を更新中</string>
+    <string name="currently_updating">現在：%1$s</string>
+
+    <string name="waiting_for_authorization">認証を待機中…</string>
+    <string name="signed_in">ログイン完了！</string>
+    <string name="redirecting_message">アプリを使用できます。リダイレクト中…</string>
+    <string name="try_again">再試行</string>
+
+    <string name="auth_error_with_message">エラー：%1$s</string>
+
+    <string name="enter_code_on_github">GitHubでこのコードを入力してください：</string>
+    <string name="copy_code">コードをコピー</string>
+    <string name="open_github">GitHubを開く</string>
+
+    <string name="unlock_full_experience">すべての機能を\n解放</string>
+
+    <string name="more_requests">リクエスト数を増加</string>
+    <string name="more_requests_description">
+        ログインして API の制限を引き上げ、中断を防ぎましょう。
+    </string>
+
+    <string name="sign_in_with_github">GitHubでサインイン</string>
+
+    <string name="error_unknown">不明なエラー</string>
+
+
+    <string name="search_repositories_hint">リポジトリや説明を検索…</string>
+
+    <string name="filter_by_language">言語でフィルター</string>
+
+    <string name="results_found">%1$d 件の結果</string>
+    <string name="search_results_hidden_by_seen_filter">「既読を非表示」フィルターですべての結果が非表示です</string>
+    <string name="show_all_results">「既読を非表示」フィルターを無効化</string>
+    <string name="searching_for_unseen_repos">未読のリポジトリを検索中…</string>
+
+    <string name="retry">再試行</string>
+
+    <string name="sort_by">並び替え</string>
+    <string name="close">閉じる</string>
+
+    <string name="sort_most_stars">スター数順</string>
+    <string name="sort_most_forks">フォーク数順</string>
+    <string name="sort_best_match">最適な一致</string>
+    <string name="sort_recently_released">最近リリース</string>
+
+    <string name="sort_order_descending">降順</string>
+    <string name="sort_order_ascending">昇順</string>
+    <string name="sort_label">並び替え</string>
+
+    <string name="language_all">すべての言語</string>
+    <string name="language_kotlin">Kotlin</string>
+    <string name="language_java">Java</string>
+    <string name="language_javascript">JavaScript</string>
+    <string name="language_typescript">TypeScript</string>
+    <string name="language_python">Python</string>
+    <string name="language_swift">Swift</string>
+    <string name="language_rust">Rust</string>
+    <string name="language_go">Go</string>
+    <string name="language_csharp">C#</string>
+    <string name="language_cpp">C++</string>
+    <string name="language_c">C</string>
+    <string name="language_dart">Dart</string>
+    <string name="language_ruby">Ruby</string>
+    <string name="language_php">PHP</string>
+
+    <string name="search_failed">検索に失敗しました</string>
+    <string name="no_repositories_found">リポジトリが見つかりませんでした</string>
+
+    <string name="profile_title">プロフィール</string>
+
+    <string name="language_follow_system">システムに従う</string>
+    <string name="language_restart_required">新しい言語を適用するには再起動してください。</string>
+    <string name="language_restart_action">再起動</string>
+
+    <string name="theme_color">テーマカラー</string>
+    <string name="amoled_black_theme">AMOLED ブラックテーマ</string>
+    <string name="amoled_black_description">ダークモード用の純黒背景</string>
+
+
+    <string name="logout">ログアウト</string>
+
+    <string name="logout_success">ログアウトしました</string>
+
+    <string name="warning">警告！</string>
+    <string name="logout_confirmation">ログアウトしてもよろしいですか？</string>
+
+    <string name="theme_forest">フォレスト</string>
+    <string name="theme_nord">Nord</string>
+    <string name="theme_cream">Cream</string>
+    <string name="theme_plum">Plum</string>
+
+    <string name="about_this_app">このアプリについて</string>
+    <string name="install_logs">インストールログ</string>
+    <string name="whats_new">新機能</string>
+    <string name="report_issue">問題を報告</string>
+
+    <string name="installed">インストール済み</string>
+    <string name="update_available">更新あり</string>
+    <string name="install_latest">最新版をインストール</string>
+
+    <string name="downloading">ダウンロード中</string>
+    <string name="updating">更新中</string>
+    <string name="verifying">検証中</string>
+    <string name="installing">インストール中</string>
+
+    <string name="profile">プロフィール</string>
+    <string name="forks">フォーク</string>
+    <string name="stars">スター</string>
+    <string name="issues">課題</string>
+    <string name="downloads">ダウンロード</string>
+    <string name="license">ライセンス</string>
+    <string name="license_none">—</string>
+    <string name="fetch_more_from_github">GitHubからさらに取得</string>
+    <string name="fetching_from_github">GitHubから取得中…</string>
+    <string name="no_more_github_results">GitHubにこれ以上の結果はありません</string>
+    <string name="explore_error">GitHubからの取得に失敗しました。再試行してください。</string>
+
+    <string name="architecture_compatible">アーキテクチャ互換</string>
+    <string name="update_to_version">%1$s に更新</string>
+
+    <string name="installer_saved_downloads">インストーラーはダウンロードに保存されました</string>
+
+    <string name="log_download_started">ダウンロード開始</string>
+    <string name="log_downloaded">ダウンロード完了</string>
+    <string name="log_update_started">更新開始</string>
+    <string name="log_installed">インストール済み</string>
+    <string name="log_updated">更新済み</string>
+    <string name="log_cancelled">キャンセルされました</string>
+    <string name="log_install_started">インストールを開始しました</string>
+    <string name="log_error">エラー</string>
+    <string name="log_error_with_message">エラー: %1$s</string>
+
+
+    <string name="log_prepare_appmanager">AppManager 用に準備中</string>
+    <string name="log_opened_appmanager">AppManager で開きました</string>
+    <string name="log_permission_blocked">デバイスポリシーによりインストール権限がブロックされました</string>
+    <string name="log_opened_external_installer">外部インストーラーで開きました</string>
+    <string name="install_permission_unavailable">インストール権限が利用できません</string>
+    <string name="install_permission_blocked_message">APKは正常にダウンロードされましたが、このデバイスでは直接インストールが許可されていません。外部インストーラーで開きますか？</string>
+    <string name="open_with_external_installer">外部インストーラーで開く</string>
+    <string name="external_installer_description">サードパーティアプリを使用してAPKをインストール</string>
+
+    <string name="error_generic">エラー: %1$s</string>
+
+
+
+    <string name="home_finding_repositories">リポジトリを検索中…</string>
+    <string name="home_retry">再試行</string>
+    <string name="home_failed_to_load_repositories">リポジトリの読み込みに失敗しました</string>
+
+    <string name="updated_on_date">%1$s に更新</string>
+
+    <string name="rate_limit_exceeded">レート制限を超えました</string>
+    <string name="rate_limit_used_all">%1$d 件のAPIリクエストをすべて使用しました。</string>
+    <string name="rate_limit_used_all_free">%1$d 件の無料APIリクエストをすべて使用しました。</string>
+    <string name="rate_limit_resets_in_minutes">%1$d分後にリセット</string>
+    <string name="rate_limit_tip_sign_in">💡 サインインすると、1時間あたり5,000件のリクエストが可能です。</string>
+    <string name="rate_limit_sign_in">サインイン</string>
+    <string name="rate_limit_ok">OK</string>
+    <string name="rate_limit_close">閉じる</string>
+
+    <string name="system_font">システムフォント</string>
+    <string name="system_font_description">デバイスのフォントを使用して読みやすさを向上</string>
+
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="theme_system">システム</string>
+
+    <string name="added_to_favourites">リポジトリをお気に入りに追加しました</string>
+    <string name="removed_from_favourites">リポジトリをお気に入りから削除しました</string>
+    <string name="add_to_favourites">お気に入りに追加</string>
+    <string name="remove_from_favourites">お気に入りから削除</string>
+    <string name="favourites">お気に入り</string>
+
+    <string name="added_just_now">たった今追加されました</string>
+    <string name="added_hours_ago">%1$d時間前に追加</string>
+    <string name="added_yesterday">昨日追加</string>
+    <string name="added_days_ago">%1$d日前に追加</string>
+    <string name="added_on_date">%1$s に追加</string>
+
+    <string name="starred_repositories">スター付きリポジトリ</string>
+    <string name="repository_starred">リポジトリはスター済みです</string>
+    <string name="repository_not_starred">リポジトリはスターされていません</string>
+    <string name="star_from_github">GitHub でリポジトリにスターを付けられます</string>
+    <string name="unstar_from_github">GitHub でスターを解除できます</string>
+
+    <string name="sign_in_required">ログインが必要です</string>
+    <string name="no_starred_repos">スター付きリポジトリはありません</string>
+    <string name="sign_in_with_github_for_stars">GitHubでログインしてスター付きリポジトリを表示します</string>
+    <string name="star_repos_hint">インストール可能なリリースのあるリポジトリにスターを付けてください</string>
+    <string name="last_synced">最終同期</string>
+    <string name="just_now">たった今</string>
+    <string name="minutes_ago">%1$d分前</string>
+    <string name="hours_ago">%1$d時間前</string>
+    <string name="days_ago">%1$d日前</string>
+    <string name="dismiss">閉じる</string>
+    <string name="sync_starred_failed">スター付きリポジトリの同期に失敗しました</string>
+
+
+    <!-- Developer Profile - General -->
+    <string name="failed_to_load_repositories">リポジトリの読み込みに失敗しました</string>
+    <string name="failed_to_load_profile">プロフィールの読み込みに失敗しました</string>
+
+    <!-- Developer Profile - Stats -->
+    <string name="repositories">リポジトリ</string>
+    <string name="followers">フォロワー</string>
+    <string name="following">フォロー中</string>
+
+    <!-- Developer Profile - Filter & Sort -->
+    <string name="search_repositories">リポジトリを検索…</string>
+    <string name="clear_search">検索をクリア</string>
+    <string name="filter_with_releases">リリースあり</string>
+    <string name="filter_installed">インストール済み</string>
+    <string name="filter_favorites">お気に入り</string>
+    <string name="sort">並べ替え</string>
+    <string name="sort_recently_updated">最近更新</string>
+    <string name="sort_name">名前</string>
+    <string name="sort_recently_added">最近追加</string>
+    <string name="sort_selected">選択中</string>
+
+    <!-- Developer Profile - Repository Count -->
+    <string name="repository_singular">リポジトリ</string>
+    <string name="showing_x_of_y_repositories">%2$d件中%1$d件のリポジトリを表示</string>
+
+    <!-- Developer Profile - Empty States -->
+    <string name="no_repos_with_releases">インストール可能なリリースを持つリポジトリがありません</string>
+    <string name="no_installed_repos">インストール済みのリポジトリがありません</string>
+    <string name="no_favorite_repos">お気に入りのリポジトリがありません</string>
+
+    <string name="has_release">リリースあり</string>
+
+    <!-- Developer Profile - Relative Time -->
+    <string name="time_years_ago">%1$d 年前</string>
+    <string name="time_months_ago">%1$d ヶ月前</string>
+    <string name="time_days_ago">%1$d 日前</string>
+    <string name="time_weeks_ago">%1$d 週間前</string>
+    <string name="time_hours_ago">%1$d 時間前</string>
+    <string name="time_minutes_ago">%1$d 分前</string>
+
+    <!-- Developer Profile - Count Formatting -->
+    <string name="count_millions">%1$dM</string>
+    <string name="count_thousands">%1$dk</string>
+
+    <string name="released_just_now">たった今リリース</string>
+    <string name="released_hours_ago">%1$d時間前にリリース</string>
+    <string name="released_yesterday">昨日リリース</string>
+    <string name="released_days_ago">%1$d日前にリリース</string>
+    <string name="released_on_date">%1$sにリリース</string>
+
+    <string name="bottom_nav_explore_title">発見</string>
+    <string name="bottom_nav_search_title">検索</string>
+    <string name="bottom_nav_apps_title">ライブラリ</string>
+    <string name="bottom_nav_profile_title">プロフィール</string>
+
+    <string name="forked_repository">フォーク</string>
+
+    <string name="category_stable">安定版</string>
+    <string name="category_pre_release">プレリリース</string>
+    <string name="category_all">すべて</string>
+    <string name="select_version">バージョンを選択</string>
+    <string name="pre_release_badge">プレリリース</string>
+    <string name="no_version_selected">バージョン未選択</string>
+    <string name="versions_title">バージョン</string>
+
+    <!-- Navigation & actions -->
+    <string name="open_repository">リポジトリを開く</string>
+    <string name="open_in_browser">ブラウザで開く</string>
+    <string name="cancel_download">ダウンロードをキャンセル</string>
+    <string name="show_install_options">インストールオプションを表示</string>
+
+    <!-- Errors & states -->
+    <string name="no_description">説明はありません。</string>
+    <string name="no_release_notes">リリースノートはありません。</string>
+
+    <!-- Install status -->
+    <string name="not_available">利用不可</string>
+    <string name="pending_install">インストール待ち</string>
+
+    <!-- Install helpers -->
+    <string name="open_in_obtainium">Obtainiumで開く</string>
+    <string name="obtainium_description">自動的にアップデートを管理</string>
+    <string name="inspect_with_appmanager">AppManagerで検査</string>
+    <string name="appmanager_description">権限、トラッカー、セキュリティを確認</string>
+
+    <!-- Uninstall / Open -->
+    <string name="uninstall">アンインストール</string>
+    <string name="open_app">開く</string>
+    <string name="downgrade_requires_uninstall">ダウングレードにはアンインストールが必要</string>
+    <string name="downgrade_warning_message">バージョン%1$sのインストールには、現在のバージョン（%2$s）のアンインストールが必要です。アプリデータは失われます。</string>
+    <string name="uninstall_first">先にアンインストール</string>
+    <string name="install_version">%1$sをインストール</string>
+    <string name="failed_to_open_app">%1$sを開けませんでした</string>
+    <string name="failed_to_uninstall">%1$sのアンインストールに失敗しました</string>
+
+    <!-- Version picker -->
+    <string name="latest_badge">最新</string>
+
+    <!-- Apps feature - Last checked -->
+    <string name="last_checked">最終確認: %1$s</string>
+    <string name="last_checked_just_now">たった今</string>
+    <string name="last_checked_minutes_ago">%1$d分前</string>
+    <string name="last_checked_hours_ago">%1$d時間前</string>
+    <string name="checking_for_updates">アップデートを確認中…</string>
+
+    <string name="proxy_host">ホスト</string>
+    <string name="proxy_port">ポート</string>
+    <string name="proxy_username">ユーザー名（任意）</string>
+    <string name="proxy_password">パスワード（任意）</string>
+    <string name="proxy_save">プロキシを保存</string>
+    <string name="proxy_saved">プロキシ設定を保存しました</string>
+    <string name="failed_to_save_proxy_settings">プロキシ設定の保存に失敗しました</string>
+    <string name="proxy_host_required">プロキシホストは必須です</string>
+    <string name="proxy_host_invalid">有効なホスト名または IP アドレスを入力してください</string>
+    <string name="invalid_proxy_port">無効なプロキシポート</string>
+    <string name="proxy_test_success">接続OK (%1$d ms)</string>
+    <string name="proxy_test_error_dns">ホストを解決できません。プロキシアドレスを確認してください。</string>
+    <string name="proxy_test_error_unreachable">プロキシサーバーに接続できません。</string>
+    <string name="proxy_test_error_timeout">接続がタイムアウトしました。</string>
+    <string name="proxy_test_error_auth_required">プロキシ認証が必要です。</string>
+    <string name="proxy_test_error_status">予期しない応答：HTTP %1$d</string>
+    <string name="proxy_test_error_unknown">接続テストに失敗しました</string>
+
+
+
+    <!-- Profile section -->
+    <string name="profile_sign_in_title">GitHubにサインイン</string>
+    <string name="profile_sign_in_description">すべての機能を解放しましょう。アプリを管理し、設定を同期し、より速く閲覧できます。</string>
+    <string name="profile_repos">リポジトリ</string>
+    <string name="profile_login">ログイン</string>
+    <string name="profile_stars_description">GitHubのスター付きリポジトリ</string>
+    <string name="profile_favourites_description">ローカルに保存されたお気に入りリポジトリ</string>
+
+    <!-- Session expired dialog -->
+    <string name="session_expired_title">セッション期限切れ</string>
+    <string name="session_expired_message">GitHubセッションの有効期限が切れたか、トークンが取り消されました。認証機能を引き続き使用するには、再度サインインしてください。</string>
+    <string name="session_expired_hint">制限されたAPIリクエストでゲストとして閲覧を続けることができます。</string>
+    <string name="sign_in_again">再度サインイン</string>
+    <string name="continue_as_guest">ゲストとして続行</string>
+    <string name="logout_revocation_note">ローカルセッションとキャッシュデータが消去されます。アクセスを完全に取り消すには、GitHub Settings > Applicationsにアクセスしてください。</string>
+    <string name="auth_error_code_expired">デバイスコードの有効期限が切れました。</string>
+    <string name="auth_hint_try_again">新しいコードを取得するために再度サインインしてください。</string>
+    <string name="auth_hint_check_connection">インターネット接続を確認して再試行してください。</string>
+    <string name="auth_hint_denied">認証リクエストを拒否しました。意図しない場合は再試行してください。</string>
+    <string name="auth_check_status">すでに認証しました</string>
+    <string name="auth_polling_status">確認中…</string>
+    <string name="auth_rate_limited">レート制限に達しました — %1$d秒後に再試行</string>
+
+    <!-- Read More / Show Less -->
+    <string name="read_more">もっと読む</string>
+    <string name="show_less">折りたたむ</string>
+
+    <string name="share_repository">リポジトリを共有</string>
+    <string name="failed_to_share_link">リンクの共有に失敗しました</string>
+    <string name="link_copied_to_clipboard">リンクをクリップボードにコピーしました</string>
+
+    <string name="translate_to">翻訳先…</string>
+    <string name="search_language">言語を検索</string>
+    <string name="translation_failed">翻訳に失敗しました。もう一度お試しください。</string>
+
+    <string name="open_github_link">GitHubリンクを開く</string>
+    <string name="clipboard_link_detected">クリップボードにGitHubリンクを検出</string>
+    <string name="detected_links">検出されたリンク</string>
+    <string name="open_in_app">アプリで開く</string>
+    <string name="no_github_link_in_clipboard">クリップボードにGitHubリンクが見つかりません</string>
+
+    <string name="clear">クリア</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="installer_type_default">デフォルト</string>
+    <string name="installer_type_default_description">標準のシステムインストールダイアログ</string>
+    <string name="installer_type_shizuku">Shizuku</string>
+    <string name="installer_type_shizuku_description">確認なしのサイレントインストール</string>
+    <string name="shizuku_status_not_installed">Shizukuがインストールされていません</string>
+    <string name="shizuku_status_not_running">Shizukuが実行されていません</string>
+    <string name="shizuku_status_permission_needed">権限が必要です</string>
+    <string name="shizuku_status_ready">準備完了</string>
+    <string name="shizuku_grant_permission">権限を付与</string>
+    <string name="shizuku_install_hint">サイレントインストールを有効にするにはShizukuをインストールしてください</string>
+    <string name="shizuku_start_hint">サイレントインストールを有効にするにはShizukuを起動してください</string>
+    <string name="shizuku_install_failed_fallback">Shizukuインストールに失敗、標準インストーラーを使用します</string>
+
+    <string name="auto_update_title">アプリを自動更新</string>
+    <string name="auto_update_description">Shizukuを使用してバックグラウンドで自動的にアップデートをダウンロードしてインストール</string>
+
+    <string name="update_check_interval_title">アップデート確認間隔</string>
+    <string name="update_check_interval_description">バックグラウンドでアプリのアップデートを確認する頻度</string>
+    <string name="update_check_enabled_title">バックグラウンド更新確認</string>
+    <string name="update_check_enabled_description">バックグラウンドで定期的に更新を確認します。バッテリー節約のためオフにできます — 各アプリの詳細画面から手動で確認できます。</string>
+    <string name="battery_optimization_card_title">バックグラウンド更新を許可</string>
+    <string name="battery_optimization_card_description">このデバイスはバックグラウンドタスクを積極的に終了します。バッテリー最適化からGitHub App Marketを除外して、定期的な更新チェックとサイレントインストールが確実に動作するようにしましょう。</string>
+    <string name="battery_optimization_card_open">設定を開く</string>
+    <string name="battery_optimization_card_dismiss">後で</string>
+
+    <string name="add_by_link">アプリを追跡</string>
+    <string name="link_app_title">アプリをリポジトリにリンク</string>
+    <string name="pick_installed_app">GitHubリポジトリにリンクするインストール済みアプリを選択</string>
+    <string name="search_apps_hint">アプリを検索…</string>
+    <string name="enter_repo_url">GitHubリポジトリURL</string>
+    <string name="repo_url_hint">github.com/owner/repo</string>
+    <string name="validating_repo">検証中…</string>
+    <string name="link_and_track">リンクして追跡</string>
+    <string name="checking_release">最新リリースを確認中…</string>
+    <string name="verifying_signing_key">署名キーを検証中…</string>
+    <string name="package_name_mismatch">パッケージ名が一致しません：APKは%1$sですが、選択されたアプリは%2$sです</string>
+    <string name="signing_key_mismatch_link">署名キーが一致しません：このリポジトリのAPKは別の開発者によって署名されています</string>
+    <string name="select_asset_title">インストーラーを選択</string>
+    <string name="select_asset_description">インストール済みアプリと照合するAPKを選択</string>
+    <string name="export_apps">エクスポート</string>
+    <string name="import_apps">インポート</string>
+    <string name="include_pre_releases_title">デフォルトのベータチャンネル</string>
+    <string name="include_pre_releases_description">新しく追跡したアプリはデフォルトでベータビルドを含みます。既に追跡中のアプリは独自の設定を保持します（アプリの詳細画面で変更可能）。</string>
+    <string name="confirm_uninstall_title">アプリをアンインストールしますか？</string>
+    <string name="confirm_uninstall_message">%1$sをアンインストールしてよろしいですか？この操作は元に戻せず、アプリのデータが失われる可能性があります。</string>
+    <string name="invalid_github_url">無効なGitHub URL。形式を使用してください：github.com/owner/repo</string>
+    <string name="repo_not_found">リポジトリが見つかりません：%1$s/%2$s</string>
+    <string name="rate_limit_try_again">GitHub APIのレート制限を超えました。後でもう一度お試しください。</string>
+    <string name="failed_to_link">リンクに失敗：%1$s</string>
+    <string name="failed_to_load_apps">インストール済みアプリの読み込みに失敗</string>
+    <string name="app_linked_success">%1$sを%2$s/%3$sにリンクしました</string>
+    <string name="export_failed">エクスポート失敗：%1$s</string>
+    <string name="import_failed">インポート失敗：%1$s</string>
+    <string name="signing_key_changed_title">署名キーが変更されました</string>
+    <string name="signing_key_changed_message">このアプリの署名証明書が初回インストール以降に変更されました。\n\nこれは開発者が署名キーを変更したか、バイナリが改ざんされた可能性があります。\n\n期待値：%1$s\n受信値：%2$s</string>
+    <string name="install_anyway">それでもインストール</string>
+    <string name="verified_build">検証済みビルド</string>
+    <string name="checking_attestation">確認中\u2026</string>
+    <string name="assets_title">アセット</string>
+    <string name="no_assets_selected">アセットなし</string>
+    <string name="no_assets_in_list">このリリースに関連するアセットはありません</string>
+    <string name="assets_selection_label">アセットオプションを選択</string>
+    <string name="multiple_assets_info_dialog_title">複数のアセットが利用可能</string>
+    <string name="multiple_assets_info_dialog_text">このリリースには複数のインストール可能なファイルがあります。リストを確認し、お使いのデバイスに合ったものを選択してください。</string>
+    <string name="icon_content_description_info">情報</string>
+    <string name="select_language">言語を選択</string>
+    <string name="update_package_mismatch">パッケージの不一致: APKは%1$sですが、インストール済みアプリは%2$sです。更新がブロックされました。</string>
+    <string name="update_signing_key_mismatch">署名キーの不一致: 更新は別の開発者によって署名されています。更新がブロックされました。</string>
+
+    <string name="scrollbar_option_title">スクロールバー</string>
+    <string name="scrollbar_option_description">スクロール可能なリストでスクロールバーを表示（デスクトップ）</string>
+    <string name="content_width_title">コンテンツ幅</string>
+    <string name="content_width_description">詳細画面のカラム最大幅（デスクトップ）</string>
+    <string name="content_width_compact">コンパクト</string>
+    <string name="content_width_wide">ワイド</string>
+    <string name="content_width_extra_wide">超ワイド</string>
+
+    <string name="seen_history_cleared">閲覧履歴をクリアしました</string>
+    <string name="seen_badge">閲覧済み</string>
+    <string name="self_owned_badge">あなたが所有するリポジトリ</string>
+    <string name="hide_repository">リポジトリを非表示</string>
+
+    <string name="recently_viewed">最近閲覧した</string>
+    <string name="profile_recently_viewed_description">訪問したリポジトリ</string>
+    <string name="delete_all">すべて削除</string>
+    <string name="delete_downloads_confirmation_title">すべてのダウンロードを削除しますか？</string>
+    <string name="delete_downloads_confirmation_message">すべてのAPKとインストーラーが完全に削除されます（%1$s）。いつでも再ダウンロードできます。</string>
+    <string name="downloads_cleared">すべてのダウンロード済みパッケージが削除されました。</string>
+    <string name="unable_to_verify_attestation">確認できませんでした</string>
+
+    <string name="recent_searches">最近の検索</string>
+    <string name="clear_all_history">すべてクリア</string>
+    <string name="remove_search_history_item">削除</string>
+
+    <string name="tweaks_title">調整</string>
+
+    <!-- Monorepo support -->
+    <string name="asset_filter_label">アセットフィルター</string>
+    <string name="asset_filter_placeholder">例: ente-auth</string>
+    <string name="asset_filter_help">このパターン (regex) に一致するアセットのみインストールされます。複数のアプリを含むモノレポに便利です。</string>
+    <string name="asset_filter_invalid">無効な正規表現</string>
+    <string name="asset_filter_no_match">このフィルターに一致するアセットはありません</string>
+    <string name="asset_none_available">このリリースにインストール可能なアセットがありません</string>
+    <plurals name="asset_filter_visible_count">
+        <item quantity="other">%2$d 件中 %1$d 件のアセットを表示</item>
+    </plurals>
+    <string name="fallback_older_releases_title">古いリリースへフォールバック</string>
+    <string name="fallback_older_releases_description">フィルターに一致するものが見つかるまで過去のリリースを遡ります。最新リリースが別のアプリのものであるモノレポで必要です。</string>
+    <string name="advanced_settings_title">詳細フィルター</string>
+    <string name="advanced_settings_description">このアプリがリポジトリ内でどのように識別されるかを設定します。リポジトリが複数のアプリを配布する場合に使用します。</string>
+    <string name="advanced_settings_open">詳細フィルターを開く</string>
+    <string name="advanced_save">保存</string>
+    <string name="advanced_preview_title">プレビュー</string>
+    <string name="advanced_preview_refresh">プレビューを更新</string>
+    <string name="advanced_preview_pending">フィルターを入力して一致するアセットをプレビューします。</string>
+    <string name="advanced_preview_no_match">最近のリリースに一致するアセットがありません。古いリリースへのフォールバックを有効にするか、正規表現を調整してください。</string>
+    <string name="advanced_preview_failed">プレビューを読み込めませんでした。接続を確認してもう一度お試しください。</string>
+    <plurals name="advanced_preview_release">
+        <item quantity="other">%1$s で一致 · %2$d 個のアセット</item>
+    </plurals>
+
+    <!-- Preferred-variant feature -->
+    <string name="variant_picker_title">優先バリアント</string>
+    <string name="variant_picker_description">アップデートでインストールするAPKバリアントを選択してください。選択はリリース間で記憶されます。</string>
+    <string name="variant_picker_no_assets">最新リリースにインストール可能なアセットがありません。</string>
+    <string name="variant_picker_no_pinnable">このリリースには固定できるバージョン付きバリアントがありません。自動セレクターは引き続きデバイスに最適なアセットを選択します。</string>
+    <string name="variant_picker_load_failed">バリアントを読み込めませんでした。接続を確認してもう一度お試しください。</string>
+    <string name="variant_picker_save_failed">選択を保存できませんでした。もう一度お試しください。</string>
+    <string name="variant_picker_stale_title">バリアントが変更されました — もう一度選択してください</string>
+    <string name="variant_picker_stale_was">以前: %1$s</string>
+    <string name="variant_picker_auto_title">自動</string>
+    <string name="variant_picker_auto_subtitle">GitHub App Marketにデバイスに最適なバリアントを選ばせる</string>
+    <string name="markdown_alert_note">メモ</string>
+    <string name="markdown_alert_tip">ヒント</string>
+    <string name="markdown_alert_important">重要</string>
+    <string name="markdown_alert_warning">警告</string>
+    <string name="markdown_alert_caution">注意</string>
+    <string name="variant_picker_pinned">固定中: %1$s</string>
+    <string name="variant_stale_hint">バリアントが変更されました — アップデートをタップして再選択</string>
+    <string name="variant_label_inline">バリアント: %1$s</string>
+    <string name="variant_picker_unpin">固定解除</string>
+    <string name="variant_picker_pinned_badge">固定中</string>
+    <string name="variant_picker_open">バリアントを選択</string>
+    <string name="variant_picker_open_filter">フィルターを調整</string>
+    <string name="variant_first_pin_toast">今後のアップデートでは %1$s バリアントが優先されます。アプリ設定からいつでも変更できます。</string>
+    <string name="variant_first_pin_toast_generic">今後のアップデートではこのバリアントが優先されます。アプリ設定からいつでも変更できます。</string>
+    <string name="variant_unpinned_toast">バリアントの固定を解除しました。アップデートは自動選択を使用します。</string>
+    <string name="advanced_filter_variant_relation">フィルターはどのアセットを考慮するかを決めます。バリアントの固定はそのうちどれをインストールするかを決めます。</string>
+    <string name="install">インストール</string>
+    <string name="ready_to_install">インストール準備完了</string>
+    <string name="install_ready">インストール（準備完了）</string>
+
+    <string name="translation_intro">README の翻訳に使用するサービスを選択します。</string>
+    <string name="translation_provider_title">翻訳サービス</string>
+    <string name="translation_provider_description">Google は世界中で設定不要で動作します。Youdao は中国本土からアクセスできますが、Youdao 開発者ポータルから API 認証情報が必要です。</string>
+    <string name="translation_provider_google">Google</string>
+    <string name="translation_provider_youdao">Youdao</string>
+    <string name="translation_provider_saved">翻訳サービスを更新しました</string>
+    <string name="translation_youdao_help">ai.youdao.com に登録して App Key と App Secret を取得してください。無料プランで通常の利用には十分です。</string>
+    <string name="translation_youdao_app_key">App Key</string>
+    <string name="translation_youdao_app_secret">App Secret</string>
+    <string name="translation_youdao_save">認証情報を保存</string>
+    <string name="translation_youdao_saved">Youdao の認証情報を保存しました</string>
+
+    <!-- Releases status card -->
+    <string name="releases_load_failed">リリースを読み込めませんでした</string>
+    <string name="releases_load_failed_description">接続を確認して再試行してください。</string>
+    <string name="no_releases_published">まだリリースはありません</string>
+    <string name="loading_releases">リリースを読み込み中…</string>
+
+    <!-- Personal Access Token sign-in -->
+    <string name="pat_use_token_instead">ログインできない場合は Personal Access Token を使用</string>
+    <string name="auth_use_device_code_instead">代わりにデバイスコードを使用</string>
+    <string name="installer_category_side_store">F-Droid / Obtainium</string>
+    <string name="installer_category_sideloaded">サイドロード</string>
+    <string name="installer_category_vendor_store">メーカーストア</string>
+    <string name="installer_category_play_store">Play ストア</string>
+    <string name="installer_category_system_update">システム更新</string>
+    <string name="link_smart_search_title">一致するリポを探す</string>
+    <string name="link_smart_search_searching">GitHub で一致を検索中…</string>
+    <string name="link_smart_search_no_matches">自動的に一致するものは見つかりませんでした。</string>
+    <string name="link_smart_search_failed">一致を検索できませんでした。</string>
+    <string name="link_smart_search_enter_manually">URL を手動で入力</string>
+    <string name="match_source_manifest">マニフェスト</string>
+    <string name="match_source_fingerprint">署名</string>
+    <string name="match_source_search">検索</string>
+    <string name="match_source_manual">手動</string>
+    <string name="match_source_starred">スター</string>
+    <string name="pat_sheet_title">Personal Access Token でログイン</string>
+    <string name="pat_sheet_description">GitHub にアクセスできる端末で Personal Access Token（classic または fine-grained）を作成し、以下に貼り付けてください。リポジトリとプロフィールへの読み取りアクセス権が必要です。</string>
+    <string name="pat_open_settings">GitHub のトークン設定を開く</string>
+    <string name="pat_input_label">Personal Access Token</string>
+    <string name="pat_input_placeholder">ghp_… または github_pat_…</string>
+    <string name="pat_submit">ログイン</string>
+    <string name="pat_cancel">キャンセル</string>
+    <string name="pat_error_empty">トークンを貼り付けてください。</string>
+    <string name="pat_error_invalid_format">GitHub のトークンではないようです。トークンは ghp_ または github_pat_ で始まります。</string>
+    <string name="pat_error_bad_credentials">このトークンは無効か、取り消されています。</string>
+    <string name="pat_error_insufficient_scope">このトークンには必要な権限がありません。</string>
+    <string name="pat_error_generic">トークンを保存できませんでした。もう一度お試しください。</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+     E10 — Apps sort
+     ═══════════════════════════════════════════════════════════════ -->
+    <string name="sort_apps">アプリを並べ替え</string>
+    <string name="sort_updates_first">アップデートを優先</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Pre-release channel UX (Details screen)
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="channel_chip_include_betas">ベータを含む</string>
+    <string name="channel_chip_stable_only">安定版のみ</string>
+    <string name="channel_chip_coachmark_title">リリースチャンネルを選択</string>
+    <string name="channel_chip_coachmark_body">このアプリの安定版とベータビルドを切り替えるにはタップ。</string>
+    <string name="channel_chip_coachmark_dismiss">了解</string>
+    <string name="action_switch_to_stable">%1$s の安定版に切り替え</string>
+    <string name="stalled_project_warning_months">%1$d か月間、安定版リリースなし</string>
+    <string name="stalled_project_warning_days">%1$d 日間、安定版リリースなし</string>
+    <string name="stalled_project_warning_description">プレリリースは活発ですが、プロジェクトはしばらく安定版をリリースしていません。ベータ版が安定版リリースに至らない可能性があります。</string>
+    <string name="merged_whats_changed_title">%1$s 以降の変更点</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — External import wizard
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="external_import_top_bar_title">インストール済みアプリをインポート</string>
+    <string name="external_import_top_bar_back">戻る</string>
+    <string name="external_import_overflow_more">その他のオプション</string>
+    <string name="external_import_overflow_skip_remaining">残りをスキップ</string>
+    <string name="external_import_progress_scanning">アプリをスキャン中…</string>
+    <string name="external_import_progress_auto_importing">一致をインポート中…</string>
+    <string name="external_import_progress_working">処理中…</string>
+    <!-- Japanese uses "other" only -->
+    <plurals name="external_import_progress_subtitle_count">
+        <item quantity="other">%1$d 個のアプリを確認済み</item>
+    </plurals>
+    <string name="external_import_card_action_skip">スキップ</string>
+    <string name="external_import_card_action_link">リンク</string>
+    <string name="external_import_card_action_more">他の一致を表示</string>
+    <string name="external_import_card_action_less">一致を非表示</string>
+    <string name="external_import_card_installer_chip">%1$s 経由でインストール</string>
+    <string name="external_import_card_preselect_unknown">リポジトリを検索するにはタップ</string>
+    <string name="external_import_card_expand_label">展開して他の一致を表示</string>
+    <string name="external_import_card_collapse_label">カードを折りたたむ</string>
+    <string name="external_import_search_icon_label">GitHub を検索</string>
+    <string name="external_import_search_empty">一致なし</string>
+    <string name="external_import_search_error_default">検索に失敗しました</string>
+    <string name="external_import_search_placeholder_url">github.com の URL を貼り付けるか検索…</string>
+    <plurals name="external_import_completion_headline">
+        <item quantity="other">%1$d 個のアプリを追跡中。</item>
+    </plurals>
+    <string name="external_import_completion_skipped_subline">%1$d 件をスキップ — 設定から再スキャンできます。</string>
+    <string name="external_import_completion_action_view_all">すべて表示</string>
+    <string name="external_import_empty_all_matched">すべてリンク済みです。\nリンクするものはありません。</string>
+    <string name="external_import_empty_done">完了</string>
+    <string name="external_import_empty_no_apps_title">このデバイスに GitHub アプリが見つかりませんでした。</string>
+    <string name="external_import_empty_no_apps_body">すべて別のストアからインストールされたか、インストール済みアプリへのアクセス権がないためです。</string>
+    <string name="external_import_empty_grant_permission">権限を付与</string>
+    <string name="external_import_empty_ok">OK</string>
+    <string name="external_import_empty_add_manually">別のストアからアプリを追加</string>
+    <string name="external_import_permission_title">GitHub アプリを見つける</string>
+    <string name="external_import_permission_body">インストール済みのアプリをスキャンして GitHub のリリースと照合できます。これにより、アップデートの検出が自動的に機能します。\n\nそのためには、インストールされているアプリを確認する必要があります。権限なしでは約 5 個のアプリしか確認できません。権限があればすべて確認できます。\n\nあなたの許可なくアプリのリストをどこかに送信することはありません。照合はデバイス上で行われます。任意のサーバー検索では、パッケージ名とアプリラベルのみを送信し、利用可能な場合は署名フィンガープリント、インストール元、アプリのマニフェストで宣言された GitHub リポジトリのヒントも送信しますが、インストール済みアプリの完全なリストは一切送信しません。</string>
+    <string name="external_import_permission_continue">続行</string>
+    <string name="external_import_permission_not_now">後で</string>
+    <plurals name="external_import_proposal_banner_headline">
+        <item quantity="other">GitHub から %1$d 個のアプリが見つかりました</item>
+    </plurals>
+    <string name="external_import_proposal_banner_body">確認してここでアップデートを追跡しましょう。</string>
+    <string name="external_import_proposal_banner_review">確認</string>
+    <string name="external_import_proposal_banner_dismiss">閉じる</string>
+    <string name="external_import_match_confidence_a11y">一致の信頼度: %1$d パーセント</string>
+    <string name="external_import_match_confidence_chip">%1$d</string>
+    <string name="external_import_error_link_failed">このアプリをリンクできませんでした — もう一度お試しください。</string>
+    <string name="external_import_error_link_network">GitHub に接続できませんでした。後でもう一度お試しください。</string>
+    <string name="external_import_error_scan_failed_default">スキャンに失敗しました</string>
+    <string name="external_import_installer_obtainium">Obtainium</string>
+    <string name="external_import_installer_fdroid">F-Droid</string>
+    <string name="external_import_installer_browser">ブラウザ</string>
+    <string name="external_import_installer_sideload">Sideload</string>
+    <string name="external_import_installer_self">GitHub App Market</string>
+    <string name="external_import_installer_unknown">不明なソース</string>
+    <string name="external_import_undo_linked">%1$s をリンクしました。</string>
+    <string name="external_import_undo_skipped">%1$s をスキップしました。</string>
+    <string name="external_import_undo_action">元に戻す</string>
+    <string name="external_import_undo_failed">元に戻せませんでした — もう一度お試しください。</string>
+    <plurals name="external_import_list_remaining">
+        <item quantity="other">確認待ち: %1$d 個のアプリ</item>
+    </plurals>
+    <string name="external_import_list_add_manually">アプリが見当たりませんか？手動で追加</string>
+    <plurals name="external_import_auto_summary_headline">
+        <item quantity="other">%1$d 個のアプリを自動的にリンクしました</item>
+    </plurals>
+    <string name="external_import_auto_summary_body">高い信頼度で認識されました。各アプリの詳細から個別に元に戻すか、今すべて元に戻すことができます。</string>
+    <plurals name="external_import_auto_summary_review_hint">
+        <item quantity="other">さらに %1$d 件の確認が必要です。</item>
+    </plurals>
+    <string name="external_import_auto_summary_continue">続行</string>
+    <string name="external_import_auto_summary_undo_all">すべて元に戻す</string>
+    <string name="external_import_auto_summary_more_count">+%1$d 件</string>
+    <string name="external_import_rescan_menu">GitHub アプリをスキャン</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E1 — Details unlink dialog
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="details_unlink_external_app_menu">このリポジトリからリンクを解除</string>
+    <string name="details_unlink_external_app_dialog_title">このアプリのリンクを解除しますか？</string>
+    <string name="details_unlink_external_app_dialog_body">このリポジトリからインストールされたものとして %1$s の追跡を停止します。アプリはデバイスに残ります — リンクのみ削除されます。</string>
+    <string name="details_unlink_external_app_dialog_confirm">リンクを解除</string>
+    <string name="details_unlink_external_app_success">リンクを解除しました。次回のスキャンで再度一致候補を提示します。</string>
+    <string name="details_unlink_external_app_failure">リンクを解除できませんでした — もう一度お試しください。</string>
+    <string name="details_linked_repo_banner_title">%1$s/%2$s にリンク済み</string>
+    <string name="details_linked_repo_banner_body">手動リンク — あなたが確認済み。再スキャンするにはリンク解除。</string>
+
+    <!-- Details manual refresh -->
+    <string name="details_refresh">更新</string>
+    <string name="details_refresh_cooldown">更新 (%1$d秒)</string>
+    <string name="details_refresh_more_options">その他のオプション</string>
+    <string name="details_refresh_snackbar_cooldown">今更新したばかりです — %1$d秒後に再度お試しください。</string>
+    <string name="details_refresh_snackbar_budget_exhausted">更新サービスが混雑しています — %1$d秒後に再度お試しください。</string>
+    <string name="details_refresh_snackbar_archived">このリポジトリはGitHubでアーカイブされています。</string>
+    <string name="details_refresh_snackbar_not_found">このリポジトリはGitHubに存在しません。</string>
+    <string name="details_refresh_snackbar_upstream">更新できませんでした。しばらくしてから再度お試しください。</string>
+    <string name="details_refresh_snackbar_generic">更新に失敗しました。再度お試しください。</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         Feedback feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <string name="feedback_title">フィードバックを送信</string>
+    <string name="feedback_close">閉じる</string>
+    <string name="feedback_category_label">カテゴリ</string>
+    <string name="feedback_category_bug">バグ</string>
+    <string name="feedback_category_feature">機能リクエスト</string>
+    <string name="feedback_category_change">変更リクエスト</string>
+    <string name="feedback_category_other">その他</string>
+    <string name="feedback_topic_label">トピック</string>
+    <string name="feedback_topic_install_update">インストール / アップデート</string>
+    <string name="feedback_topic_search">検索 &amp; 発見</string>
+    <string name="feedback_topic_details">リポジトリの詳細</string>
+    <string name="feedback_topic_auth">認証 &amp; アカウント</string>
+    <string name="feedback_topic_ui">UI / UX</string>
+    <string name="feedback_topic_translation">翻訳 / 言語</string>
+    <string name="feedback_topic_performance">パフォーマンス</string>
+    <string name="feedback_topic_other">その他</string>
+    <string name="feedback_field_title">タイトル</string>
+    <string name="feedback_field_description">説明</string>
+    <string name="feedback_field_steps">再現手順</string>
+    <string name="feedback_field_expected_actual">期待値 vs 実際の動作</string>
+    <string name="feedback_field_use_case">ユースケース</string>
+    <string name="feedback_field_proposed_solution">提案する解決策</string>
+    <string name="feedback_field_current_behaviour">現在の動作</string>
+    <string name="feedback_field_desired_behaviour">望む動作</string>
+    <string name="feedback_diagnostics_header">診断情報</string>
+    <string name="feedback_diagnostics_include">診断情報を含める</string>
+    <string name="feedback_send_via_email">メールで送信</string>
+    <string name="feedback_send_via_github">GitHub Issue として開く</string>
+    <string name="feedback_send_success_email">ありがとうございます — メールクライアントを開いています。</string>
+    <string name="feedback_send_success_github">ありがとうございます — ブラウザを開いています。</string>
+    <string name="feedback_send_error">フィードバックチャンネルを開けませんでした: %1$s</string>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         E5 — Mirror feature
+         ═══════════════════════════════════════════════════════════════ -->
+    <!-- Tweaks - Custom forges -->
+    <string name="custom_forges_entry_label">カスタムフォージ</string>
+    <string name="custom_forges_dialog_title">カスタムフォージ</string>
+    <string name="custom_forges_dialog_help">ForgejoまたはGiteaインスタンスのホスト名を入力（例: git.example.com）。手動リンクシートでこれらのホストのURLが受け入れられます。</string>
+    <string name="custom_forges_add_button">追加</string>
+    <string name="custom_forges_empty">カスタムフォージはまだありません。</string>
+    <string name="done">完了</string>
+
+    <string name="mirror_picker_title">ダウンロードミラー</string>
+    <string name="mirror_picker_description">リリースアセットのダウンロードに使用されます。GitHub API の呼び出しは常に直接行われます。ほとんどのユーザーは「GitHub 直接」のままにしておくことをお勧めします。</string>
+    <string name="mirror_section_official">公式</string>
+    <string name="mirror_section_community">コミュニティ</string>
+    <string name="mirror_status_ok">%1$dms</string>
+    <string name="mirror_status_degraded">%1$dms</string>
+    <string name="mirror_status_down">(ダウン)</string>
+    <string name="mirror_status_unknown">?</string>
+    <string name="mirror_custom_label">カスタムミラー…</string>
+    <string name="mirror_custom_dialog_title">カスタムミラー</string>
+    <string name="mirror_custom_dialog_hint">https://your-mirror.example/{url}</string>
+    <string name="mirror_custom_validation_https">テンプレートは https:// で始まる必要があります</string>
+    <string name="mirror_custom_validation_template">テンプレートには {url} がちょうど 1 回含まれている必要があります</string>
+    <string name="mirror_custom_save">保存</string>
+    <string name="mirror_test_button">選択したものをテスト</string>
+    <string name="mirror_test_success">%1$dms で到達</string>
+    <string name="mirror_test_http_error">ミラーが %1$d を返しました</string>
+    <string name="mirror_test_timeout">5s 後にタイムアウト</string>
+    <string name="mirror_test_dns_fail">ホストを解決できませんでした</string>
+    <string name="mirror_test_other">失敗: %1$s</string>
+    <string name="mirror_deploy_your_own_hint">すべてのミラーが使えない場合は、5 分で自前のミラーをホストできます — ドキュメントをご覧ください。</string>
+    <string name="mirror_removed_toast">%1$s は利用できなくなりました。GitHub 直接に切り替えました。</string>
+
+    <!-- ───── 1.8.1 backlog ───── -->
+    <string name="add_from_starred_title">スター済みから追加</string>
+    <string name="announcements_acknowledge">読みました</string>
+    <string name="announcements_acknowledged">確認済み</string>
+    <string name="announcements_category_news">ニュース</string>
+    <string name="announcements_category_privacy">プライバシー</string>
+    <string name="announcements_category_security">セキュリティ</string>
+    <string name="announcements_category_status">ステータス</string>
+    <string name="announcements_category_survey">アンケート</string>
+    <string name="announcements_empty">いま共有することはありません。</string>
+    <string name="announcements_mute_locked">無効化できません</string>
+    <string name="announcements_mute_settings_title">表示するアイテム</string>
+    <string name="announcements_open_mute_settings">ミュート設定を開く</string>
+    <string name="announcements_profile_description">ニュース、アンケート、重要なお知らせ。</string>
+    <string name="announcements_read_more">続きを読む</string>
+    <string name="announcements_refresh_failed">更新できませんでした — キャッシュ済みのアイテムを表示します。</string>
+    <string name="announcements_severity_critical">重大</string>
+    <string name="announcements_severity_important">重要</string>
+    <string name="announcements_severity_info">お知らせ</string>
+    <string name="announcements_title">お知らせ</string>
+    <string name="announcements_view_details">詳細を見る</string>
+    <string name="apk_inspect_button_label">APKを検査</string>
+    <string name="apk_inspect_coachmark_body">権限、署名、コンポーネント — APKが宣言している内容を正確に確認できます。</string>
+    <string name="apk_inspect_coachmark_dismiss">了解</string>
+    <string name="apk_inspect_coachmark_title">インストール前に中身を確認</string>
+    <string name="apk_inspect_compatibility">互換性</string>
+    <string name="apk_inspect_components">コンポーネント</string>
+    <string name="apk_inspect_debuggable">デバッグ可能ビルド — リリースなら要注意。</string>
+    <string name="apk_inspect_empty">このアプリにはまだ検査する内容がありません。</string>
+    <string name="apk_inspect_file_info">ファイル</string>
+    <string name="apk_inspect_identity">識別情報</string>
+    <string name="apk_inspect_min_sdk">最小SDK</string>
+    <string name="apk_inspect_permissions">権限 (%1$d)</string>
+    <string name="apk_inspect_permissions_empty">権限は宣言されていません。</string>
+    <string name="apk_inspect_permissions_title">権限</string>
+    <string name="apk_inspect_protection_dangerous">機密</string>
+    <string name="apk_inspect_protection_normal">通常</string>
+    <string name="apk_inspect_protection_privileged">特権</string>
+    <string name="apk_inspect_protection_signature">署名</string>
+    <string name="apk_inspect_protection_unknown">不明</string>
+    <string name="apk_inspect_section_activities">アクティビティ</string>
+    <string name="apk_inspect_section_main_activity">メインアクティビティ</string>
+    <string name="apk_inspect_section_receivers">レシーバー</string>
+    <string name="apk_inspect_section_services">サービス</string>
+    <string name="apk_inspect_signing">署名フィンガープリント</string>
+    <string name="apk_inspect_size">サイズ</string>
+    <string name="apk_inspect_source_file">保留ファイル</string>
+    <string name="apk_inspect_source_installed">インストール済みパッケージ</string>
+    <string name="apk_inspect_target_sdk">ターゲットSDK</string>
+    <string name="apk_inspect_title">APK検査</string>
+    <string name="apk_inspect_version_code">バージョン</string>
+    <string name="apps_compact_more_actions">%1$sのその他の操作</string>
+    <string name="apps_compact_status_filter_active">モノレポフィルター有効</string>
+    <string name="apps_compact_status_pending_install">インストール保留中</string>
+    <string name="apps_compact_status_pre_release_on">プレリリース有効</string>
+    <string name="apps_compact_status_ready_to_install">インストール準備完了</string>
+    <string name="apps_compact_status_updates_ignored">更新を無視中</string>
+    <string name="apps_compact_status_variant_pinned">バリアント固定</string>
+    <string name="apps_compact_status_variant_stale">バリアントが古いです、対応が必要</string>
+    <string name="apps_ignore_updates">更新を無視</string>
+    <string name="apps_section_collapse">セクションを折りたたむ</string>
+    <string name="apps_section_count_suffix">· %1$d</string>
+    <string name="apps_section_expand">セクションを展開</string>
+    <string name="apps_section_state_collapsed">折りたたみ</string>
+    <string name="apps_section_state_expanded">展開</string>
+    <string name="apps_section_up_to_date">最新</string>
+    <string name="confirm_discard_pending_message">%1$sの保留中インストーラーを破棄してアプリ一覧から行を削除しますか？ダウンロード済みのAPKは削除されます。</string>
+    <string name="confirm_discard_pending_title">保留中のインストールを破棄しますか？</string>
+    <string name="dhizuku_grant_permission">権限を付与</string>
+    <string name="dhizuku_install_hint">サイレントインストールを有効化するには、DhizukuをインストールしてDevice Ownerとして有効化してください</string>
+    <string name="dhizuku_start_hint">サイレントインストールを有効化するには、DhizukuをDevice Ownerとして有効化してください</string>
+    <string name="installer_type_root">Root</string>
+    <string name="installer_type_root_description">Magisk / KernelSU / APatch root によるサイレントインストール</string>
+    <string name="root_status_ready">許可済み</string>
+    <string name="root_status_permission_needed">Root を許可</string>
+    <string name="root_status_unavailable">Root なし</string>
+    <string name="root_grant_permission">Root アクセスを許可</string>
+    <string name="root_unavailable_hint">この端末では Root が利用できません。先に Magisk / KernelSU / APatch をインストールしてください。</string>
+    <string name="dhizuku_status_not_installed">Dhizukuはインストールされていません</string>
+    <string name="dhizuku_status_not_running">Dhizukuは有効ではありません</string>
+    <string name="dhizuku_status_permission_needed">権限が必要</string>
+    <string name="dhizuku_status_ready">準備完了</string>
+    <string name="discard_pending_install">破棄</string>
+    <string name="error_state_go_back">戻る</string>
+    <string name="error_state_subtitle_generic">このリポジトリを読み込めませんでした。下の再試行ボタンを使用してください。</string>
+    <string name="error_state_subtitle_not_found">リポジトリは非公開、名前変更、または削除された可能性があります。</string>
+    <string name="error_state_subtitle_offline">接続を確認してもう一度お試しください。</string>
+    <string name="error_state_subtitle_rate_limit">GitHubまたはバックエンドがクォータに達しました。少し時間をおいてからお試しください。</string>
+    <string name="error_state_title_generic">問題が発生しました</string>
+    <string name="error_state_title_not_found">リポジトリが見つかりません</string>
+    <string name="error_state_title_offline">オフラインです</string>
+    <string name="error_state_title_rate_limit">レート制限に到達</string>
+    <string name="export_apps_obtainium">Obtainium向けにエクスポート</string>
+    <string name="external_import_card_owner_byline">%1$sによる</string>
+    <string name="external_import_card_preselect_known_prefix">これは次だと思われます</string>
+    <string name="failed_to_discard_pending">%1$sの保留中インストール破棄に失敗しました</string>
+    <string name="import_summary_already_tracked">%1$d 件すでに追跡中</string>
+    <string name="import_summary_close">完了</string>
+    <string name="import_summary_collapse">詳細を非表示</string>
+    <string name="import_summary_expand">詳細を表示</string>
+    <string name="import_summary_failed">%1$d 件失敗</string>
+    <string name="import_summary_format_native">GitHub App Market</string>
+    <string name="import_summary_format_obtainium">Obtainium</string>
+    <string name="import_summary_imported">%1$d 件インポート</string>
+    <string name="import_summary_non_github">%1$d 件はGitHub以外</string>
+    <string name="import_summary_non_github_caption">GitLab、F-Droid、HTMLソースはまだ追跡できません。</string>
+    <string name="import_summary_title">インポート結果 — %1$s</string>
+    <string name="import_summary_unknown_caption">GitHub App MarketまたはObtainiumのエクスポートには見えません。ファイルの先頭はこちらです:</string>
+    <string name="import_summary_unknown_format">このファイルを読み込めませんでした</string>
+    <string name="installer_attribution_custom_apply">適用</string>
+    <string name="installer_attribution_custom_error">有効なAndroidパッケージ名を使用してください (例: com.example.installer)</string>
+    <string name="installer_attribution_custom_label">インストーラーパッケージ名</string>
+    <string name="installer_attribution_description">アプリは、自分をデバイスに置いたインストーラーを確認できます。デフォルトはシステムシェルです。</string>
+    <string name="installer_attribution_disclosure">一部のアプリはインストーラーの変更を検知して動作を拒否したり、セキュリティチェック (Play Integrity、銀行アプリなど) に失敗することがあります。</string>
+    <string name="installer_attribution_preset_custom">カスタム…</string>
+    <string name="installer_attribution_preset_fdroid">F-Droid</string>
+    <string name="installer_attribution_preset_obtainium">Obtainium</string>
+    <string name="installer_attribution_preset_playstore">Play Store</string>
+    <string name="installer_attribution_preset_system">システムデフォルト</string>
+    <string name="installer_attribution_title">インストーラー帰属</string>
+    <string name="installer_type_dhizuku">Dhizuku</string>
+    <string name="installer_type_dhizuku_description">Device Ownerによるサイレントインストール — OEMのインストール画面を回避</string>
+    <string name="rate_limit_exceeded_retry_in">レート制限に到達 — %1$d秒後に再試行してください。</string>
+    <string name="rate_limit_exceeded_signin_hint">より多くのクォータを得るにはGitHubにサインインしてください。</string>
+    <string name="releases_unavailable_temporarily">リリースは一時的に利用できません。少し時間をおいてからお試しください。</string>
+    <string name="starred_picker_already_tracked">追跡中</string>
+    <string name="starred_picker_apk_badge">APK</string>
+    <string name="starred_picker_empty">スター済みのリポジトリがありません。GitHubでリポジトリにスターを付けるとここに表示されます。</string>
+    <string name="starred_picker_filter_show_all">APKリリースのないリポジトリも表示</string>
+    <string name="starred_picker_header_counts">%1$d スター付き · %2$d がAPKを配信 · %3$d 件すでに追跡中</string>
+    <string name="starred_picker_no_match">一致するものがありません。</string>
+    <string name="starred_picker_progress">確認中 %1$d / %2$d…</string>
+    <string name="starred_picker_rate_limited">GitHubのレート制限に到達。再開して確認を続けてください。</string>
+    <string name="starred_picker_resume">再開</string>
+    <string name="starred_picker_search_hint">所有者 / リポジトリ / 説明を検索</string>
+    <string name="starred_picker_sign_in_required">スター済みのリポジトリを表示するにはGitHubにサインインしてください。</string>
+    <string name="starred_picker_sort_alphabetical">A → Z</string>
+    <string name="starred_picker_sort_recent">最近スター付け</string>
+    <string name="starred_picker_sort_stars">スター数順</string>
+    <string name="starred_picker_star_dedup_tooltip">GitHubでスターを外してもアプリの追跡は解除されません。</string>
+    <string name="import_stars_title">ユーザー名でスター付きリポジトリをインポート</string>
+    <string name="import_stars_subtitle">任意のGitHubユーザー名を入力して、公開スター付きリポジトリを見てお気に入りに追加できます。サインイン不要。</string>
+    <string name="import_stars_hint">GitHubユーザー名</string>
+    <string name="import_stars_button">スター付きリポジトリを見る</string>
+    <string name="import_stars_header_count">@%1$s · スター付きリポジトリ %2$d 件</string>
+    <string name="import_stars_search_hint">オーナー / リポ / 説明を検索</string>
+    <string name="import_stars_add_all">%1$d 件をお気に入りに追加</string>
+    <string name="import_stars_empty">@%1$s にはスター付きリポジトリがありません。</string>
+    <string name="import_stars_no_match">一致する項目はありません。</string>
+    <string name="import_stars_add">お気に入りに追加</string>
+    <string name="import_stars_added">すでにお気に入り</string>
+    <string name="import_stars_try_another">別のユーザーを試す</string>
+    <string name="import_stars_entry">ユーザー名でスター付きリポジトリをインポート</string>
+    <string name="starred_picker_title">スター済みから追加</string>
+    <string name="whats_new_cta_dismiss">了解</string>
+    <string name="whats_new_cta_history">過去のバージョンを表示</string>
+    <string name="whats_new_history_empty">変更履歴のエントリーはまだありません。</string>
+    <string name="whats_new_profile_description">最近のリリースのハイライト。</string>
+    <string name="whats_new_section_fixed">修正</string>
+    <string name="whats_new_section_heads_up">お知らせ</string>
+    <string name="whats_new_section_improved">改善</string>
+    <string name="whats_new_section_new">新機能</string>
+    <string name="whats_new_sheet_heading">%1$sの新機能</string>
+    <string name="whats_new_title">新機能</string>
+    <string name="whats_new_version_label">バージョン %1$s · %2$s</string>
+
+    <!-- Skip this version (issue #542) -->
+    <string name="apps_skip_version">このバージョンをスキップ</string>
+    <string name="apps_skip_version_unskip">スキップしない</string>
+    <string name="apps_skip_version_snackbar">%1$s をスキップしました。新しいバージョンが出たら通知します。</string>
+    <string name="apps_unskip_version_snackbar">アップデート通知を再び有効にしました</string>
+    <string name="apps_skip_version_error">設定を更新できませんでした</string>
+    <string name="apps_unskip_version_error">更新通知を復元できませんでした</string>
+    <string name="skipped_updates_entry_title">スキップ中のアップデート</string>
+    <string name="skipped_updates_entry_description">無視を選んだバージョン</string>
+    <string name="skipped_updates_title">スキップ中のアップデート</string>
+    <string name="skipped_updates_empty_title">スキップ中のバージョンはありません</string>
+    <string name="skipped_updates_empty_description">アプリ画面でアップデートをスキップすると、ここに表示され、解除できます。</string>
+    <string name="skipped_updates_skipped_label">%1$s をスキップ</string>
+    <string name="skipped_updates_installed_label">インストール済み: %1$s</string>
+    <string name="skipped_updates_unskip_action">スキップしない</string>
+    <string name="skipped_updates_unskipped_snackbar">%1$s のアップデート通知を再び有効にしました</string>
+    <string name="skipped_updates_unskip_failure">設定を更新できませんでした</string>
+    <string name="hidden_repositories_title">非表示のリポジトリ</string>
+    <string name="hidden_repositories_entry_description">ホームと検索で非表示にしたリポジトリを管理。</string>
+    <string name="hidden_repositories_empty_title">非表示のリポジトリはありません</string>
+    <string name="hidden_repositories_empty_description">ホームや検索でリポジトリカードを長押しすると検索結果から非表示にできます。</string>
+    <string name="hidden_repositories_unhide_action">表示する</string>
+    <string name="hidden_repositories_unhide_all">すべて表示</string>
+    <string name="hidden_repositories_unhidden_snackbar">%1$s を再表示しました</string>
+    <string name="hidden_repositories_unhidden_all_snackbar">すべてのリポジトリを再表示しました</string>
+    <string name="hidden_repositories_unhide_failure">再表示できませんでした。もう一度お試しください。</string>
+    <string name="open_on_github">GitHub で開く</string>
+    <string name="mark_as_viewed">既読にする</string>
+    <string name="mark_as_unviewed">未読にする</string>
+    <string name="show_all_platforms_label">すべてのプラットフォームを表示</string>
+    <string name="platform_section_android">Android</string>
+    <string name="platform_section_windows">Windows</string>
+    <string name="platform_section_macos">macOS</string>
+    <string name="platform_section_linux">Linux</string>
+    <string name="section_chip_your_device">このデバイス</string>
+    <string name="section_chip_for_transfer">転送用</string>
+    <string name="kao_banner_title">Android をオープンに</string>
+    <string name="kao_banner_body">Google の開発者検証ポリシーが Android のオープンな配布を脅かしています。GitHub App Market は連合を支持します。</string>
+    <string name="kao_banner_cta">詳しく見る</string>
+    <string name="kao_banner_dismiss_cd">バナーを閉じる</string>
+
+    <string name="adaptive_pick_repo_subtitle">左側のカードをタップすると詳細がここに表示されます。</string>
+    <string name="adaptive_pick_repo_title">リポジトリを選択</string>
+    <string name="apps_section_pending_installs">インストール待ち</string>
+    <string name="apps_two_pane_advanced_settings">詳細設定</string>
+    <string name="apps_two_pane_detail_section_actions">クイック操作</string>
+    <string name="apps_two_pane_detail_section_settings">設定</string>
+    <string name="apps_two_pane_detail_section_status">ステータス</string>
+    <string name="apps_two_pane_empty_subtitle">左側のアプリを選択すると、詳細と操作が表示されます。</string>
+    <string name="apps_two_pane_empty_title">アプリを選択</string>
+    <string name="apps_two_pane_installed_label">インストール済み</string>
+    <string name="apps_two_pane_latest_label">最新</string>
+    <string name="apps_two_pane_open_repo">リポジトリを開く</string>
+    <string name="apps_two_pane_pick_variant">バリアントを選択</string>
+    <string name="apps_updates_banner_hide">リストを隠す</string>
+    <string name="apps_updates_banner_show">リストを見る</string>
+    <string name="apps_updates_banner_subtitle">すべてをまとめて確認・更新できます。</string>
+    <string name="apps_updates_banner_title_one">1 件の更新があります</string>
+    <string name="apps_updates_banner_title_other">%1$d 件の更新があります</string>
+    <string name="back_cd">戻る</string>
+    <string name="cd_back">戻る</string>
+    <string name="cd_image">画像</string>
+    <string name="common_see_all">すべて見る ›</string>
+    <plurals name="custom_forges_count">
+        <item quantity="other">%1$d 件のホスト</item>
+    </plurals>
+    <string name="custom_forges_dialog_builtin_note">Codeberg、gitea.com、git.disroot.org はデフォルトで検索されるため、ここに追加する必要はありません。このリストは自分でホストしている Forgejo や Gitea 専用です。</string>
+    <string name="details_about_screen_title">概要</string>
+    <string name="details_developer_section">開発者</string>
+    <string name="details_stats_section">統計</string>
+    <string name="details_view_developer_profile">プロフィールを見る</string>
+    <string name="details_whats_new_screen_title">新着情報</string>
+    <string name="external_import_progress_skip">スキップして後で確認</string>
+    <string name="feedback_hub_subtitle">すべてのご報告に目を通しています。</string>
+    <string name="home_action_get">取得</string>
+    <string name="home_rank_format">第%1$d位</string>
+    <string name="home_section_from_your_stars">スター付きから</string>
+    <string name="home_section_hot_releases">注目のリリース</string>
+    <string name="home_section_most_popular">人気上位</string>
+    <string name="home_section_trending_now">トレンド</string>
+    <string name="home_topbar_discover">見つける</string>
+    <string name="home_view_all">すべて見る</string>
+    <string name="home_view_more">もっと見る</string>
+    <string name="host_tokens_action_add">トークンを追加</string>
+    <string name="host_tokens_action_back">戻る</string>
+    <string name="host_tokens_action_cancel">キャンセル</string>
+    <string name="host_tokens_action_delete">削除</string>
+    <string name="host_tokens_action_save">保存</string>
+    <string name="host_tokens_compose_add_title">トークンを追加</string>
+    <string name="host_tokens_compose_detected">検出: %1$s</string>
+    <string name="host_tokens_compose_field_forge_address">フォージのアドレス</string>
+    <string name="host_tokens_compose_replace_hint">既存のトークンを維持するには空欄のままにしてください。新しい値を入力すると置き換えられます。</string>
+    <string name="host_tokens_compose_replace_title">%1$s のトークンを置き換え</string>
+    <string name="host_tokens_compose_will_connect">%1$s に接続します</string>
+    <plurals name="host_tokens_count">
+        <item quantity="other">%1$d 件のトークン</item>
+    </plurals>
+    <string name="host_tokens_empty_subtitle">＋ をタップして個人アクセストークンを追加してください</string>
+    <string name="host_tokens_empty_title">保存されたトークンはありません</string>
+    <string name="host_tokens_entry_subtitle">フォージホスト（GitHub、Codeberg、Forgejo）ごとの個人アクセストークン</string>
+    <string name="host_tokens_field_display_name">表示名（任意）</string>
+    <string name="host_tokens_field_token">個人アクセストークン</string>
+    <string name="host_tokens_oauth_coexistence">アプリ経由で GitHub にサインイン済みです — こちらが推奨される方法です。ブラウザでのサインインがうまくいかない場合（制限付きネットワーク、ブラウザなし）や、GitHub 以外のフォージでのみ、ここにトークンを追加してください。</string>
+    <string name="host_tokens_picker_open_page">トークンページを開く</string>
+    <string name="host_tokens_picker_other">その他のフォージ</string>
+    <string name="host_tokens_picker_other_subtitle">Forgejo、Gitea、セルフホスト</string>
+    <string name="host_tokens_picker_paste">トークンを貼り付け</string>
+    <string name="host_tokens_picker_title">トークンを追加するホスト…</string>
+    <string name="host_tokens_row_edit_label">ラベルを編集</string>
+    <string name="host_tokens_row_invalid_short">無効 ・ %1$s</string>
+    <string name="host_tokens_row_menu">その他</string>
+    <string name="host_tokens_row_open_token_page">%1$s で管理</string>
+    <string name="host_tokens_row_replace_token">トークンを置き換え</string>
+    <string name="host_tokens_row_valid_rate">残り %1$s</string>
+    <string name="host_tokens_row_valid_short">有効 ・ %1$s</string>
+    <string name="host_tokens_row_validate">確認</string>
+    <string name="host_tokens_saved">%1$s のトークンを保存しました</string>
+    <string name="host_tokens_title">認証トークン</string>
+    <string name="host_tokens_undo_action">元に戻す</string>
+    <string name="host_tokens_undo_failed">%1$s のトークンを復元できませんでした</string>
+    <string name="host_tokens_undo_snackbar">%1$s のトークンを削除しました</string>
+    <string name="host_tokens_validation_failed">検証に失敗しました: %1$s</string>
+    <string name="host_tokens_validation_failed_fallback">不明なエラー</string>
+    <string name="host_tokens_validation_host_invalid">ホストが無効です</string>
+    <string name="host_tokens_validation_host_required">ホストは必須です</string>
+    <string name="host_tokens_validation_token_required">トークンは必須です</string>
+    <string name="host_tokens_validation_token_short">トークンが短すぎます</string>
+    <string name="menubar_help_about">GitHub App Market について</string>
+    <string name="menubar_help_feedback">フィードバックを送る…</string>
+    <string name="menubar_help_licenses">オープンソースライセンス</string>
+    <string name="menubar_file_menu">ファイル</string>
+    <string name="menubar_go_menu">移動</string>
+    <string name="menubar_file_quit">終了</string>
+    <string name="menubar_help_menu">ヘルプ</string>
+    <string name="menubar_help_privacy">プライバシーポリシー</string>
+    <string name="profile_tweaks_description">アプリ設定、テーマ、ネットワーク、翻訳、詳細オプション。</string>
+    <string name="restart_banner_body">一部の変更を反映するには再起動が必要です。</string>
+    <string name="restart_banner_later">後で</string>
+    <string name="restart_banner_reason_language">言語</string>    <string name="restart_banner_reason_theme">テーマ</string>
+    <string name="restart_banner_reasons_prefix">対象: %1$s</string>
+    <string name="restart_banner_restart_now">今すぐ再起動</string>
+    <string name="search_clear_filter_cd">フィルターを解除</string>
+    <string name="search_filters_apply">完了</string>
+    <string name="search_filters_button">フィルター</string>
+    <string name="search_filters_reset">すべてリセット</string>
+    <string name="search_filters_section_language">言語</string>
+    <string name="search_filters_section_platform">プラットフォーム</string>
+    <string name="search_filters_section_sort">並び替え</string>
+    <string name="search_filters_section_source">ソース</string>
+    <string name="search_filters_title">結果を絞り込む</string>
+    <string name="section_app_block">アプリ</string>
+    <string name="section_connectivity">接続</string>
+    <string name="section_installs_and_updates">インストールと更新</string>
+    <string name="section_look_and_feel">外観</string>
+    <string name="section_privacy_and_data">プライバシーとデータ</string>
+    <plurals name="skipped_updates_count">
+        <item quantity="other">%1$d 件のアプリ</item>
+    </plurals>
+    <string name="translation_auto_subtitle">リポジトリを開いたときに README とリリースノートを自動翻訳します。アプリの言語を翻訳先として使用します。</string>
+    <string name="translation_auto_target_followup">アプリの言語に従う（%1$s）</string>
+    <string name="translation_auto_target_label">翻訳先</string>
+    <string name="translation_auto_title">リポジトリを自動翻訳</string>
+    <string name="translation_card_cancel">キャンセル</string>
+    <string name="translation_card_change_language">言語を変更</string>
+    <string name="translation_card_detected_source">検出された言語: %1$s</string>
+    <string name="translation_card_retry">再試行</string>
+    <string name="translation_card_show_original">原文を表示</string>
+    <string name="translation_card_show_translation">訳文を表示</string>
+    <string name="translation_card_subtitle_idle">このページを別の言語で表示します。</string>
+    <string name="translation_card_subtitle_original">原文を表示中</string>
+    <string name="translation_card_subtitle_translated">%1$s に翻訳しました</string>
+    <string name="translation_card_subtitle_translating">翻訳中…</string>
+    <string name="translation_card_target_label">翻訳先言語</string>
+    <string name="translation_card_title">翻訳</string>
+    <string name="translation_card_translate_to">%1$s に翻訳</string>
+    <string name="translation_deepl_auth_key">認証キー</string>
+    <string name="translation_deepl_get_free_key">無料の DeepL キーを取得 →</string>
+    <string name="translation_deepl_help">deepl.com/pro-api からサインアップしてください。無料プランのキーは :fx で終わり、自動的に無料エンドポイントを使用します。Pro プランは入力テキストを非公開に保ちますが、Free プランでは送信されたテキストがモデル改善に使われる場合があります。</string>
+    <string name="translation_deepl_save">キーを保存</string>
+    <string name="translation_deepl_saved">DeepL キーを保存しました</string>
+    <string name="translation_libre_api_key">API キー（任意）</string>
+    <string name="translation_libre_base_url">インスタンス URL</string>
+    <string name="translation_libre_help">公開されている Disroot ミラー経由で初期状態で動作します — 各欄を空のままにすれば使用されます。よりプライバシーを重視する場合は、ご自身のセルフホスト URL を貼り付けてください。API キーはインスタンスが要求する場合にのみ必要です。</string>
+    <string name="translation_libre_save">設定を保存</string>
+    <string name="translation_libre_saved">LibreTranslate の設定を保存しました</string>
+    <string name="translation_microsoft_get_free_key">無料の Azure キーを取得 →</string>
+    <string name="translation_microsoft_help">Azure Translator はプライバシーに配慮しています（デフォルトで No-Trace — 入力テキストは保存も学習にも使われません）。無料プランは月間 200 万文字までカバーします。Region は非グローバルリソースの場合のみ必要です。</string>
+    <string name="translation_microsoft_key">サブスクリプションキー</string>
+    <string name="translation_microsoft_region">Region（例: westeurope。グローバルの場合は空欄）</string>
+    <string name="translation_microsoft_save">認証情報を保存</string>
+    <string name="translation_microsoft_saved">Microsoft Translator の認証情報を保存しました</string>
+    <string name="translation_provider_deepl">DeepL</string>
+    <string name="translation_provider_libre">LibreTranslate</string>
+    <string name="translation_provider_microsoft">Microsoft</string>
+    <string name="tweaks_app_info_app_name">GitHub App Market</string>
+    <string name="tweaks_app_info_licenses_subtitle">アプリで使用しているライブラリ。</string>
+    <string name="tweaks_app_info_licenses_title">オープンソースライセンス</string>
+    <string name="tweaks_app_info_privacy_policy_subtitle">github-store.org で表示。</string>
+    <string name="tweaks_app_info_privacy_policy_title">プライバシーポリシー</string>
+    <string name="tweaks_app_info_source_code_subtitle">このアプリのソースコードを見る。</string>
+    <string name="tweaks_app_info_source_code_title">GitHub のソースコード</string>
+    <string name="tweaks_app_info_tagline">GitHub、Codeberg、Forgejo リリース向けのクロスプラットフォーム アプリストア。</string>
+    <string name="tweaks_app_info_whats_new_subtitle">過去のリリースノート。</string>
+    <string name="tweaks_app_info_whats_new_title">新着情報</string>
+    <string name="tweaks_connection_applies_to_all">下記で個別に上書きしない限り、すべての通信に適用されます。</string>
+    <string name="tweaks_connection_custom">カスタム</string>
+    <string name="tweaks_connection_intro_body">以下から接続モードを選択してください。多くの方は「プロキシなし」のままで問題ありません。</string>
+    <string name="tweaks_connection_intro_title">アプリのインターネット接続方法</string>
+    <string name="tweaks_connection_main_section">メイン接続</string>
+    <string name="tweaks_connection_mode_http">HTTP/HTTPS</string>
+    <string name="tweaks_connection_mode_http_caption">大半の社内プロキシ。</string>
+    <string name="tweaks_connection_mode_no_proxy">プロキシなし</string>
+    <string name="tweaks_connection_mode_socks">SOCKS5</string>
+    <string name="tweaks_connection_mode_socks_caption">Tor、SSH トンネル。</string>
+    <string name="tweaks_connection_mode_system">システム</string>
+    <string name="tweaks_connection_overrides_body">各スコープはデフォルトでメイン接続を使用します。「カスタム」を選ぶと、個別の設定を保持できます。</string>
+    <string name="tweaks_connection_overrides_section">スコープ別の上書き</string>
+    <string name="tweaks_connection_paste_url">完全な URL を貼り付け</string>
+    <string name="tweaks_connection_paste_url_body">完全なプロキシ URL を貼り付ければ、フォームを自動で入力します。</string>
+    <string name="tweaks_connection_paste_url_cta">この URL を使う</string>
+    <string name="tweaks_connection_paste_url_error">この URL を読み取れませんでした。</string>
+    <string name="tweaks_connection_paste_url_placeholder">scheme://user:pass@host:port</string>
+    <string name="tweaks_connection_paste_url_title">プロキシ URL を貼り付け</string>
+    <string name="tweaks_connection_scope_discovery_body">GitHub API、検索、リポジトリ詳細。</string>
+    <string name="tweaks_connection_scope_discovery_title">検索とメタデータ</string>
+    <string name="tweaks_connection_scope_download_body">APK とアセットのダウンロード。</string>
+    <string name="tweaks_connection_scope_download_title">ダウンロード</string>
+    <string name="tweaks_connection_scope_translation_body">DeepL、Microsoft、LibreTranslate の通信。</string>
+    <string name="tweaks_connection_scope_translation_title">翻訳</string>
+    <string name="tweaks_connection_test">テスト</string>
+    <string name="tweaks_connection_use_main">メインを使う</string>
+    <string name="tweaks_entry_access_tokens">アクセストークン</string>
+    <string name="tweaks_entry_app_info">アプリ情報</string>
+    <string name="tweaks_entry_appearance">外観</string>
+    <string name="tweaks_entry_connection">接続</string>
+    <string name="tweaks_entry_feedback">フィードバックを送る</string>
+    <string name="tweaks_entry_install_method">インストール方法</string>
+    <string name="tweaks_entry_language">言語</string>
+    <string name="tweaks_entry_privacy">プライバシー</string>
+    <string name="tweaks_entry_sources">ソース</string>
+    <string name="tweaks_entry_storage">ストレージ</string>
+    <string name="tweaks_entry_subtitle_tap">タップして管理</string>
+    <string name="tweaks_entry_translation">翻訳</string>
+    <string name="tweaks_entry_updates">更新の挙動</string>
+    <string name="tweaks_install_method_desktop_empty_body">サイレントインストールとインストーラー帰属は Android 限定の機能です。デスクトップ版のインストールは OS のパッケージマネージャー経由で行われます。</string>
+    <string name="tweaks_install_method_desktop_empty_title">インストール方法は Android 専用です</string>
+    <string name="tweaks_language_intro_body">言語を切り替えるとアプリが再起動します。</string>
+    <string name="tweaks_licenses_intro_body">いずれかの項目をタップするとプロジェクトページが開きます。</string>
+    <string name="tweaks_licenses_intro_title">GitHub App Market はこれらのライブラリに支えられています。</string>
+    <string name="tweaks_licenses_title">オープンソースライセンス</string>
+    <string name="tweaks_privacy_browsing_history_section">閲覧履歴</string>
+    <string name="tweaks_privacy_clear_viewed_body">開いたことのあるリポジトリの記録を消去します。</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_body">スターやお気に入りは解除されません。</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_confirm">消去</string>
+    <string name="tweaks_privacy_clear_viewed_dialog_title">閲覧履歴を消去しますか？</string>
+    <string name="tweaks_privacy_clear_viewed_title">閲覧履歴を消去</string>
+    <string name="tweaks_privacy_clipboard_body">github.com または codeberg.org のリンクをコピーすると、開くかどうかを確認します。</string>
+    <string name="tweaks_privacy_clipboard_title">クリップボードからリポジトリのリンクを検出</string>
+    <string name="tweaks_privacy_hidden_repos_body">フィードと検索からミュートしたリポジトリ。</string>
+    <string name="tweaks_privacy_hidden_repos_title">非表示のリポジトリ</string>
+    <string name="tweaks_privacy_hide_seen_body">既読のリポジトリをフィードと検索から除外します。</string>
+    <string name="tweaks_privacy_hide_seen_title">既読のリポジトリを隠す</string>    <string name="tweaks_privacy_telemetry_collect_no_identifiers">識別子は収集しません。</string>    <string name="tweaks_privacy_telemetry_collect_os">OS とプラットフォーム。</string>    <string name="tweaks_search_empty">「%1$s」に一致する設定はありません。</string>
+    <string name="tweaks_search_placeholder">設定を検索</string>
+    <string name="tweaks_sources_add_a_host">Forgejo または Gitea ホストを追加</string>
+    <string name="tweaks_sources_added_hosts_section">追加したホスト</string>
+    <string name="tweaks_sources_github_mirror_title">GitHub ミラー</string>
+    <string name="tweaks_sources_intro_body">デフォルトでは GitHub を検索します。地域ミラー経由でルーティングしたり、独自の Forgejo / Gitea ホストを追加したりできます。</string>
+    <string name="tweaks_sources_intro_title">アプリがリポジトリを探す場所</string>
+    <string name="tweaks_sources_mirror_default">デフォルト（github.com）</string>
+    <string name="tweaks_storage_downloaded_apks_body">更新を素早く再開できるよう、インストーラーを保持しています。</string>
+    <string name="tweaks_storage_downloaded_apks_clear">消去</string>
+    <string name="tweaks_storage_downloaded_apks_title">ダウンロード済み APK</string>
+    <string name="tweaks_storage_empty_size">0 B</string>
+    <string name="tweaks_storage_using_label">使用中: %1$s</string>
+    <string name="tweaks_stub_coming_soon_body">この画面は進行中のリデザインの一部です。設定は引き続き動作します — 旧来のレイアウトからここへ移動している途中です。</string>
+    <string name="tweaks_stub_coming_soon_title">今後のアップデートで実装予定</string>
+    <plurals name="hidden_repositories_count">
+        <item quantity="other">%1$d 件非表示</item>
+    </plurals>
+    <string name="tweaks_app_info_community_section">つながる</string>
+    <string name="tweaks_app_info_community_title">コミュニティに参加</string>
+    <string name="tweaks_app_info_community_subtitle">6 か所</string>
+    <string name="tweaks_app_info_community_business_title">ビジネスのお問い合わせ</string>
+    <string name="tweaks_app_info_community_business_subtitle">パートナーシップ、プレス、連携。</string>
+    <string name="tweaks_app_info_community_business_cta">お問い合わせ</string>
+    <string name="profile_section_library">ライブラリ</string>
+    <string name="profile_section_updates">アップデート</string>
+    <string name="profile_section_account">アカウント</string>
+    <string name="appearance_section_mode">モード</string>
+    <string name="appearance_section_display">表示</string>
+    <string name="theme_dynamic">ダイナミック</string>
+    <string name="auth_more_signin_options">他のサインイン方法</string>
+    <string name="auth_hide_signin_options">オプションを隠す</string>
+    <string name="tweaks_sources_platforms_title">ディスカバリー対象プラットフォーム</string>
+    <string name="tweaks_sources_platforms_body">ホームフィードを特定のプラットフォームで絞り込みます。すべてオフで全表示。</string>
+    <string name="profile_entry_about_title">アプリ情報</string>
+    <string name="profile_entry_about_subtitle">バージョン、コミュニティ、法的情報</string>
+    <string name="filter_with_installable">ここでインストール可能</string>
+    <string name="no_repos_with_installable">このプラットフォーム向けのインストール可能なアセットを持つリポジトリはありません</string>
+    <string name="interval_every_hours">%1$d 時間ごと</string>
+    <string name="interval_daily">毎日</string>
+    <string name="interval_every_days">%1$d 日ごと</string>
+    <string name="interval_weekly">毎週</string>
+    <string name="interval_biweekly">2 週間ごと</string>
+    <string name="interval_monthly">30 日ごと</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_palette_title">パレットを選択</string>
+    <string name="onboarding_palette_subtitle">4 つのパレット × ライト、ダーク、AMOLED、システム。</string>
+    <string name="onboarding_signin_subtitle">スター、プロフィール、レート制限の余裕。任意です — スキップして匿名で閲覧できます。</string>
+    <string name="onboarding_signin_button">サインイン</string>
+    <string name="onboarding_permissions_title">2 つの簡単な確認</string>
+    <string name="onboarding_permissions_subtitle">どちらも任意です。あとから「調整」で変更できます。</string>
+    <string name="onboarding_permission_notifications">通知</string>
+    <string name="onboarding_permission_notifications_desc">更新の通知とインストールの進捗</string>
+    <string name="onboarding_permission_install">提供元不明のアプリのインストール</string>
+    <string name="onboarding_permission_install_desc">Play 以外の APK をインストールするのに必要</string>
+    <string name="onboarding_permission_granted">許可済み</string>
+    <string name="onboarding_permission_allow">許可</string>
+    <string name="onboarding_skip">スキップ</string>
+    <string name="onboarding_get_started">始める</string>
+    <string name="onboarding_next">次へ</string>
+
+    <!-- Developer profile -->
+    <string name="dev_profile_contribution_activity">コントリビューション</string>
+    <string name="dev_profile_contributions_this_year">今年 %1$d 件</string>
+    <string name="dev_profile_contributions_load_failed">コントリビューションを読み込めませんでした。</string>
+    <string name="dev_profile_contributions_less">少ない</string>
+    <string name="dev_profile_contributions_more">多い</string>
+    <string name="dev_profile_org_badge">組織</string>
+
+    <!-- Common -->
+    <string name="loading">読み込み中…</string>
+    <string name="failed_to_load">読み込みに失敗しました</string>
+    <string name="failed_to_load_details">詳細の読み込みに失敗しました</string>
+
+    <!-- Tweaks: licenses / app info / custom forges -->
+    <string name="tweaks_licenses_load_failed">ライセンスを読み込めませんでした。</string>
+    <string name="tweaks_app_info_website">ウェブサイト</string>
+    <string name="tweaks_clear_downloads_failed">ダウンロードの消去に失敗しました</string>
+    <string name="tweaks_custom_forge_invalid_hostname">有効なホスト名を入力してください（例: forgejo.example.com）。</string>
+    <string name="tweaks_custom_forge_save_failed">ホストを保存できませんでした。再試行してください。</string>
+    <string name="tweaks_custom_forge_remove_failed">ホストを削除できませんでした。再試行してください。</string>
+
+    <!-- Repo pages: issues -->
+    <string name="repo_pages_issues_title">課題</string>
+    <string name="repo_pages_issues_filter_open">オープン</string>
+    <string name="repo_pages_issues_filter_closed">クローズ</string>
+    <string name="repo_pages_issues_empty_open">オープンな課題はありません。</string>
+    <string name="repo_pages_issues_empty_closed">クローズされた課題はありません。</string>
+    <string name="repo_pages_issue_comments_section">コメント</string>
+    <string name="repo_pages_issue_no_body">説明はありません。</string>
+    <string name="repo_pages_issue_opened_by">%1$s が作成</string>
+
+    <!-- Repo pages: security -->
+    <string name="repo_pages_security_title">セキュリティ</string>
+    <string name="repo_pages_security_advisories_header">セキュリティアドバイザリ</string>
+    <string name="repo_pages_security_no_advisories">公開されているアドバイザリはありません。</string>
+    <string name="repo_pages_security_policy_header">セキュリティポリシー</string>
+    <string name="repo_pages_security_no_policy">公開されているセキュリティポリシーはありません。</string>
+    <string name="repo_pages_severity_critical">緊急</string>
+    <string name="repo_pages_severity_high">高</string>
+    <string name="repo_pages_severity_medium">中</string>
+    <string name="repo_pages_severity_low">低</string>
+    <string name="repo_pages_severity_unknown">不明</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_issues_button">課題</string>
+    <string name="repo_pages_details_security_button">セキュリティ</string>
+
+    <!-- Repo pages: details entry -->
+    <string name="repo_pages_details_pulls_button">プルリクエスト</string>
+
+    <!-- Repo interactions: star -->
+    <string name="star_added">スターを付けました</string>
+    <string name="star_removed">スターを解除しました</string>
+    <string name="star_sign_in_required">リポジトリにスターを付けるにはサインインしてください。</string>
+
+    <!-- Repo interactions: comments -->
+    <string name="repo_pages_comment_hint">コメントを追加…</string>
+    <string name="repo_pages_comment_send">送信</string>
+    <string name="repo_pages_comment_sign_in">コメントするにはサインインしてください。</string>
+    <string name="repo_pages_comment_failed">コメントを投稿できませんでした。</string>
+    <string name="repo_pages_comment_posted">コメントを投稿しました</string>
+
+    <!-- Repo interactions: new issue -->
+    <string name="repo_pages_new_issue">新しい課題</string>
+    <string name="repo_pages_new_issue_title_hint">タイトル</string>
+    <string name="repo_pages_new_issue_body_hint">課題の内容を記入…</string>
+    <string name="repo_pages_new_issue_submit">作成</string>
+    <string name="repo_pages_new_issue_sign_in">課題を作成するにはサインインしてください。</string>
+    <string name="repo_pages_new_issue_failed">課題を作成できませんでした。</string>
+    <string name="repo_pages_new_issue_created">課題を作成しました</string>
+
+    <!-- Repo interactions: reactions -->
+    <string name="repo_pages_react_sign_in">リアクションするにはサインインしてください。</string>
+    <string name="repo_pages_react_failed">リアクションを追加できませんでした。</string>
+    <string name="cd_thumbs_up">いいね</string>
+
+    <!-- Repo pages: pull requests -->
+    <string name="repo_pages_pulls_title">プルリクエスト</string>
+    <string name="repo_pages_pulls_empty_open">オープンなプルリクエストはありません。</string>
+    <string name="repo_pages_pulls_empty_closed">クローズされたプルリクエストはありません。</string>
+    <string name="repo_pages_pr_state_merged">マージ済み</string>
+    <string name="repo_pages_pr_draft">ドラフト</string>
+
+    <!-- Feed / For You masthead, sidebar, categories -->
+    <string name="feed_end_cap">続く · TO BE CONTINUED</string>
+    <string name="feed_masthead_subtitle">発見 · DISCOVER APPS</string>
+    <string name="home_masthead_subtitle">ランキング · CHARTS &amp; PICKS</string>
+    <string name="feed_platform_picker_title_jp">対応</string>
+    <string name="home_chart_popular_jp">人気</string>
+    <string name="home_chart_releases_jp">新着</string>
+    <string name="home_chart_trending_jp">急上昇</string>
+    <string name="sidebar_browse_jp">航行</string>
+    <string name="sidebar_categories_jp">部門</string>
+    <string name="sidebar_nav_charts_jp">ランキング</string>
+    <string name="sidebar_nav_explore_jp">発見</string>
+    <string name="sidebar_nav_search_jp">検索</string>
+    <string name="sidebar_nav_you_jp">あなた</string>
+    <string name="sidebar_platform_jp">対応</string>
+    <string name="feed_masthead_title">GitHub App Market</string>
+    <string name="feed_masthead_title_accent">Store</string>
+    <string name="platform_section_ios">iOS</string>
+    <string name="paper_nord">Nord</string>
+    <string name="appearance_section_paper">ペーパー</string>
+    <string name="bottom_nav_top_charts_title">ランキング</string>
+    <string name="cd_more_actions">その他の操作</string>
+    <string name="feed_category_ai">AI</string>
+    <string name="feed_category_media">メディア</string>
+    <string name="feed_category_networking">ネットワーク</string>
+    <string name="feed_category_privacy">プライバシー</string>
+    <string name="feed_category_reading">読書</string>
+    <string name="feed_category_social">ソーシャル</string>
+    <string name="feed_category_tools">ツール</string>
+    <string name="feed_cd_profile">プロフィール</string>
+    <string name="feed_cd_search">検索</string>
+    <string name="feed_empty_reset">フィルターをリセット</string>
+    <string name="feed_empty_subtitle">%2$s 向けの %1$s アプリはまだありません。</string>
+    <string name="feed_empty_title">ここにはまだ何もありません</string>
+    <string name="feed_failed_to_load">フィードを読み込めませんでした</string>
+    <string name="feed_browsing">閲覧</string>
+    <string name="feed_loading">最新情報を読み込み中…</string>
+    <string name="feed_offline">オフライン — 保存済みのフィードを表示中</string>
+    <string name="feed_platform_all">すべてのプラットフォーム</string>
+    <string name="feed_platform_picker_title">OS を選択</string>
+    <string name="home_chart_popular">人気</string>
+    <string name="home_chart_releases">新着</string>
+    <string name="home_chart_trending">急上昇</string>
+    <string name="home_masthead_title">ランキング</string>
+    <string name="home_platform_filter">プラットフォームでフィルター</string>
+    <string name="paper_day">デイ</string>
+    <string name="paper_night">ナイト</string>
+    <string name="repo_card_details">詳細</string>
+    <string name="sidebar_browse">閲覧</string>
+    <string name="sidebar_categories">カテゴリ</string>
+    <string name="sidebar_platform">プラットフォーム</string>
+    <string name="tweaks_privacy_usage_data_section">使用データ</string>
+</resources>

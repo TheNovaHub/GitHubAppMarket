@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHub App Market</string>
+    <string name="shortcut_search">Search</string>
+    <string name="shortcut_library">Downloads</string>
+    <string name="shortcut_favourites">Favorites</string>
+    <string name="shortcut_recently_viewed">Recently Viewed</string>
+    <string name="shortcut_recent_short">Recent</string>
+</resources>

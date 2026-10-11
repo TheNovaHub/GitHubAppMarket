@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- App-private downloads (no permissions required) -->
+    <external-files-path
+        name="ghs_downloads"
+        path="Download/" />
+
+    <!-- Internal fallback when external files dir is unavailable -->
+    <files-path
+        name="ghs_internal_downloads"
+        path="downloads/" />
+
+    <cache-path
+        name="exports"
+        path="exports/" />
+
+</paths>

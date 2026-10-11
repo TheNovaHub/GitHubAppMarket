@@ -1,0 +1,30 @@
+{
+  "versionCode": 16,
+  "versionName": "1.8.1",
+  "releaseDate": "2026-05-03",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "APK Inspect — zajrzyj do środka dowolnego wydania przed instalacją.",
+        "Cicha instalacja przez Dhizuku — pomijaj okna instalacji OEM na urządzeniach Xiaomi, OPPO, vivo i Huawei dzięki uprawnieniom właściciela urządzenia.",
+        "Import/Eksport Obtainium — przenieś bibliotekę z Obtainium jednym dotknięciem albo wyeksportuj do formatu Obtainium kiedy chcesz.",
+        "Dodaj z oznaczonych gwiazdką — zobacz, które z twoich oznaczonych repo GitHub publikują APK."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "Liczba otwartych zgłoszeń i licencja są teraz pokazywane wszystkim, także użytkownikom niezalogowanym — pochodzą z backendu, bez kosztów limitu GitHuba.",
+        "Sprawdzanie aktualizacji w tle można całkowicie wyłączyć — oszczędza baterię, jeśli wolisz sprawdzać ręcznie."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "Efekt płynnego szkła usunięty — w trybie ciemnym ikony na przezroczystym tle mogły stawać się niewidoczne. Wszędzie czystszy, bardziej kontrastowy interfejs."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="shortcut_search">Szukaj</string>
+    <string name="shortcut_library">Biblioteka</string>
+    <string name="shortcut_favourites">Ulubione</string>
+    <string name="shortcut_recently_viewed">Ostatnio oglądane</string>
+    <string name="shortcut_recent_short">Ostatnie</string>
+</resources>

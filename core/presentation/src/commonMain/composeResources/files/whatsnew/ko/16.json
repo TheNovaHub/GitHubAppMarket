@@ -1,0 +1,30 @@
+{
+  "versionCode": 16,
+  "versionName": "1.8.1",
+  "releaseDate": "2026-05-03",
+  "showAsSheet": true,
+  "sections": [
+    {
+      "type": "NEW",
+      "bullets": [
+        "APK Inspect: 설치 전에 릴리스 내부를 미리 확인할 수 있습니다.",
+        "Dhizuku 무음 설치 — 기기 소유자(Device Owner) 권한으로 Xiaomi, OPPO, vivo, Huawei 기기에서 OEM 설치 확인 창을 건너뜁니다.",
+        "Obtainium 가져오기/내보내기 — Obtainium 라이브러리를 한 번에 가져오거나, 언제든지 Obtainium 형식으로 내보낼 수 있습니다.",
+        "별표한 저장소에서 추가 — GitHub 별표 저장소 중 APK를 배포하는 곳을 보여줍니다."
+      ]
+    },
+    {
+      "type": "IMPROVED",
+      "bullets": [
+        "열린 이슈 수와 라이선스가 이제 로그아웃 사용자를 포함한 모두에게 표시됩니다 — 백엔드에서 제공되며 GitHub 할당량을 소비하지 않습니다.",
+        "백그라운드 업데이트 확인을 완전히 끌 수 있습니다 — 수동으로 확인하고 싶다면 배터리를 절약합니다."
+      ]
+    },
+    {
+      "type": "FIXED",
+      "bullets": [
+        "리퀴드 글라스 효과 제거 — 다크 모드의 투명 배경 위에서 아이콘이 보이지 않을 수 있었습니다. 모든 곳에서 더 깔끔하고 대비가 높은 UI로 개선되었습니다."
+      ]
+    }
+  ]
+}
